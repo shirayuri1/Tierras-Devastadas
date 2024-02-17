@@ -144,10 +144,10 @@
 				},
 				{
 					"type": "list",
-					"style": "list-hang-notitle",
+					"style": "list-hang",
 					"columns": 1,
 					"page": 0,
-					"name": "Options",
+					"name": "",
 					"items": [
 						{
 							"type": "item",
