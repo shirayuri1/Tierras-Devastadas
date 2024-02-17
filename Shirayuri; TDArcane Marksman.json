@@ -218,7 +218,7 @@
 				{
 					"type": "inset",
 					"page": 0,
-					"name": "Recomendaciones de configuración",
+					"name": "Damage Automation",
 					"entries": [
 						"{@i To automate the damage of your arcane shot options we recommend creating a numerical scalable value within the subclass progression with the name 'shots' and with a value of 0 up to level 9, 1 from level 10 to 17 and 2 from level 18.}",
 						"{@i Within each arcane shot option you will find an example formula to automate damage based on character level.}"
