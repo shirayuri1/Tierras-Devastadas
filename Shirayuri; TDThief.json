@@ -24,14 +24,14 @@
 			"name": "Thief",
 			"source": "TDT",
 			"page": 11,
-			"className": "rogue",
+			"className": "Rogue",
 			"classSource": "PHB",
 			"shortName": "Thief",
 			"subclassFeatures": [
-				"Thief|rogue|PHB|Thief|TDT|3|TDT",
-				"Supreme Sneak|rogue|PHB|Thief|TDT|9|TDT",
-				"Finder Keepers|rogue|PHB|Thief|TDT|13|TDT",
-				"Unmatched Dexterity|rogue|PHB|Thief|TDT|17|TDT"				
+				"Thief|Rogue|PHB|Thief|TDT|3|TDT",
+				"Supreme Sneak|Rogue|PHB|Thief|TDT|9|TDT",
+				"Finder Keepers|Rogue|PHB|Thief|TDT|13|TDT",
+				"Unmatched Dexterity|Rogue|PHB|Thief|TDT|17|TDT"				
 			]			
 		}
 	],
@@ -39,7 +39,7 @@
 		{
 			"name": "Thief",
 			"source": "TDT",
-			"className": "rogue",
+			"className": "Rogue",
 			"classSource": "PHB",
 			"page": 11,
 			"subclassShortName": "Thief",
@@ -50,18 +50,18 @@
 				"You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ.",
 				{
 					"type":"refSubclassFeature",
-					"subclassFeature":"Fast Hands|rogue|PHB|Thief|TDT|3|TDT"
+					"subclassFeature":"Fast Hands|Rogue|PHB|Thief|TDT|3|TDT"
 				},
 				{
 					"type":"refSubclassFeature",
-					"subclassFeature":"Second-Story Work|rogue|PHB|Thief|TDT|3|TDT"
+					"subclassFeature":"Second-Story Work|Rogue|PHB|Thief|TDT|3|TDT"
 				}				
 			]
 		},
 		{
 			"name": "Fast Hands",
 			"source": "TDT",
-			"className": "rogue",
+			"className": "Rogue",
 			"classSource": "PHB",
 			"page": 11,
 			"subclassShortName": "Thief",
@@ -83,7 +83,7 @@
 		{
 			"name": "Second-Story Work",
 			"source": "TDT",
-			"className": "rogue",
+			"className": "Rogue",
 			"classSource": "PHB",
 			"page": 11,
 			"subclassShortName": "Thief",
@@ -98,7 +98,7 @@
 		{
 			"name": "Supreme Sneak",
 			"source": "TDT",
-			"className": "rogue",
+			"className": "Rogue",
 			"classSource": "PHB",
 			"page": 11,
 			"subclassShortName": "Thief",
@@ -120,7 +120,7 @@
 		{
 			"name": "Finder Keepers",
 			"source": "TDT",
-			"className": "rogue",
+			"className": "Rogue",
 			"classSource": "PHB",
 			"page": 13,
 			"subclassShortName": "Thief",
@@ -135,7 +135,7 @@
 		{
 			"name": "Unmatched Dexterity",
 			"source": "TDT",
-			"className": "rogue",
+			"className": "Rogue",
 			"classSource": "PHB",
 			"subclassSource": "TDT",
 			"subclassShortName": "Thief",
