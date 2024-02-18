@@ -4,7 +4,7 @@
 			{
 				"json": "TDTh",
 				"abbreviation": "TDTh",
-				"full": "Tierras Devastadas Thief",
+				"full": "Tierras Devastadas The Thief",
 				"authors": [
 					"Shirayuri"
 				],
@@ -21,7 +21,7 @@
 	},
 	"subclass":[
 		{
-			"name": "Thief",
+			"name": "The Thief",
 			"source": "TDTh",
 			"page": 11,
 			"className": "Rogue",
@@ -113,7 +113,7 @@
 					"anyProficientSkill": 1
 				},
 				{							
-					"anyProficientTool": 1
+					"anyProficientArtisansTool": 1
 				}
 			]
 		},
