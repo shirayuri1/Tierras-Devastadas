@@ -456,142 +456,80 @@
 	"optionalfeature": [
 		{
 			"name": "Distinguished Archery",
-			"source": "TDAM",
+			"source": "TDDC",
 			"page": 11,
 			"entries": [
-				"You use abjuration magic to try to temporarily banish your target from this plane. If the shot hits a creature, the target must also succeed on a Charisma saving throw or be banished. While banished in this way, its speed is 0, and it is {@condition incapacitated}. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.",
-				"After you reach 10th level in this class, a target also takes {@dice 1d6} force damage when the arrow hits it and the damage increases to {@dice 2d6} at 18th level.",
-				{
-					"type": "inset",
-					"page": 0,
-					"name": "Damage formula",
-					"entries": [
-						"(@scale.arcane-marksman.shots)d6"						
-					]
-				}
+				"You gain +1 bonus to damage rolls and +2 bonus to attack rolls you make with ranged weapons."
 			],
 			"featureType": [
-				"AM:ASO"
+				"DC:DCS"
 			]
 		},
 		{
 			"name": "Distinguished Blind Fighting",
-			"source": "TDAM",
+			"source": "TDDC",
 			"page": 11,
 			"entries": [
-				"Your enchantment magic causes this shot to temporarily beguile its target. Choose one of your allies within 30 feet of the target. The creature hit by the arrow takes an extra {@dice 2d6} psychic damage, and must succeed on a Wisdom saving throw or it is {@condition charmed} by the chosen ally until the start of your next turn. This effect ends early if the chosen ally attacks the {@condition charmed} target, deals damage to it, or forces it to make a saving throw.",
-				"The psychic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level.",
-				{
-					"type": "inset",
-					"page": 0,
-					"name": "Damage formula",
-					"entries": [
-						"(2 + @scale.arcane-marksman.shots)d6"
-					]
-				}
+                "You have {@sense blindsight} with a range of 15 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're  blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.",
+                "You also have advantage on Wisdom (Perception) checks that rely on hearing"
 			],
 			"featureType": [
-				"AM:ASO"
+				"DC:DCS"
 			]
 		},
 		{
 			"name": "Distinguished Defense",
-			"source": "TDAM",
+			"source": "TDDC",
 			"page": 12,
 			"entries": [
-				"You imbue your shot with force energy drawn from the school of evocation. The energy detonates after your attack. Immediately after the shot hits the creature, the target and all other creatures within 10 feet of it take {@dice 2d6} force damage each.",
-				"The force damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level.",
-				{
-					"type": "inset",
-					"page": 0,
-					"name": "Damage formula",
-					"entries": [
-						"(2 + @scale.arcane-marksman.shots)d6"
-					]
-				}
+				"While you are wearing armor, you gain a +1 bonus to AC and while you don't have a shield equiped you gain another +1 AC."
 			],
 			"featureType": [
-				"AM:ASO"
+				"DC:DCS"
 			]
 		},
 		{
 			"name": "Distinguished Dueling",
-			"source": "TDAM",
+			"source": "TDDC",
 			"page": 12,
 			"entries": [
-				"You weave necromantic magic into your shot. The creature hit by the shot takes an extra {@dice 2d6} necrotic damage. The target must also succeed on a Constitution saving throw, or the damage dealt by its weapon attacks is halved until the start of your next turn.",
-				"The necrotic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level.",
-				{
-					"type": "inset",
-					"page": 0,
-					"name": "Damage formula",
-					"entries": [
-						"(2 + @scale.arcane-marksman.shots)d6"
-					]
-				}
+                "When you are wielding a melee weapon in one hand and no other weapons, you gain a +3 bonus to damage rolls with that weapon and you can replace any of your  Opportunity Attacks with the {@skill Shove} action."
 			],
 			"featureType": [
-				"AM:ASO"
+				"DC:DCS"
 			]
 		},
 		{
 			"name": "Distinguished Great Weapon Fighting",
-			"source": "TDAM",
+			"source": "TDDC",
 			"page": 12,
 			"entries": [
-				"When this shot strikes its target, conjuration magic creates grasping, poisonous brambles, which wrap around the target. The creature hit by the shot takes an extra {@dice 2d6} poison damage, its speed is reduced by 10 feet, and it takes {@dice 2d6} slashing damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength ({@skill Athletics}) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this arcane shot option again.",
-				"The poison damage and slashing damage both increase to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level.",
-				{
-					"type": "inset",
-					"page": 0,
-					"name": "Damage formula",
-					"entries": [
-						"(2 + @scale.arcane-marksman.shots)d6"
-					]
-				}
+				"When you roll a 1 or 2 on any damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit and you gain a +1 bonus to attack rolls you make with this weapon."
 			],
 			"featureType": [
-				"AM:ASO"
+				"DC:DCS"
 			]
 		},
 		{
 			"name": "Distinguished Interception",
-			"source": "TDAM",
+			"source": "TDDC",
 			"page": 12,
 			"entries": [
-				"You use transmutation magic to give your shot an ethereal quality. When you use this option, you don't make an attack roll for the attack. Instead, the shot fires forward in a line that is 1 foot wide and 30 feet long, before disappearing. The shot passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a target takes damage as if it were hit by the shot, plus an extra {@dice 1d6} force damage. On a successful save, a target takes half as much damage.",
-				"When you reach 10th level in this subclass the range increases to 60 feet. At 18th level the force damage increases to {@dice 2d6}.",
-				{
-					"type": "inset",
-					"page": 0,
-					"name": "Damage formula",
-					"entries": [
-						"1d6 + abs(@scale.arcane-marksman.shots)d6"						
-					]
-				}
+				"When a creature you can see hits a target other than you, within 5 feet of you, you can use your reaction to reduce the damage the target takes by [[/r 1d12]] + two times your proficiency bonus (to a minimum of 0 damage). You must be wielding a {@item shield|phb} or a simple or martial weapon."
 			],
 			"featureType": [
-				"AM:ASO"
+				"DC:DCS"
 			]
 		},
 		{
 			"name": "Distinguished Protection",
-			"source": "TDAM",
+			"source": "TDDC",
 			"page": 12,
 			"entries": [
-				"Using divination magic, you grant your ammunition the ability to seek out a target. When you use this option, you don't make an attack roll for the attack. Instead, choose one creature you have seen in the past minute. The ammunition flies toward that creature, moving around corners if necessary and ignoring three-quarters cover and half cover. If the target is within the weapon's range and there is a path large enough for the ammunition to travel to the target, the target must make a Dexterity saving throw. Otherwise, the ammunition disappears after traveling as far as it can. On a failed save, the target takes damage as if it were hit by the ammunition, plus an extra separate {@dice 1d6} of the weapons damage type, and you learn the target's current location. On a successful save, the target takes half as much weapon damage, no extra damage and you don't learn its location.",
-				"The extra weapon damage impacts again for another {@dice 1d6} when you reach 10th level in this class and a total of three times at 18th level.",
-				{
-					"type": "inset",
-					"page": 0,
-					"name": "Damage formula",
-					"entries": [
-						"(1 + @scale.arcane-marksman.shots)d6"
-					]
-				}
+				"When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on all attack rolls against that target until the end of the attacker's turn. Alternately, if the creature that attacks a target other than you is within 5 feet of you, you can impose disadvantage on all of his attacks that you are not the target of. You must be wielding a shield to use this reaction."
 			],
 			"featureType": [
-				"AM:ASO"
+				"DC:DCS"
 			]
 		},
 		{
@@ -599,19 +537,11 @@
 			"source": "TDDC",
 			"page": 13,
 			"entries": [
-				"You weave illusion magic into your shot, causing it to occlude your foe's vision with shadows. The creature hit by the shot takes an extra {@dice 2d6} psychic damage, and must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away from itself until the start of your next turn.",
-				"The psychic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level.",
-				{
-					"type": "inset",
-					"page": 0,
-					"name": "Damage formula",
-					"entries": [
-						"(2 + @scale.arcane-marksman.shots)d6"
-					]
-				}
+				"You learn one maneuver of your choice from among those available to the Battle Master archetype. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).",
+                "You gain two superiority dice, that are a d8 each (these dice are added to any superiority dice you have from another source). These dice are used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest."
 			],
 			"featureType": [
-				"AM:ASO"
+				"DC:DCS"
 			]
 		},
 		{
@@ -619,19 +549,11 @@
 			"source": "TDDC",
 			"page": 13,
 			"entries": [
-				"You weave illusion magic into your shot, causing it to occlude your foe's vision with shadows. The creature hit by the shot takes an extra {@dice 2d6} psychic damage, and must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away from itself until the start of your next turn.",
-				"The psychic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level.",
-				{
-					"type": "inset",
-					"page": 0,
-					"name": "Damage formula",
-					"entries": [
-						"(2 + @scale.arcane-marksman.shots)d6"
-					]
-				}
+				"You can draw a weapon that has the thrown property or pick it up if it is within 5 ft as part of the attack you make with the weapon and when you hit with a ranged weapon attack using a thrown weapon, you gain a +2 bonus to the damage roll.",
+                "In addition, being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged weapon attack rolls"
 			],
 			"featureType": [
-				"AM:ASO"
+				"DC:DCS"
 			]
 		},
 		{
@@ -639,19 +561,10 @@
 			"source": "TDDC",
 			"page": 13,
 			"entries": [
-				"You weave illusion magic into your shot, causing it to occlude your foe's vision with shadows. The creature hit by the shot takes an extra {@dice 2d6} psychic damage, and must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away from itself until the start of your next turn.",
-				"The psychic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level.",
-				{
-					"type": "inset",
-					"page": 0,
-					"name": "Damage formula",
-					"entries": [
-						"(2 + @scale.arcane-marksman.shots)d6"
-					]
-				}
+				"You gain +1 damage when you attack with dual weapons. When you are holding Dual Weapons and can use your reaction to make an attack, you can make two attacks instead of one and these attacks must be against the same target."
 			],
 			"featureType": [
-				"AM:ASO"
+				"DC:DCS"
 			]
 		},
 		{
@@ -659,19 +572,11 @@
 			"source": "TDDC",
 			"page": 13,
 			"entries": [
-				"You weave illusion magic into your shot, causing it to occlude your foe's vision with shadows. The creature hit by the shot takes an extra {@dice 2d6} psychic damage, and must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away from itself until the start of your next turn.",
-				"The psychic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level.",
-				{
-					"type": "inset",
-					"page": 0,
-					"name": "Damage formula",
-					"entries": [
-						"(2 + @scale.arcane-marksman.shots)d6"
-					]
-				}
+				"Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier on a hit. If you aren't wielding any weapons or a shield when you make the attack roll, the d6 becomes a d8.",
+                "At the start of each of your turns, you can deal 1d4 + your Strength modifier bludgeoning damage to one creature grappled by you and all your unarmed strikes against that creature add your Strength modifier to the damage."
 			],
 			"featureType": [
-				"AM:ASO"
+				"DC:DCS"
 			]
 		}
 	]
