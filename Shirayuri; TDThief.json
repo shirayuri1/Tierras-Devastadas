@@ -28,7 +28,7 @@
 			"classSource": "PHB",
 			"shortName": "Thief",
 			"subclassFeatures": [
-				"Thief|rogue|PHB|Thief|3|TDT",
+				"Thief|rogue|PHB|Thief|TDT|3|TDT",
 				"Supreme Sneak|rogue|PHB|Thief|TDT|9|TDT",
 				"Finder Keepers|rogue|PHB|Thief|TDT|13|TDT",
 				"Unmatched Dexterity|rogue|PHB|Thief|TDT|17|TDT"				
