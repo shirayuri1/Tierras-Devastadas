@@ -106,14 +106,11 @@
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"When you reach 9th level in this sub-class, you gain a single expertisse in a skill or tool you are already proficient with. Aditionally, you gain advantage on Dexterity (Stealth) checks if you move no more than half your speed on the same turn."
+				"When you reach 9th level in this sub-class, you gain a single expertise in a skill you are already proficient. Aditionally, you gain advantage on Dexterity ({@skill Stealth}) checks if you move no more than half your speed on the same turn."
 			],
 			"expertise": [
 				{
 					"anyProficientSkill": 1
-				},
-				{							
-					"anyProficientArtisansTool": 1
 				}
 			]
 		},
