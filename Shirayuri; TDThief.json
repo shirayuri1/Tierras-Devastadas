@@ -3,7 +3,7 @@
 		"sources": [
 			{
 				"json": "TDThief",
-				"abbreviation": "TDT",
+				"abbreviation": "TDTh",
 				"full": "Tierras Devastadas Thief",
 				"authors": [
 					"Shirayuri"
@@ -22,49 +22,49 @@
 	"subclass":[
 		{
 			"name": "Thief",
-			"source": "TDT",
+			"source": "TDTh",
 			"page": 11,
 			"className": "Rogue",
 			"classSource": "PHB",
-			"shortName": "Thief",
+			"shortName": "Ladron",
 			"subclassFeatures": [
-				"Thief|Rogue|PHB|Thief|TDT|3",
-				"Supreme Sneak|Rogue|PHB|Thief|TDT|9",
-				"Finder Keepers|Rogue|PHB|Thief|TDT|13",
-				"Unmatched Dexterity|Rogue|PHB|Thief|TDT|17"				
+				"Thief|Rogue|PHB|Ladron|TDTh|3",
+				"Supreme Sneak|Rogue|PHB|Ladron|TDTh|9",
+				"Finder Keepers|Rogue|PHB|Ladron|TDTh|13",
+				"Unmatched Dexterity|Rogue|PHB|Ladron|TDTh|17"				
 			]			
 		}
 	],
 	"subclassFeature":[
 		{
 			"name": "Thief",
-			"source": "TDT",
+			"source": "TDTh",
 			"className": "Rogue",
 			"classSource": "PHB",
 			"page": 11,
-			"subclassShortName": "Thief",
-			"subclassSource": "TDT",
+			"subclassShortName": "Ladron",
+			"subclassSource": "TDTh",
 			"level": 3,
 			"header": 2,
 			"entries": [
 				"You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ.",
 				{
 					"type":"refSubclassFeature",
-					"subclassFeature":"Fast Hands|Rogue|PHB|Thief|TDT|3"
+					"subclassFeature":"Fast Hands|Rogue|PHB|Ladron|TDTh|3"
 				},
 				{
 					"type":"refSubclassFeature",
-					"subclassFeature":"Second-Story Work|Rogue|PHB|Thief|TDT|3"
+					"subclassFeature":"Second-Story Work|Rogue|PHB|Ladron|TDTh|3"
 				}				
 			]
 		},
 		{
 			"name": "Fast Hands",
-			"source": "TDT",
+			"source": "TDTh",
 			"className": "Rogue",
 			"classSource": "PHB",
 			"page": 11,
-			"subclassShortName": "Thief",
+			"subclassShortName": "Ladron",
 			"subclassSource": "TDAM",
 			"level": 3,
 			"header": 2,
@@ -82,12 +82,12 @@
 		},
 		{
 			"name": "Second-Story Work",
-			"source": "TDT",
+			"source": "TDTh",
 			"className": "Rogue",
 			"classSource": "PHB",
 			"page": 11,
-			"subclassShortName": "Thief",
-			"subclassSource": "TDT",
+			"subclassShortName": "Ladron",
+			"subclassSource": "TDTh",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -97,12 +97,12 @@
 		},
 		{
 			"name": "Supreme Sneak",
-			"source": "TDT",
+			"source": "TDTh",
 			"className": "Rogue",
 			"classSource": "PHB",
 			"page": 11,
-			"subclassShortName": "Thief",
-			"subclassSource": "TDT",
+			"subclassShortName": "Ladron",
+			"subclassSource": "TDTh",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -119,12 +119,12 @@
 		},
 		{
 			"name": "Finder Keepers",
-			"source": "TDT",
+			"source": "TDTh",
 			"className": "Rogue",
 			"classSource": "PHB",
 			"page": 13,
-			"subclassShortName": "Thief",
-			"subclassSource": "TDT",
+			"subclassShortName": "Ladron",
+			"subclassSource": "TDTh",
 			"level": 13,
 			"header": 2,
 			"entries": [
@@ -134,13 +134,13 @@
 		},
 		{
 			"name": "Unmatched Dexterity",
-			"source": "TDT",
+			"source": "TDTh",
 			"className": "Rogue",
 			"classSource": "PHB",
-			"subclassSource": "TDT",
-			"subclassShortName": "Thief",
+			"subclassSource": "TDTh",
+			"subclassShortName": "Ladron",
 			"page": 1,
-			"level": 7,
+			"level": 17,
 			"header": 2,
 			"entries": [
 				"From this level onwards you get a second bonus action."				
