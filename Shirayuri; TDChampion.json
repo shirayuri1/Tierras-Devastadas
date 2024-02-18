@@ -1,0 +1,678 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "TDDC",
+				"abbreviation": "TDDC",
+				"full": "Tierras Devastadas Distinguished Champion",
+				"authors": [
+					"Hcito"
+				],
+				"convertedBy": [
+					"Shirayuri"
+				],
+				"version": "1.0",
+				"url": "https://docs.google.com/document/d/1YvvrajMf3rjyVm6mlCbZaMEGIu_2e3Keda971zkXVmo/edit",
+				"targetSchema": "1.0"
+			}
+		],
+		"optionalFeatureTypes":{
+			"DC:DCS": "Distiguished Champion; Distiguished Combat Style"
+		},
+		"dateAdded": 1708272739,
+		"dateLastModified": 1708272739
+	},
+	"subclass": [
+		{
+			"name": "Distinguished Champion",
+			"subclassFeatures": [
+				"Distinguished Champion|Fighter||Champion|TDDC|3|TDDC",
+				"Critical Versatility|Fighter||Champion|TDDC|7|TDDC",
+				"Additional Fighting Style|Fighter||Champion|TDDC|7|TDDC",
+				"Remarkable Athlete|Fighter||Champion|TDDC|10|TDDC",
+				"Stay on Top|Fighter||Champion|TDDC|10|TDDC",
+				"Superior Critical|Fighter||Champion|TDDC|15|TDDC",
+				"Comeback|Fighter||Champion|TDDC|15|TDDC",
+				"Survivor|Fighter||Champion|TDDC|18|TDDC"
+			],
+			"source": "TDDC",
+			"shortName": "Champion",
+			"className": "Fighter",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Distinguished Champion",
+			"source": "TDDC",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Champion",
+			"subclassSource": "TDDC",
+			"level": 3,
+			"entries": [
+				"The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Improved Critical|Fighter||Champion|TDDC|3|TDDC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Distinguished Combat Style|Fighter||Champion|TDDC|3|TDDC"
+				}
+			]
+		},
+		{
+			"name": "Improved Critical",
+			"entries": [
+				"Your weapon attacks reduce their critical range by one, for example they are critical on a 19 or 20, plus when you critically hit with a weapon attack you can regain an amount of health equal to 1d6 + your constitution modifier. You can regain life with this trait a number of times equal to your proficiency modifier per long rest."
+			],
+			"source": "TDDC",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Champion",
+			"subclassSource": "TDDC",
+			"level": 3,
+			"header": 1,
+			"foundrySystem": {
+				"ability": "con",
+				"actionType": "heal",
+				"activation": {
+					"cost": 1,
+					"type": "special"
+				},
+				"damage.parts": [
+					[
+						"1d6 + @mod",
+						"healing"
+					]
+				],
+				"target.type": "self",
+				"uses": {
+					"max": "@prof",
+					"per": "lr"
+				}
+			}
+		},
+		{
+			"name": "Distinguished Combat Style",
+			"source": "TDDC",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Champion",
+			"subclassSource": "TDDC",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Fighting styles obtained from your fighter traits receive the following improvements:",
+				{
+					"type": "list",
+					"style": "list-hang",
+					"columns": 1,
+					"page": 0,
+					"name": "",
+					"items": [
+						{
+							"type": "item",
+							"name": "Distinguished Archery",
+							"entries": [
+								"You gain a +1 bonus to damage rolls you make with ranged weapons."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Distinguished Blind Fighting",
+							"entries": [
+								"Blindsight increases to 15 ft. and you have advantage on wisdom (perception) checks that rely on hearing."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Distinguished Defense",
+							"entries": [
+								"You gain +1 AC when you do not have a shield equipped."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Distinguished Dueling",
+							"entries": [
+								"+1 to damage rolls, additionally, you can replace your opportunity attacks with the {@action shove} action."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Distinguished Great Weapon Fighting",
+							"entries": [
+								"+1 to attack rolls with two-handed weapons."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Distinguished Interception",
+							"entries": [
+								"Mitigated damage is calculated as 1d12 + (2 x proficiency)."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Distinguished Protection",
+							"entries": [
+								"Disadvantage is applied on all attacks against the protected target until the end of the attacker's turn. Alternatively, if the attacker is within 5 feet of you, you can impose disadvantage on all of his attacks that you are not the target of."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Distinguished Superior Technique",
+							"entries": [
+								"You have one additional superiority die and both are 1d8"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Distinguished Thrown Weapon Fighting",
+							"entries": [
+								"Being within 5 feet of a hostile creature no longer imposes disadvantage on your ranged weapon attacks, and you can pick up weapons within 5 feet as part of the attack."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Distinguished Two-Weapon Fighting",
+							"entries": [
+								"+1 to damage rolls with dual weapon"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Distinguished Unarmed Fighting",
+							"entries": [
+								"Against a creature you have grappled, add your strength modifier to the damage roll you deal at the start of the turn and your unarmed strikes."
+							]
+						}						
+					]
+				},
+				{
+					"type": "options",
+					"count": 1,
+					"entries":[
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Distinguished Archery|TDDC"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Distinguished Blind Fighting|TDDC"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Distinguished Defense|TDDC"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Distinguished Dueling|TDDC"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Distinguished Great Weapon Fighting|TDDC"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Distinguished Interception|TDDC"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Distinguished Protection|TDDC"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Distinguished Superior Technique|TDDC"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Distinguished Thrown Weapon Fighting|TDDC"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Distinguished Two-Weapon Fighting|TDDC"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Distinguished Unarmed Fighting|TDDC"
+						}
+					]
+				}			
+			]
+		},
+		{
+			"name": "Critical Versatility",
+			"source": "TDDC",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Champion",
+			"subclassSource": "TDDC",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"When landing a critical hit, you can apply one of the following effects depending on the base damage type of the weapon used:",
+				{
+					"type": "list",
+					"style": "list-hang",
+					"columns": 1,
+					"page": 0,
+					"name": "",
+					"items": [
+						{
+							"type": "item",
+							"name": "Bludgeoning",
+							"entries": [
+								"The attacked creature has disadvantage on saving throws and skill checks until the end of its next turn."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Slashing",
+							"entries": [
+								"You can choose a number of creatures that are within range of your weapon equal to your proficiency, they also receive the effects of the attack plus slashing damage equal to your strength or dexterity modifier."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Piercing",
+							"entries": [
+								"The attacked creature loses all movement and reactions until the start of your next turn."
+							]
+						}
+					]
+				},
+				"You can use this trait a number of times equal to your proficiency bonus, and you regain all uses on a short or long rest."
+			],
+			"foundrySystem": {
+				"activation": {
+					"type": "special"
+				},
+				"uses": {
+					"max": "@prof",
+					"per": "sr",
+					"value": 2
+				}
+			}
+		},
+		{
+			"name": "Additional Fighting Style",
+			"source": "TDDC",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Champion",
+			"subclassSource": "TDDC",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 10th level, you can choose a second option from the Fighting Style class feature.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries":[
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Distinguished Archery|TDDC"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Distinguished Blind Fighting|TDDC"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Distinguished Defense|TDDC"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Distinguished Dueling|TDDC"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Distinguished Great Weapon Fighting|TDDC"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Distinguished Interception|TDDC"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Distinguished Protection|TDDC"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Distinguished Superior Technique|TDDC"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Distinguished Thrown Weapon Fighting|TDDC"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Distinguished Two-Weapon Fighting|TDDC"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Distinguished Unarmed Fighting|TDDC"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Remarkable Athlete",
+			"source": "TDDC",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Champion",
+			"subclassSource": "TDDC",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You gain proficiency in {@skill Athletics} or {@skill Acrobatics}, if you already had proficiency you gain expertise.",
+				"You can add half your proficiency bonus (rounded up) on skill checks that rely on Strength, Dexterity, or Constitution and that do not already apply your proficiency. Additionally, thanks to your immaculate physical condition, you gain climbing and swimming speed equal to your walking speed."
+			],
+			"skillProficiencies":[
+				{
+					"athletics": true
+				},
+				{
+					"acrobatics": true
+				}
+			],
+			"expertise": [
+				{
+					"athletics": true
+				},
+				{
+					"acrobatics": true
+				}
+			]
+		},
+		{
+			"name": "Stay on Top",
+			"source": "TDDC",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Champion",
+			"subclassSource": "TDDC",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"When you score a critical hit with a weapon attack, you can roll one of the weapon's damage dice an additional time and add it as extra damage of the weapon's damage type."
+			]
+		},
+		{
+			"name": "Superior Critical",
+			"source": "TDDC",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Champion",
+			"subclassSource": "TDDC",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, The critical range of your weapon attacks is reduced by 2."
+			]
+		},
+		{
+			"name": "Comeback",
+			"source": "TDDC",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Champion",
+			"subclassSource": "TDDC",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"When using Indomitable you can keep any of the results. Additionally, your second wind feature increases his healing by 1d10."
+			]
+		},
+		{
+			"name": "Survivor",
+			"source": "TDDC",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Champion",
+			"subclassSource": "TDDC",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 10 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points."
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Distinguished Archery",
+			"source": "TDAM",
+			"page": 11,
+			"entries": [
+				"You use abjuration magic to try to temporarily banish your target from this plane. If the shot hits a creature, the target must also succeed on a Charisma saving throw or be banished. While banished in this way, its speed is 0, and it is {@condition incapacitated}. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.",
+				"After you reach 10th level in this class, a target also takes {@dice 1d6} force damage when the arrow hits it and the damage increases to {@dice 2d6} at 18th level.",
+				{
+					"type": "inset",
+					"page": 0,
+					"name": "Damage formula",
+					"entries": [
+						"(@scale.arcane-marksman.shots)d6"						
+					]
+				}
+			],
+			"featureType": [
+				"AM:ASO"
+			]
+		},
+		{
+			"name": "Distinguished Blind Fighting",
+			"source": "TDAM",
+			"page": 11,
+			"entries": [
+				"Your enchantment magic causes this shot to temporarily beguile its target. Choose one of your allies within 30 feet of the target. The creature hit by the arrow takes an extra {@dice 2d6} psychic damage, and must succeed on a Wisdom saving throw or it is {@condition charmed} by the chosen ally until the start of your next turn. This effect ends early if the chosen ally attacks the {@condition charmed} target, deals damage to it, or forces it to make a saving throw.",
+				"The psychic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level.",
+				{
+					"type": "inset",
+					"page": 0,
+					"name": "Damage formula",
+					"entries": [
+						"(2 + @scale.arcane-marksman.shots)d6"
+					]
+				}
+			],
+			"featureType": [
+				"AM:ASO"
+			]
+		},
+		{
+			"name": "Distinguished Defense",
+			"source": "TDAM",
+			"page": 12,
+			"entries": [
+				"You imbue your shot with force energy drawn from the school of evocation. The energy detonates after your attack. Immediately after the shot hits the creature, the target and all other creatures within 10 feet of it take {@dice 2d6} force damage each.",
+				"The force damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level.",
+				{
+					"type": "inset",
+					"page": 0,
+					"name": "Damage formula",
+					"entries": [
+						"(2 + @scale.arcane-marksman.shots)d6"
+					]
+				}
+			],
+			"featureType": [
+				"AM:ASO"
+			]
+		},
+		{
+			"name": "Distinguished Dueling",
+			"source": "TDAM",
+			"page": 12,
+			"entries": [
+				"You weave necromantic magic into your shot. The creature hit by the shot takes an extra {@dice 2d6} necrotic damage. The target must also succeed on a Constitution saving throw, or the damage dealt by its weapon attacks is halved until the start of your next turn.",
+				"The necrotic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level.",
+				{
+					"type": "inset",
+					"page": 0,
+					"name": "Damage formula",
+					"entries": [
+						"(2 + @scale.arcane-marksman.shots)d6"
+					]
+				}
+			],
+			"featureType": [
+				"AM:ASO"
+			]
+		},
+		{
+			"name": "Distinguished Great Weapon Fighting",
+			"source": "TDAM",
+			"page": 12,
+			"entries": [
+				"When this shot strikes its target, conjuration magic creates grasping, poisonous brambles, which wrap around the target. The creature hit by the shot takes an extra {@dice 2d6} poison damage, its speed is reduced by 10 feet, and it takes {@dice 2d6} slashing damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength ({@skill Athletics}) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this arcane shot option again.",
+				"The poison damage and slashing damage both increase to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level.",
+				{
+					"type": "inset",
+					"page": 0,
+					"name": "Damage formula",
+					"entries": [
+						"(2 + @scale.arcane-marksman.shots)d6"
+					]
+				}
+			],
+			"featureType": [
+				"AM:ASO"
+			]
+		},
+		{
+			"name": "Distinguished Interception",
+			"source": "TDAM",
+			"page": 12,
+			"entries": [
+				"You use transmutation magic to give your shot an ethereal quality. When you use this option, you don't make an attack roll for the attack. Instead, the shot fires forward in a line that is 1 foot wide and 30 feet long, before disappearing. The shot passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a target takes damage as if it were hit by the shot, plus an extra {@dice 1d6} force damage. On a successful save, a target takes half as much damage.",
+				"When you reach 10th level in this subclass the range increases to 60 feet. At 18th level the force damage increases to {@dice 2d6}.",
+				{
+					"type": "inset",
+					"page": 0,
+					"name": "Damage formula",
+					"entries": [
+						"1d6 + abs(@scale.arcane-marksman.shots)d6"						
+					]
+				}
+			],
+			"featureType": [
+				"AM:ASO"
+			]
+		},
+		{
+			"name": "Distinguished Protection",
+			"source": "TDAM",
+			"page": 12,
+			"entries": [
+				"Using divination magic, you grant your ammunition the ability to seek out a target. When you use this option, you don't make an attack roll for the attack. Instead, choose one creature you have seen in the past minute. The ammunition flies toward that creature, moving around corners if necessary and ignoring three-quarters cover and half cover. If the target is within the weapon's range and there is a path large enough for the ammunition to travel to the target, the target must make a Dexterity saving throw. Otherwise, the ammunition disappears after traveling as far as it can. On a failed save, the target takes damage as if it were hit by the ammunition, plus an extra separate {@dice 1d6} of the weapons damage type, and you learn the target's current location. On a successful save, the target takes half as much weapon damage, no extra damage and you don't learn its location.",
+				"The extra weapon damage impacts again for another {@dice 1d6} when you reach 10th level in this class and a total of three times at 18th level.",
+				{
+					"type": "inset",
+					"page": 0,
+					"name": "Damage formula",
+					"entries": [
+						"(1 + @scale.arcane-marksman.shots)d6"
+					]
+				}
+			],
+			"featureType": [
+				"AM:ASO"
+			]
+		},
+		{
+			"name": "Distinguished Superior Technique",
+			"source": "TDDC",
+			"page": 13,
+			"entries": [
+				"You weave illusion magic into your shot, causing it to occlude your foe's vision with shadows. The creature hit by the shot takes an extra {@dice 2d6} psychic damage, and must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away from itself until the start of your next turn.",
+				"The psychic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level.",
+				{
+					"type": "inset",
+					"page": 0,
+					"name": "Damage formula",
+					"entries": [
+						"(2 + @scale.arcane-marksman.shots)d6"
+					]
+				}
+			],
+			"featureType": [
+				"AM:ASO"
+			]
+		},
+		{
+			"name": "Distinguished Thrown Weapon Fighting",
+			"source": "TDDC",
+			"page": 13,
+			"entries": [
+				"You weave illusion magic into your shot, causing it to occlude your foe's vision with shadows. The creature hit by the shot takes an extra {@dice 2d6} psychic damage, and must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away from itself until the start of your next turn.",
+				"The psychic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level.",
+				{
+					"type": "inset",
+					"page": 0,
+					"name": "Damage formula",
+					"entries": [
+						"(2 + @scale.arcane-marksman.shots)d6"
+					]
+				}
+			],
+			"featureType": [
+				"AM:ASO"
+			]
+		},
+		{
+			"name": "Distinguished Two-Weapon Fighting",
+			"source": "TDDC",
+			"page": 13,
+			"entries": [
+				"You weave illusion magic into your shot, causing it to occlude your foe's vision with shadows. The creature hit by the shot takes an extra {@dice 2d6} psychic damage, and must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away from itself until the start of your next turn.",
+				"The psychic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level.",
+				{
+					"type": "inset",
+					"page": 0,
+					"name": "Damage formula",
+					"entries": [
+						"(2 + @scale.arcane-marksman.shots)d6"
+					]
+				}
+			],
+			"featureType": [
+				"AM:ASO"
+			]
+		},
+		{
+			"name": "Distinguished Unarmed Fighting",
+			"source": "TDDC",
+			"page": 13,
+			"entries": [
+				"You weave illusion magic into your shot, causing it to occlude your foe's vision with shadows. The creature hit by the shot takes an extra {@dice 2d6} psychic damage, and must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away from itself until the start of your next turn.",
+				"The psychic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level.",
+				{
+					"type": "inset",
+					"page": 0,
+					"name": "Damage formula",
+					"entries": [
+						"(2 + @scale.arcane-marksman.shots)d6"
+					]
+				}
+			],
+			"featureType": [
+				"AM:ASO"
+			]
+		}
+	]
+}
