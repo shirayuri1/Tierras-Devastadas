@@ -28,10 +28,10 @@
 			"classSource": "PHB",
 			"shortName": "Ladron",
 			"subclassFeatures": [
-				"Thief|Rogue|PHB|Ladron|TDTh|3",
-				"Supreme Sneak|Rogue|PHB|Ladron|TDTh|9",
-				"Finder Keepers|Rogue|PHB|Ladron|TDTh|13",
-				"Unmatched Dexterity|Rogue|PHB|Ladron|TDTh|17"				
+				"Thief|Rogue|PHB|Ladron|TDTh|3|TDTh",
+				"Supreme Sneak|Rogue|PHB|Ladron|TDTh|9|TDTh",
+				"Finder Keepers|Rogue|PHB|Ladron|TDTh|13|TDTh",
+				"Unmatched Dexterity|Rogue|PHB|Ladron|TDTh|17|TDTh"				
 			]			
 		}
 	],
@@ -50,11 +50,11 @@
 				"You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ.",
 				{
 					"type":"refSubclassFeature",
-					"subclassFeature":"Fast Hands|Rogue|PHB|Ladron|TDTh|3"
+					"subclassFeature":"Fast Hands|Rogue|PHB|Ladron|TDTh|3|TDTh"
 				},
 				{
 					"type":"refSubclassFeature",
-					"subclassFeature":"Second-Story Work|Rogue|PHB|Ladron|TDTh|3"
+					"subclassFeature":"Second-Story Work|Rogue|PHB|Ladron|TDTh|3|TDTh"
 				}				
 			]
 		},
