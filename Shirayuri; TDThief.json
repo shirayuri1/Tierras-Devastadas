@@ -87,7 +87,7 @@
 			"name": "Second-Story Work",
 			"source": "TDT",
 			"className": "rogue",
-			"classSource": "",
+			"classSource": "TDT",
 			"page": 4,
 			"subclassShortName": "Thief",
 			"subclassSource": "TDT",
