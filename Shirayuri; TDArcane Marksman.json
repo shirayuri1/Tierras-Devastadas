@@ -128,7 +128,17 @@
 						"int"
 					]
 				}			
-			]
+			],
+			"foundrySystem": {
+				"activation": {
+					"type": "special"
+				},
+				"uses": {
+					"max": "1+@prof",
+					"per": "lr",
+					"value": 3
+				}
+			}
 		},
 		{
 			"name": "Arcane Shot Options",
