@@ -15,10 +15,7 @@
 				"url": "https://docs.google.com/document/d/1YvvrajMf3rjyVm6mlCbZaMEGIu_2e3Keda971zkXVmo/edit",
 				"targetSchema": "1.0"
 			}
-		],
-		"optionalFeatureTypes":{
-			"AM:ASO": "Arcane Marksman; Arcane Shot Options"
-		},
+		],	
 		"dateAdded": 1708191311,
 		"dateLastModified": 1708191311       
 	},
