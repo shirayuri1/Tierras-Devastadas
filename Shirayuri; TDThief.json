@@ -26,12 +26,12 @@
 			"page": 4,
 			"className": "rogue",
 			"classSource": "PHB",
-			"shortName": "ThiefTD",
+			"shortName": "Thi",
 			"subclassFeatures": [
-				"Thief|rogue|PHB|ThiefTD|TDT|3|TDT",				
-				"Supreme Sneak|rogue|PHB|ThiefTD|TDT|9|TDT",
-				"Finders Keepers|rogue|PHB|ThiefTD|TDT|13|TDT",
-				"Unmatched Speed|rogue|PHB|ThiefTD|TDT|17|TDT"			
+				"Thief|rogue|PHB|Thi|TDT|3|TDT",				
+				"Supreme Sneak|rogue|PHB|Thi|TDT|9|TDT",
+				"Finders Keepers|rogue|PHB|Thi|TDT|13|TDT",
+				"Unmatched Speed|rogue|PHB|Thi|TDT|17|TDT"			
 			]			
 		}
 	],
@@ -42,7 +42,7 @@
 			"className": "rogue",
 			"classSource": "PHB",
 			"page": 4,
-			"subclassShortName": "ThiefTD",
+			"subclassShortName": "Thi",
 			"subclassSource": "TDT",
 			"level": 3,
 			"header": 2,
@@ -50,11 +50,11 @@
 				"You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ.",
 				{
 					"type":"refSubclassFeature",
-					"subclassFeature":"Fast Hands|rogue|PHB|ThiefTD|TDT|3|TDT"
+					"subclassFeature":"Fast Hands|rogue|PHB|Thi|TDT|3|TDT"
 				},
 				{
 					"type":"refSubclassFeature",
-					"subclassFeature":"Second-Story Work|rogue|PHB|ThiefTD|TDT|3|TDT"
+					"subclassFeature":"Second-Story Work|rogue|PHB|Thi|TDT|3|TDT"
 				}
 			]
 		},
@@ -64,7 +64,7 @@
 			"className": "rogue",
 			"classSource": "PHB",
 			"page": 4,
-			"subclassShortName": "ThiefTD",
+			"subclassShortName": "Thi",
 			"subclassSource": "TDT",
 			"level": 3,
 			"header": 2,
@@ -86,7 +86,7 @@
 			"className": "rogue",
 			"classSource": "PHB",
 			"page": 4,
-			"subclassShortName": "ThiefTD",
+			"subclassShortName": "Thi",
 			"subclassSource": "TDT",
 			"level": 3,
 			"header": 2,
@@ -101,7 +101,7 @@
 			"className": "rogue",
 			"classSource": "PHB",
 			"page": 4,
-			"subclassShortName": "ThiefTD",
+			"subclassShortName": "Thi",
 			"subclassSource": "TDT",
 			"level": 9,
 			"header": 2,			
@@ -123,7 +123,7 @@
 			"className": "rogue",
 			"classSource": "PHB",
 			"page": 5,
-			"subclassShortName": "ThiefTD",
+			"subclassShortName": "Thi",
 			"subclassSource": "TDT",
 			"level": 13,
 			"header": 2,
@@ -138,7 +138,7 @@
 			"className": "rogue",
 			"classSource": "PHB",
 			"page": 5,
-			"subclassShortName": "ThiefTD",
+			"subclassShortName": "Thi",
 			"subclassSource": "TDT",
 			"level": 17,
 			"header": 2,
