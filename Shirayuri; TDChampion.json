@@ -390,7 +390,8 @@
 				},
 				{
 					"acrobatics": true
-				}
+				},
+                {}
 			],
 			"expertise": [
 				{
@@ -398,23 +399,9 @@
 				},
 				{
 					"acrobatics": true
-				}
-			],
-            "foundrySystem": {
-                "foundryEffects": [
-                    {
-                        "name": "Remarkable Athlete",
-                        "transfer": true,
-                        "changes": [
-                            {
-                                "key": "flags.dnd5e.remarkableAthlete",
-                                "mode": 0,
-                                "value": "true"
-                            }
-                        ]
-                    }
-                ]
-            }            
+				},
+                {}
+			]
 		},
 		{
 			"name": "Stay on Top",
@@ -492,12 +479,12 @@
 					"transfer": true,
 					"changes": [
 						{
-							"key": "system.bonuses.rwak.attack",
+							"key": "data.bonuses.rwak.attack",
 							"mode": 2,
 							"value": "2"
 						},
 						{
-							"key": "system.bonuses.rwak.damage",
+							"key": "data.bonuses.rwak.damage",
 							"mode": 2,
 							"value": "1"
 						}
@@ -573,7 +560,7 @@
 					"transfer": true,
 					"changes": [
 						{
-							"key": "system.bonuses.mwak.damage",
+							"key": "data.bonuses.mwak.damage",
 							"mode": 2,
 							"value": "3"
 						}
@@ -598,7 +585,7 @@
 					"transfer": true,
 					"changes": [
 						{
-							"key": "system.bonuses.mwak.attack",
+							"key": "data.bonuses.mwak.attack",
 							"mode": 2,
 							"value": "1"
 						}
@@ -690,7 +677,7 @@
 					"transfer": true,
 					"changes": [
 						{
-							"key": "system.bonuses.rwak.damage",
+							"key": "data.bonuses.rwak.damage",
 							"mode": 2,
 							"value": "2"
 						}
@@ -715,7 +702,7 @@
 					"transfer": true,
 					"changes": [
 						{
-							"key": "system.bonuses.mwak.attack",
+							"key": "data.bonuses.mwak.attack",
 							"mode": 2,
 							"value": "1"
 						}
@@ -741,7 +728,7 @@
 					"transfer": true,
 					"changes": [
 						{
-							"key": "system.bonuses.mwak.damage",
+							"key": "data.bonuses.mwak.damage",
 							"mode": 2,
 							"value": "@abilities.str.mod"
 						}
