@@ -499,7 +499,7 @@
 			"page": 11,
 			"entries": [
                 "You have {@sense blindsight} with a range of 15 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're  blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.",
-                "You also have advantage on Wisdom (Perception) checks that rely on hearing"
+                "You also have advantage on Wisdom ({@skill perception}) checks that rely on hearing"
 			],
 			"featureType": [
 				"DC:DCS"
