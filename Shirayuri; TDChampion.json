@@ -17,7 +17,7 @@
 			}
 		],
 		"optionalFeatureTypes":{
-			"DC:DCS": "Distiguished Champion; Distiguished Combat Style"
+			"DC:DCS": "Distinguished Champion; Distinguished Combat Style"
 		},
 		"dateAdded": 1708272739,
 		"dateLastModified": 1708272739
@@ -85,7 +85,7 @@
 				},
 				"damage.parts": [
 					[
-						"1d6 + @mod",
+						"1d6 + @abilities.con.mod",
 						"healing"
 					]
 				],
@@ -463,6 +463,25 @@
 			],
 			"featureType": [
 				"DC:DCS"
+			],
+            "foundryEffects": [
+				{
+					"name": "Distinguished Archery",
+					"disabled": true,
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.bonuses.rwak.attack",
+							"mode": 2,
+							"value": "2"
+						},
+						{
+							"key": "system.bonuses.rwak.damage",
+							"mode": 2,
+							"value": "1"
+						}
+					]
+				}
 			]
 		},
 		{
