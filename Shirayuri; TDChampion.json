@@ -535,9 +535,9 @@
 					"transfer": true,
 					"changes": [
 						{
-							"key": "data.attributes.senses.blindsight",
-							"mode": 5,
-							"value": "15"
+							"key": "data.attributes.ac.bonus",
+							"mode": 2,
+							"value": "1"
 						}
 					]
 				}
