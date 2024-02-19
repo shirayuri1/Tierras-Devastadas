@@ -2,8 +2,8 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "TDTh",
-				"abbreviation": "TDTh",
+				"json": "TierrasDevastadasThief",
+				"abbreviation": "TierrasDevastadasThief",
 				"full": "Tierras Devastadas The Thief",
 				"authors": [
 					"Shirayuri"
@@ -17,55 +17,55 @@
 			}
 		],		
 		"dateAdded": 1708191311,
-		"dateLastModified": 1708191311       
+		"dateLastModified": 1708191311	   
 	},
 	"subclass":[
 		{
 			"name": "The Thief",
-			"source": "TDTh",
+			"source": "TierrasDevastadasThief",
 			"page": 11,
 			"className": "Rogue",
 			"classSource": "PHB",
 			"shortName": "Ladron",
 			"subclassFeatures": [
-				"Thief|Rogue|PHB|Ladron|TDTh|3|TDTh",
-				"Supreme Sneak|Rogue|PHB|Ladron|TDTh|9|TDTh",
-				"Finder Keepers|Rogue|PHB|Ladron|TDTh|13|TDTh",
-				"Unmatched Dexterity|Rogue|PHB|Ladron|TDTh|17|TDTh"				
+				"Thief|Rogue|PHB|Ladron|TierrasDevastadasThief|3|TierrasDevastadasThief",
+				"Supreme Sneak|Rogue|PHB|Ladron|TierrasDevastadasThief|9|TierrasDevastadasThief",
+				"Finder Keepers|Rogue|PHB|Ladron|TierrasDevastadasThief|13|TierrasDevastadasThief",
+				"Unmatched Dexterity|Rogue|PHB|Ladron|TierrasDevastadasThief|17|TierrasDevastadasThief"				
 			]			
 		}
 	],
 	"subclassFeature":[
 		{
 			"name": "Thief",
-			"source": "TDTh",
+			"source": "TierrasDevastadasThief",
 			"className": "Rogue",
 			"classSource": "PHB",
 			"page": 11,
 			"subclassShortName": "Ladron",
-			"subclassSource": "TDTh",
+			"subclassSource": "TierrasDevastadasThief",
 			"level": 3,
 			"header": 2,
 			"entries": [
 				"You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ.",
 				{
 					"type":"refSubclassFeature",
-					"subclassFeature":"Fast Hands|Rogue|PHB|Ladron|TDTh|3|TDTh"
+					"subclassFeature":"Fast Hands|Rogue|PHB|Ladron|TierrasDevastadasThief|3|TierrasDevastadasThief"
 				},
 				{
 					"type":"refSubclassFeature",
-					"subclassFeature":"Second-Story Work|Rogue|PHB|Ladron|TDTh|3|TDTh"
+					"subclassFeature":"Second-Story Work|Rogue|PHB|Ladron|TierrasDevastadasThief|3|TierrasDevastadasThief"
 				}				
 			]
 		},
 		{
 			"name": "Fast Hands",
-			"source": "TDTh",
+			"source": "TierrasDevastadasThief",
 			"className": "Rogue",
 			"classSource": "PHB",
 			"page": 11,
 			"subclassShortName": "Ladron",
-			"subclassSource": "TDTh",
+			"subclassSource": "TierrasDevastadasThief",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -82,12 +82,12 @@
 		},
 		{
 			"name": "Second-Story Work",
-			"source": "TDTh",
+			"source": "TierrasDevastadasThief",
 			"className": "Rogue",
 			"classSource": "PHB",
 			"page": 11,
 			"subclassShortName": "Ladron",
-			"subclassSource": "TDTh",
+			"subclassSource": "TierrasDevastadasThief",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -97,12 +97,12 @@
 		},
 		{
 			"name": "Supreme Sneak",
-			"source": "TDTh",
+			"source": "TierrasDevastadasThief",
 			"className": "Rogue",
 			"classSource": "PHB",
 			"page": 11,
 			"subclassShortName": "Ladron",
-			"subclassSource": "TDTh",
+			"subclassSource": "TierrasDevastadasThief",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -116,12 +116,12 @@
 		},
 		{
 			"name": "Finder Keepers",
-			"source": "TDTh",
+			"source": "TierrasDevastadasThief",
 			"className": "Rogue",
 			"classSource": "PHB",
 			"page": 13,
 			"subclassShortName": "Ladron",
-			"subclassSource": "TDTh",
+			"subclassSource": "TierrasDevastadasThief",
 			"level": 13,
 			"header": 2,
 			"entries": [
@@ -131,10 +131,10 @@
 		},
 		{
 			"name": "Unmatched Dexterity",
-			"source": "TDTh",
+			"source": "TierrasDevastadasThief",
 			"className": "Rogue",
 			"classSource": "PHB",
-			"subclassSource": "TDTh",
+			"subclassSource": "TierrasDevastadasThief",
 			"subclassShortName": "Ladron",
 			"page": 1,
 			"level": 17,
