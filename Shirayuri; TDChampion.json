@@ -2,8 +2,8 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "TDDC",
-				"abbreviation": "TDDC",
+				"json": "TDDistinguishedChampion",
+				"abbreviation": "TDDistinguishedChampion",
 				"full": "Tierras Devastadas Distinguished Champion",
 				"authors": [
 					"Hcito"
@@ -17,7 +17,7 @@
 			}
 		],
 		"optionalFeatureTypes":{
-			"DC:DCS": "Distinguished Champion; Distinguished Combat Style"
+			"DC:DCS": "Champion; Distinguished Combat Style"
 		},
 		"dateAdded": 1708272739,
 		"dateLastModified": 1708272739
@@ -26,16 +26,16 @@
 		{
 			"name": "Distinguished Champion",
 			"subclassFeatures": [
-				"Distinguished Champion|Fighter||Champion|TDDC|3|TDDC",
-				"Critical Versatility|Fighter||Champion|TDDC|7|TDDC",
-				"Additional Fighting Style|Fighter||Champion|TDDC|7|TDDC",
-				"Remarkable Athlete|Fighter||Champion|TDDC|10|TDDC",
-				"Stay on Top|Fighter||Champion|TDDC|10|TDDC",
-				"Superior Critical|Fighter||Champion|TDDC|15|TDDC",
-				"Comeback|Fighter||Champion|TDDC|15|TDDC",
-				"Survivor|Fighter||Champion|TDDC|18|TDDC"
+				"Distinguished Champion|Fighter||Champion|TDDistinguishedChampion|3|TDDistinguishedChampion",
+				"Critical Versatility|Fighter||Champion|TDDistinguishedChampion|7|TDDistinguishedChampion",
+				"Additional Fighting Style|Fighter||Champion|TDDistinguishedChampion|7|TDDistinguishedChampion",
+				"Remarkable Athlete|Fighter||Champion|TDDistinguishedChampion|10|TDDistinguishedChampion",
+				"Stay on Top|Fighter||Champion|TDDistinguishedChampion|10|TDDistinguishedChampion",
+				"Superior Critical|Fighter||Champion|TDDistinguishedChampion|15|TDDistinguishedChampion",
+				"Comeback|Fighter||Champion|TDDistinguishedChampion|15|TDDistinguishedChampion",
+				"Survivor|Fighter||Champion|TDDistinguishedChampion|18|TDDistinguishedChampion"
 			],
-			"source": "TDDC",
+			"source": "TDDistinguishedChampion",
 			"shortName": "Champion",
 			"className": "Fighter",
 			"classSource": "PHB"
@@ -44,22 +44,22 @@
 	"subclassFeature": [
 		{
 			"name": "Distinguished Champion",
-			"source": "TDDC",
+			"source": "TDDistinguishedChampion",
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Champion",
-			"subclassSource": "TDDC",
+			"subclassSource": "TDDistinguishedChampion",
 			"level": 3,
 			"entries": [
 				"The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Improved Critical|Fighter||Champion|TDDC|3|TDDC"
+					"subclassFeature": "Improved Critical|Fighter||Champion|TDDistinguishedChampion|3|TDDistinguishedChampion"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Distinguished Combat Style|Fighter||Champion|TDDC|3|TDDC"
+					"subclassFeature": "Distinguished Combat Style|Fighter||Champion|TDDistinguishedChampion|3|TDDistinguishedChampion"
 				}
 			]
 		},
@@ -68,16 +68,15 @@
 			"entries": [
 				"Your weapon attacks reduce their critical range by one, for example they are critical on a 19 or 20, plus when you critically hit with a weapon attack you can regain an amount of health equal to 1d6 + your constitution modifier. You can regain life with this trait a number of times equal to your proficiency modifier per long rest."
 			],
-			"source": "TDDC",
+			"source": "TDDistinguishedChampion",
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Champion",
-			"subclassSource": "TDDC",
+			"subclassSource": "TDDistinguishedChampion",
 			"level": 3,
 			"header": 1,
 			"foundrySystem": {
-				"ability": "con",
 				"actionType": "heal",
 				"activation": {
 					"cost": 1,
@@ -98,12 +97,12 @@
 		},
 		{
 			"name": "Distinguished Combat Style",
-			"source": "TDDC",
+			"source": "TDDistinguishedChampion",
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Champion",
-			"subclassSource": "TDDC",
+			"subclassSource": "TDDistinguishedChampion",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -200,47 +199,47 @@
 					"entries":[
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Distinguished Archery|TDDC"
+							"optionalfeature": "Distinguished Archery|TDDistinguishedChampion"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Distinguished Blind Fighting|TDDC"
+							"optionalfeature": "Distinguished Blind Fighting|TDDistinguishedChampion"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Distinguished Defense|TDDC"
+							"optionalfeature": "Distinguished Defense|TDDistinguishedChampion"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Distinguished Dueling|TDDC"
+							"optionalfeature": "Distinguished Dueling|TDDistinguishedChampion"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Distinguished Great Weapon Fighting|TDDC"
+							"optionalfeature": "Distinguished Great Weapon Fighting|TDDistinguishedChampion"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Distinguished Interception|TDDC"
+							"optionalfeature": "Distinguished Interception|TDDistinguishedChampion"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Distinguished Protection|TDDC"
+							"optionalfeature": "Distinguished Protection|TDDistinguishedChampion"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Distinguished Superior Technique|TDDC"
+							"optionalfeature": "Distinguished Superior Technique|TDDistinguishedChampion"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Distinguished Thrown Weapon Fighting|TDDC"
+							"optionalfeature": "Distinguished Thrown Weapon Fighting|TDDistinguishedChampion"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Distinguished Two-Weapon Fighting|TDDC"
+							"optionalfeature": "Distinguished Two-Weapon Fighting|TDDistinguishedChampion"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Distinguished Unarmed Fighting|TDDC"
+							"optionalfeature": "Distinguished Unarmed Fighting|TDDistinguishedChampion"
 						}
 					]
 				}			
@@ -248,12 +247,12 @@
 		},
 		{
 			"name": "Critical Versatility",
-			"source": "TDDC",
+			"source": "TDDistinguishedChampion",
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Champion",
-			"subclassSource": "TDDC",
+			"subclassSource": "TDDistinguishedChampion",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -303,12 +302,12 @@
 		},
 		{
 			"name": "Additional Fighting Style",
-			"source": "TDDC",
+			"source": "TDDistinguishedChampion",
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Champion",
-			"subclassSource": "TDDC",
+			"subclassSource": "TDDistinguishedChampion",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -319,47 +318,47 @@
 					"entries":[
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Distinguished Archery|TDDC"
+							"optionalfeature": "Distinguished Archery|TDDistinguishedChampion"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Distinguished Blind Fighting|TDDC"
+							"optionalfeature": "Distinguished Blind Fighting|TDDistinguishedChampion"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Distinguished Defense|TDDC"
+							"optionalfeature": "Distinguished Defense|TDDistinguishedChampion"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Distinguished Dueling|TDDC"
+							"optionalfeature": "Distinguished Dueling|TDDistinguishedChampion"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Distinguished Great Weapon Fighting|TDDC"
+							"optionalfeature": "Distinguished Great Weapon Fighting|TDDistinguishedChampion"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Distinguished Interception|TDDC"
+							"optionalfeature": "Distinguished Interception|TDDistinguishedChampion"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Distinguished Protection|TDDC"
+							"optionalfeature": "Distinguished Protection|TDDistinguishedChampion"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Distinguished Superior Technique|TDDC"
+							"optionalfeature": "Distinguished Superior Technique|TDDistinguishedChampion"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Distinguished Thrown Weapon Fighting|TDDC"
+							"optionalfeature": "Distinguished Thrown Weapon Fighting|TDDistinguishedChampion"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Distinguished Two-Weapon Fighting|TDDC"
+							"optionalfeature": "Distinguished Two-Weapon Fighting|TDDistinguishedChampion"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Distinguished Unarmed Fighting|TDDC"
+							"optionalfeature": "Distinguished Unarmed Fighting|TDDistinguishedChampion"
 						}
 					]
 				}
@@ -367,12 +366,12 @@
 		},
 		{
 			"name": "Remarkable Athlete",
-			"source": "TDDC",
+			"source": "TDDistinguishedChampion",
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Champion",
-			"subclassSource": "TDDC",
+			"subclassSource": "TDDistinguishedChampion",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -398,12 +397,12 @@
 		},
 		{
 			"name": "Stay on Top",
-			"source": "TDDC",
+			"source": "TDDistinguishedChampion",
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Champion",
-			"subclassSource": "TDDC",
+			"subclassSource": "TDDistinguishedChampion",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -412,12 +411,12 @@
 		},
 		{
 			"name": "Superior Critical",
-			"source": "TDDC",
+			"source": "TDDistinguishedChampion",
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Champion",
-			"subclassSource": "TDDC",
+			"subclassSource": "TDDistinguishedChampion",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -426,12 +425,12 @@
 		},
 		{
 			"name": "Comeback",
-			"source": "TDDC",
+			"source": "TDDistinguishedChampion",
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Champion",
-			"subclassSource": "TDDC",
+			"subclassSource": "TDDistinguishedChampion",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -440,12 +439,12 @@
 		},
 		{
 			"name": "Survivor",
-			"source": "TDDC",
+			"source": "TDDistinguishedChampion",
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Champion",
-			"subclassSource": "TDDC",
+			"subclassSource": "TDDistinguishedChampion",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -456,7 +455,7 @@
 	"optionalfeature": [
 		{
 			"name": "Distinguished Archery",
-			"source": "TDDC",
+			"source": "TDDistinguishedChampion",
 			"page": 11,
 			"entries": [
 				"You gain +1 bonus to damage rolls and +2 bonus to attack rolls you make with ranged weapons."
@@ -486,7 +485,7 @@
 		},
 		{
 			"name": "Distinguished Blind Fighting",
-			"source": "TDDC",
+			"source": "TDDistinguishedChampion",
 			"page": 11,
 			"entries": [
                 "You have {@sense blindsight} with a range of 15 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're  blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.",
@@ -498,7 +497,7 @@
 		},
 		{
 			"name": "Distinguished Defense",
-			"source": "TDDC",
+			"source": "TDDistinguishedChampion",
 			"page": 12,
 			"entries": [
 				"While you are wearing armor, you gain a +1 bonus to AC and while you don't have a shield equiped you gain another +1 AC."
@@ -509,7 +508,7 @@
 		},
 		{
 			"name": "Distinguished Dueling",
-			"source": "TDDC",
+			"source": "TDDistinguishedChampion",
 			"page": 12,
 			"entries": [
                 "When you are wielding a melee weapon in one hand and no other weapons, you gain a +3 bonus to damage rolls with that weapon and you can replace any of your  Opportunity Attacks with the {@skill Shove} action."
@@ -520,7 +519,7 @@
 		},
 		{
 			"name": "Distinguished Great Weapon Fighting",
-			"source": "TDDC",
+			"source": "TDDistinguishedChampion",
 			"page": 12,
 			"entries": [
 				"When you roll a 1 or 2 on any damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit and you gain a +1 bonus to attack rolls you make with this weapon."
@@ -531,7 +530,7 @@
 		},
 		{
 			"name": "Distinguished Interception",
-			"source": "TDDC",
+			"source": "TDDistinguishedChampion",
 			"page": 12,
 			"entries": [
 				"When a creature you can see hits a target other than you, within 5 feet of you, you can use your reaction to reduce the damage the target takes by [[/r 1d12]] + two times your proficiency bonus (to a minimum of 0 damage). You must be wielding a {@item shield|phb} or a simple or martial weapon."
@@ -542,7 +541,7 @@
 		},
 		{
 			"name": "Distinguished Protection",
-			"source": "TDDC",
+			"source": "TDDistinguishedChampion",
 			"page": 12,
 			"entries": [
 				"When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on all attack rolls against that target until the end of the attacker's turn. Alternately, if the creature that attacks a target other than you is within 5 feet of you, you can impose disadvantage on all of his attacks that you are not the target of. You must be wielding a shield to use this reaction."
@@ -553,7 +552,7 @@
 		},
 		{
 			"name": "Distinguished Superior Technique",
-			"source": "TDDC",
+			"source": "TDDistinguishedChampion",
 			"page": 13,
 			"entries": [
 				"You learn one maneuver of your choice from among those available to the Battle Master archetype. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).",
@@ -565,7 +564,7 @@
 		},
 		{
 			"name": "Distinguished Thrown Weapon Fighting",
-			"source": "TDDC",
+			"source": "TDDistinguishedChampion",
 			"page": 13,
 			"entries": [
 				"You can draw a weapon that has the thrown property or pick it up if it is within 5 ft as part of the attack you make with the weapon and when you hit with a ranged weapon attack using a thrown weapon, you gain a +2 bonus to the damage roll.",
@@ -577,7 +576,7 @@
 		},
 		{
 			"name": "Distinguished Two-Weapon Fighting",
-			"source": "TDDC",
+			"source": "TDDistinguishedChampion",
 			"page": 13,
 			"entries": [
 				"You gain +1 damage when you attack with dual weapons. When you are holding Dual Weapons and can use your reaction to make an attack, you can make two attacks instead of one and these attacks must be against the same target."
@@ -588,7 +587,7 @@
 		},
 		{
 			"name": "Distinguished Unarmed Fighting",
-			"source": "TDDC",
+			"source": "TDDistinguishedChampion",
 			"page": 13,
 			"entries": [
 				"Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier on a hit. If you aren't wielding any weapons or a shield when you make the attack roll, the d6 becomes a d8.",
