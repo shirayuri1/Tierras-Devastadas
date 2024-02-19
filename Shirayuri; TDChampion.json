@@ -38,7 +38,8 @@
 			"source": "TDDistinguishedChampion",
 			"shortName": "Champion",
 			"className": "Fighter",
-			"classSource": "PHB"
+			"classSource": "PHB",
+            "foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/maneuver-sword-katana-yellow.webp"
 		}
 	],
 	"subclassFeature": [
@@ -61,7 +62,8 @@
 					"type": "refSubclassFeature",
 					"subclassFeature": "Distinguished Combat Style|Fighter||Champion|TDDistinguishedChampion|3|TDDistinguishedChampion"
 				}
-			]
+			],
+            "foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/maneuver-sword-katana-yellow.webp"
 		},
 		{
 			"name": "Improved Critical",
@@ -77,6 +79,7 @@
 			"level": 3,
 			"header": 1,
 			"foundrySystem": {
+				"ability": "con",
 				"actionType": "heal",
 				"activation": {
 					"cost": 1,
@@ -84,14 +87,15 @@
 				},
 				"damage.parts": [
 					[
-						"1d6 + @abilities.con.mod",
+						"1d6 + @mod",
 						"healing"
 					]
 				],
 				"target.type": "self",
 				"uses": {
 					"max": "@prof",
-					"per": "lr"
+					"per": "lr",
+                    "value": 1
 				}
 			}
 		},
@@ -243,7 +247,8 @@
 						}
 					]
 				}			
-			]
+			],
+            "foundryImg": "icons/commodities/treasure/medal-ribbon-star-gold-red.webp"
 		},
 		{
 			"name": "Critical Versatility",
@@ -298,7 +303,8 @@
 					"per": "sr",
 					"value": 2
 				}
-			}
+			},
+            "foundryImg": "https://i.imgur.com/hONNH37.jpg"
 		},
 		{
 			"name": "Additional Fighting Style",
@@ -393,7 +399,22 @@
 				{
 					"acrobatics": true
 				}
-			]
+			],
+            "foundrySystem": {
+                "foundryEffects": [
+                    {
+                        "name": "Remarkable Athlete",
+                        "transfer": true,
+                        "changes": [
+                            {
+                                "key": "flags.dnd5e.remarkableAthlete",
+                                "mode": 0,
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ]
+            }            
 		},
 		{
 			"name": "Stay on Top",
@@ -407,7 +428,8 @@
 			"header": 2,
 			"entries": [
 				"When you score a critical hit with a weapon attack, you can roll one of the weapon's damage dice an additional time and add it as extra damage of the weapon's damage type."
-			]
+			],
+            "foundryImg": "https://i.imgur.com/lyNWAos.png"
 		},
 		{
 			"name": "Superior Critical",
@@ -435,7 +457,8 @@
 			"header": 2,
 			"entries": [
 				"When using Indomitable you can keep any of the results. Additionally, your second wind feature increases his healing by 1d10."
-			]
+			],
+            "foundryImg": "icons/skills/wounds/anatomy-organ-heart-red.webp"
 		},
 		{
 			"name": "Survivor",
@@ -465,8 +488,7 @@
 			],
             "foundryEffects": [
 				{
-					"name": "Distinguished Archery",
-					"disabled": true,
+					"name": "DFS: Archery",
 					"transfer": true,
 					"changes": [
 						{
@@ -481,7 +503,8 @@
 						}
 					]
 				}
-			]
+			],
+            "foundryImg": "icons/weapons/bows/shortbow-recurve-yellow.webp"
 		},
 		{
 			"name": "Distinguished Blind Fighting",
@@ -493,7 +516,21 @@
 			],
 			"featureType": [
 				"DC:DCS"
-			]
+			],
+            "foundryEffects": [
+				{
+					"name": "DFS: Blind Fighting",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "data.attributes.senses.blindsight",
+							"mode": 5,
+							"value": "15"
+						}
+					]
+				}
+			],
+            "foundryImg": "https://i.imgur.com/bKEkKaB.png"
 		},
 		{
 			"name": "Distinguished Defense",
@@ -504,7 +541,21 @@
 			],
 			"featureType": [
 				"DC:DCS"
-			]
+			],
+            "foundryEffects": [
+				{
+					"name": "DFS: Defense",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "data.attributes.senses.blindsight",
+							"mode": 5,
+							"value": "15"
+						}
+					]
+				}
+			],
+            "foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/shield/heater-stone-orange.webp"
 		},
 		{
 			"name": "Distinguished Dueling",
@@ -515,7 +566,21 @@
 			],
 			"featureType": [
 				"DC:DCS"
-			]
+			],
+            "foundryEffects": [
+				{
+					"name": "DFS: Dueling",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.bonuses.mwak.damage",
+							"mode": 2,
+							"value": "3"
+						}
+					]
+				}
+			],
+            "foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/hand-grip-sword-orange.webp"
 		},
 		{
 			"name": "Distinguished Great Weapon Fighting",
@@ -526,7 +591,21 @@
 			],
 			"featureType": [
 				"DC:DCS"
-			]
+			],
+            "foundryEffects": [
+				{
+					"name": "DFS: Great Weapon Fighting",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.bonuses.mwak.attack",
+							"mode": 2,
+							"value": "1"
+						}
+					]
+				}
+			],
+            "foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/strike-sword-steel-yellow.webp"
 		},
 		{
 			"name": "Distinguished Interception",
@@ -537,7 +616,21 @@
 			],
 			"featureType": [
 				"DC:DCS"
-			]
+			],
+            "foundrySystem": {
+				"actionType": "heal",
+				"activation": {
+					"cost": 1,
+					"type": "reaction"
+				},
+				"damage.parts": [
+					[
+						"1d12 + (2 * @prof)",
+						"healing"
+					]
+				]
+			},
+            "foundryImg": "https://i.imgur.com/pTz5JTq.png"
 		},
 		{
 			"name": "Distinguished Protection",
@@ -548,7 +641,8 @@
 			],
 			"featureType": [
 				"DC:DCS"
-			]
+			],
+            "foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/magic/defensive/shield-barrier-deflect-gold.webp"
 		},
 		{
 			"name": "Distinguished Superior Technique",
@@ -560,19 +654,50 @@
 			],
 			"featureType": [
 				"DC:DCS"
-			]
+			],
+            "foundrySystem": {
+				"activation": {
+					"type": "special"
+				},
+				"uses": {
+					"max": "2",
+					"per": "sr",
+					"value": 2
+				},
+                "actionType": "utility",
+                "damage.parts": [
+					[
+						"1d8"
+					]
+                ]
+			},
+            "foundryImg": "https://i.imgur.com/FYBOu0Q.png"
 		},
 		{
 			"name": "Distinguished Thrown Weapon Fighting",
 			"source": "TDDistinguishedChampion",
 			"page": 13,
 			"entries": [
-				"You can draw a weapon that has the thrown property or pick it up if it is within 5 ft as part of the attack you make with the weapon and when you hit with a ranged weapon attack using a thrown weapon, you gain a +2 bonus to the damage roll.",
-                "In addition, being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged weapon attack rolls"
+				"You can draw a weapon that has the thrown property or pick a weapon if it is within 5 ft of you as part of the attack you make with the weapon, and when you hit with a ranged weapon attack using a thrown weapon you gain +2 bonus to the damage roll.",
+                "In addition, being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged weapon attack."
 			],
 			"featureType": [
 				"DC:DCS"
-			]
+			],
+            "foundryEffects": [
+				{
+					"name": "DFS: Thrown Weapon Fighting",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.bonuses.rwak.damage",
+							"mode": 2,
+							"value": "2"
+						}
+					]
+				}
+            ],
+            "foundryImg": "https://i.imgur.com/aRH6jYe.png"
 		},
 		{
 			"name": "Distinguished Two-Weapon Fighting",
@@ -583,7 +708,21 @@
 			],
 			"featureType": [
 				"DC:DCS"
-			]
+			],
+            "foundryEffects": [
+				{
+					"name": "DFS: Two-Weapon Fighting",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.bonuses.mwak.attack",
+							"mode": 2,
+							"value": "1"
+						}
+					]
+				}
+            ],
+            "foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/weapons-crossed-swords-white-blue.webp"
 		},
 		{
 			"name": "Distinguished Unarmed Fighting",
@@ -595,7 +734,21 @@
 			],
 			"featureType": [
 				"DC:DCS"
-			]
+			],
+            "foundryEffects": [
+				{
+					"name": "DFS: Unarmed Fighting",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.bonuses.mwak.damage",
+							"mode": 2,
+							"value": "@abilities.str.mod"
+						}
+					]
+				}
+            ],
+            "foundryImg": "https://i.imgur.com/hCn84D5.png"
 		}
 	]
 }
