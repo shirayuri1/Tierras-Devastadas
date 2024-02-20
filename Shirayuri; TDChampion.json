@@ -401,10 +401,7 @@
 					"acrobatics": true
 				},
                 {}
-			],
-			"foundryFlags": {
-				"flags.dnd5e.remarkableAthlete": true
-			}			
+			]		
 		},
 		{
 			"name": "Stay on Top",
@@ -739,6 +736,41 @@
 				}
             ],
             "foundryImg": "https://i.imgur.com/hCn84D5.png"
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"name": "Remarkable Athlete",
+			"source": "TDDistinguishedChampion",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Champion",
+			"subclassSource": "TDDistinguishedChampion",
+			"level": 10,
+			"effects": [
+			  {
+				"name": "Remarkable Athlete",
+				"changes": [
+				  {
+					"key": "flags.dnd5e.remarkableAthlete",
+					"mode": 0,
+					"value": "true"
+				  },
+				  {
+					"key": "system.attributes.movement.climb",
+					"mode": 4,
+					"value": "@data.attributes.movement.walk",
+					"priority": null
+				  },
+				  {
+					"key": "system.attributes.movement.swim",
+					"mode": 4,
+					"value": "@data.attributes.movement.walk"
+				  }
+				]
+			  }
+			]
+	
 		}
 	]
 }
