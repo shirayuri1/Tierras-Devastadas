@@ -54,6 +54,24 @@
 						]
 					}
 				}
+			],
+			"foundryAdvancement": [
+				{
+					"type": "ScaleValue",
+					"configuration": {
+						"identifier": "shots",
+						"type": "number",
+						"scale": {
+							"10": {
+								"value": 1
+							},
+							"17": {
+								"value": 2
+							}
+						}
+					},
+					"title": "Shots"
+				}
 			]
 		}
 	],
