@@ -560,12 +560,6 @@
 						"force"
 					]
 				],
-				"target.type": "self",
-				"uses": {
-					"max": "@prof",
-					"per": "lr",
-                    "value": 1
-				},
 				"save": {
 					"ability": "cha",
 					"dc": null,
