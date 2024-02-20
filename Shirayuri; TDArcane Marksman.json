@@ -536,16 +536,42 @@
 			"page": 11,
 			"entries": [
 				"You use abjuration magic to try to temporarily banish your target from this plane. If the shot hits a creature, the target must also succeed on a Charisma saving throw or be banished. While banished in this way, its speed is 0, and it is {@condition incapacitated}. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.",
-				"After you reach 10th level in this class, a target also takes {@dice 1d6} force damage when the arrow hits it and the damage increases to {@dice 2d6} at 18th level.",
-				{
-					"type": "inset",
-					"page": 0,
-					"name": "Damage formula",
-					"entries": [
-						"(@scale.arcane-marksman.shots)d6"						
-					]
-				}
+				"After you reach 10th level in this class, a target also takes {@dice 1d6} force damage when the arrow hits it and the damage increases to {@dice 2d6} at 18th level."
 			],
+			"foundrySystem": {
+				"activation": {
+					"cost": 1,
+					"type": "special",
+					"condition": "Hit by the ammunition"
+				},
+				"duration":{
+					"value": 1,
+					"units": "round"
+				},
+				"target": {
+					"value": 1,
+					"type": "creature"
+				},
+				"ability": "int",
+				"actionType": "save",
+				"damage.parts": [
+					[
+						"(@scale.arcane-marksman.shots)d6",
+						"force"
+					]
+				],
+				"target.type": "self",
+				"uses": {
+					"max": "@prof",
+					"per": "lr",
+                    "value": 1
+				},
+				"save": {
+					"ability": "cha",
+					"dc": null,
+					"scaling": "spell"
+				}
+			},
 			"featureType": [
 				"AM:ASO"
 			]
