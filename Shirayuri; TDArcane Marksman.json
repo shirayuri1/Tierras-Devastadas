@@ -100,8 +100,9 @@
 					"type":"refSubclassFeature",
 					"subclassFeature":"Arcane Shot Options|fighter|PHB|Arcane Marksman|TierrasDevastadasArcaneMarksman|3|TierrasDevastadasArcaneMarksman"
 				}
-			]
-			},
+			],			
+			"foundryImg": "icons/skills/ranged/target-bullseye-arrow-glowing.webp"
+		},
 		{
 			"name": "Arcane Marksman Lore",
 			"source": "TierrasDevastadasArcaneMarksman",
@@ -122,7 +123,8 @@
 				{
 					"nature": true
 				}
-			]
+			],
+			"foundryImg": "icons/sundries/books/book-open-red.webp"
 		},
 		{
 			"name": "Arcane Shot",
@@ -156,7 +158,8 @@
 					"per": "lr",
 					"value": 3
 				}
-			}
+			},
+			"foundryImg": "icons/skills/ranged/bow-arrows-blue.webp"
 		},
 		{
 			"name": "Arcane Shot Options",
@@ -290,7 +293,8 @@
 						}
 					]
 				}
-			]
+			],
+			"foundryImg": "icons/skills/ranged/bow-arrows-blue.webp"
 		},
 		{
 			"name": "Curving Shot",
@@ -304,7 +308,8 @@
 			"header": 2,
 			"entries": [
 				"At 7th level, you learn how to direct an errant shot toward a new target. When you make an attack roll with a magical piece of ammunition and miss, you can use a bonus action to reroll the attack roll against a different target within 60 feet of the original target."
-			]
+			],
+			"foundryImg": "https://i.imgur.com/pGKLO7l.png"
 		},
 		{
 			"name": "Additional Arcane Shot Option",
@@ -356,7 +361,8 @@
 						}
 					]
 				}
-			]
+			],
+			"foundryImg": "icons/skills/ranged/bow-arrows-blue.webp"
 		},
 		{
 			"name": "Additional Arcane Shot Option",
@@ -408,7 +414,8 @@
 						}
 					]
 				}
-			]
+			],
+			"foundryImg": "icons/skills/ranged/bow-arrows-blue.webp"
 		},
 		{
 			"name": "Additional Arcane Shot Option",
@@ -460,7 +467,8 @@
 						}
 					]
 				}
-			]
+			],
+			"foundryImg": "icons/skills/ranged/bow-arrows-blue.webp"
 		},
 		{
 			"name": "Additional Arcane Shot Option",
@@ -512,7 +520,8 @@
 						}
 					]
 				}
-			]
+			],
+			"foundryImg": "icons/skills/ranged/bow-arrows-blue.webp"
 		},		
 		{
 			"name": "Ever-Ready Shot",
@@ -526,7 +535,8 @@
 			"header": 2,
 			"entries": [
 				"Starting at 15th level, your marksmanship is always ready for a fight. When you roll initiative, you regain one use of Arcane Shot."
-			]
+			],
+			"foundryImg": "icons/containers/ammunition/arrows-quiver-black.webp"
 		}
 	],
 	"optionalfeature": [
@@ -543,10 +553,6 @@
 					"cost": 1,
 					"type": "special",
 					"condition": "Hit by the ammunition"
-				},
-				"duration":{
-					"value": 1,
-					"units": "round"
 				},
 				"target": {
 					"value": 1,
@@ -566,6 +572,7 @@
 					"scaling": "spell"
 				}
 			},
+			"foundryImg": "icons/magic/control/silhouette-fall-slip-prone.webp",
 			"featureType": [
 				"AM:ASO"
 			]
@@ -576,16 +583,33 @@
 			"page": 11,
 			"entries": [
 				"Your enchantment magic causes this shot to temporarily beguile its target. Choose one of your allies within 30 feet of the target. The creature hit by the arrow takes an extra {@dice 2d6} psychic damage, and must succeed on a Wisdom saving throw or it is {@condition charmed} by the chosen ally until the start of your next turn. This effect ends early if the chosen ally attacks the {@condition charmed} target, deals damage to it, or forces it to make a saving throw.",
-				"The psychic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level.",
-				{
-					"type": "inset",
-					"page": 0,
-					"name": "Damage formula",
-					"entries": [
-						"(2 + @scale.arcane-marksman.shots)d6"
-					]
-				}
+				"The psychic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level."			
 			],
+			"foundrySystem": {
+				"activation": {
+					"cost": 1,
+					"type": "special"
+				},
+				"range": {
+					"value": 0,
+					"long": 30,
+					"units": "feet"
+				  },
+				"ability": "int",
+				"actionType": "save",
+				"damage.parts": [
+					[
+						"(2 + @scale.arcane-marksman.shots)d6",
+						"psychic"
+					]
+				],
+				"save": {
+					"ability": "wis",
+					"dc": null,
+					"scaling": "spell"
+				}
+			},
+			"foundryImg": "https://i.imgur.com/nfROxKI.png",
 			"featureType": [
 				"AM:ASO"
 			]
@@ -596,16 +620,31 @@
 			"page": 12,
 			"entries": [
 				"You imbue your shot with force energy drawn from the school of evocation. The energy detonates after your attack. Immediately after the shot hits the creature, the target and all other creatures within 10 feet of it take {@dice 2d6} force damage each.",
-				"The force damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level.",
-				{
-					"type": "inset",
-					"page": 0,
-					"name": "Damage formula",
-					"entries": [
-						"(2 + @scale.arcane-marksman.shots)d6"
-					]
-				}
+				"The force damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level."
 			],
+			"foundrySystem": {
+				"activation": {
+					"cost": 1,
+					"type": "special"
+				},
+				"range": {
+					"value": 0,
+					"long": 10,
+					"units": "feet"
+				},
+				"target": {
+					"value": 1,
+					"type": "creature"
+				},
+				"ability": "int",
+				"damage.parts": [
+					[
+						"(2 + @scale.arcane-marksman.shots)d6",
+						"force"
+					]
+				]
+			},
+			"foundryImg": "icons/magic/fire/explosion-fireball-medium-orange.webp",
 			"featureType": [
 				"AM:ASO"
 			]
@@ -616,16 +655,32 @@
 			"page": 12,
 			"entries": [
 				"You weave necromantic magic into your shot. The creature hit by the shot takes an extra {@dice 2d6} necrotic damage. The target must also succeed on a Constitution saving throw, or the damage dealt by its weapon attacks is halved until the start of your next turn.",
-				"The necrotic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level.",
-				{
-					"type": "inset",
-					"page": 0,
-					"name": "Damage formula",
-					"entries": [
-						"(2 + @scale.arcane-marksman.shots)d6"
-					]
-				}
+				"The necrotic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level."
 			],
+			"foundrySystem": {
+				"activation": {
+					"cost": 1,
+					"type": "special"
+				},
+				"target": {
+					"value": 1,
+					"type": "creature"
+				},
+				"ability": "int",
+				"actionType": "save",
+				"damage.parts": [
+					[
+						"(2 + @scale.arcane-marksman.shots)d6",
+						"necrotic"
+					]
+				],
+				"save": {
+					"ability": "con",
+					"dc": null,
+					"scaling": "int"
+				}
+			},
+			"foundryImg": "icons/skills/ranged/arrow-gem-flying-poisoned-green.webp",
 			"featureType": [
 				"AM:ASO"
 			]
@@ -636,16 +691,37 @@
 			"page": 12,
 			"entries": [
 				"When this shot strikes its target, conjuration magic creates grasping, poisonous brambles, which wrap around the target. The creature hit by the shot takes an extra {@dice 2d6} poison damage, its speed is reduced by 10 feet, and it takes {@dice 2d6} slashing damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength ({@skill Athletics}) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this arcane shot option again.",
-				"The poison damage and slashing damage both increase to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level.",
-				{
-					"type": "inset",
-					"page": 0,
-					"name": "Damage formula",
-					"entries": [
-						"(2 + @scale.arcane-marksman.shots)d6"
-					]
-				}
+				"The poison damage and slashing damage both increase to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level."
 			],
+			"foundrySystem": {
+				"activation": {
+					"cost": 1,
+					"type": "special"
+				},
+				"duration": {
+				  "value": 1,
+				  "units": "minute"
+				},
+				"target": {
+				  "value": 1,
+				  "type": "creature"
+				},
+				"ability": "int",
+				"actionType": "abil",
+				"damage.parts": [
+					[
+						"(2 + @scale.arcane-marksman.shots)d6",
+						"poison"
+					]
+				],
+				"formula": "(2 + @scale.arcane-marksman.shots)d6",
+				"save": {
+					"ability": "",
+					"dc": null,
+					"scaling": "int"
+				}
+			},
+			"foundryImg": "icons/magic/nature/root-vine-thorned-coil-green.webp",
 			"featureType": [
 				"AM:ASO"
 			]
@@ -656,16 +732,39 @@
 			"page": 12,
 			"entries": [
 				"You use transmutation magic to give your shot an ethereal quality. When you use this option, you don't make an attack roll for the attack. Instead, the shot fires forward in a line that is 1 foot wide and 30 feet long, before disappearing. The shot passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a target takes damage as if it were hit by the shot, plus an extra {@dice 1d6} force damage. On a successful save, a target takes half as much damage.",
-				"When you reach 10th level in this subclass the range increases to 60 feet. At 18th level the force damage increases to {@dice 2d6}.",
-				{
-					"type": "inset",
-					"page": 0,
-					"name": "Damage formula",
-					"entries": [
-						"1d6 + abs(@scale.arcane-marksman.shots)d6"						
-					]
-				}
+				"When you reach 10th level in this subclass the range increases to 60 feet. At 18th level the force damage increases to {@dice 2d6}."
 			],
+			"foundrySystem": {
+				"activation": {
+					"cost": 1,
+					"type": "special"
+				},
+				"target": {
+				  "value": 30,
+				  "width": 1,
+				  "units": "ft",
+				  "type": "line"
+				},
+				"range": {
+					"value": 0,
+					"long": 30,
+					"units": "feet"
+				  },
+				"ability": "int",
+				"actionType": "save",
+				"damage.parts": [
+					[
+						"(1 + floor(abs(@scale.arcane-marksman.shots - (1/2))))d6",
+						"piercing"
+					]
+				],
+				"save": {
+					"ability": "dex",
+					"dc": null,
+					"scaling": "int"
+				}
+			},
+			"foundryImg": "icons/skills/ranged/arrow-flying-white-blue.webp",
 			"featureType": [
 				"AM:ASO"
 			]
@@ -676,16 +775,39 @@
 			"page": 12,
 			"entries": [
 				"Using divination magic, you grant your ammunition the ability to seek out a target. When you use this option, you don't make an attack roll for the attack. Instead, choose one creature you have seen in the past minute. The ammunition flies toward that creature, moving around corners if necessary and ignoring three-quarters cover and half cover. If the target is within the weapon's range and there is a path large enough for the ammunition to travel to the target, the target must make a Dexterity saving throw. Otherwise, the ammunition disappears after traveling as far as it can. On a failed save, the target takes damage as if it were hit by the ammunition, plus an extra separate {@dice 1d6} of the weapons damage type, and you learn the target's current location. On a successful save, the target takes half as much weapon damage, no extra damage and you don't learn its location.",
-				"The extra weapon damage impacts again for another {@dice 1d6} when you reach 10th level in this class and a total of three times at 18th level.",
-				{
-					"type": "inset",
-					"page": 0,
-					"name": "Damage formula",
-					"entries": [
-						"(1 + @scale.arcane-marksman.shots)d6"
-					]
-				}
+				"The extra weapon damage impacts again for another {@dice 1d6} when you reach 10th level in this class and a total of three times at 18th level."
 			],
+			"foundrySystem": {
+				"activation": {
+					"cost": 1,
+					"type": "special"
+				},
+				"target": {
+				  "value": 30,
+				  "width": 1,
+				  "units": "ft",
+				  "type": "line"
+				},
+				"range": {
+					"value": 0,
+					"long": 30,
+					"units": "feet"
+				  },
+				"ability": "int",
+				"actionType": "save",
+				"damage.parts": [
+					[
+						"(@scale.arcane-marksman.shots + 1)d6",
+						"force"
+					]
+				],
+				"save": {
+					"ability": "dex",
+					"dc": null,
+					"scaling": "int"
+				}
+			},
+			"foundryImg": "icons/skills/targeting/target-strike-triple-blue.webp",
 			"featureType": [
 				"AM:ASO"
 			]
@@ -696,16 +818,28 @@
 			"page": 13,
 			"entries": [
 				"You weave illusion magic into your shot, causing it to occlude your foe's vision with shadows. The creature hit by the shot takes an extra {@dice 2d6} psychic damage, and must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away from itself until the start of your next turn.",
-				"The psychic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level.",
-				{
-					"type": "inset",
-					"page": 0,
-					"name": "Damage formula",
-					"entries": [
-						"(2 + @scale.arcane-marksman.shots)d6"
-					]
-				}
+				"The psychic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level."
 			],
+			"foundrySystem": {
+				"activation": {
+					"cost": 1,
+					"type": "special"
+				},
+				"ability": "int",
+				"actionType": "save",
+				"damage.parts": [
+					[
+						"(2 + @scale.arcane-marksman.shots)d6",
+						"psychic"
+					]
+				],
+				"save": {
+					"ability": "dex",
+					"dc": null,
+					"scaling": "int"
+				}
+			},
+			"foundryImg": "icons/skills/ranged/arrow-flying-gray-brown.webp",
 			"featureType": [
 				"AM:ASO"
 			]
