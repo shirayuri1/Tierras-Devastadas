@@ -2,7 +2,7 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "TierrasDevastadasThief",
+				"json": "TDKleptoThief",
 				"abbreviation": "TierrasDevastadasThief",
 				"full": "Tierras Devastadas The Thief",
 				"authors": [
@@ -15,13 +15,16 @@
 				"url": "https://docs.google.com/document/d/1YvvrajMf3rjyVm6mlCbZaMEGIu_2e3Keda971zkXVmo/edit",
 				"targetSchema": "1.0"
 			}
-		],		
+		],
+		"optionalFeatureTypes":{
+			"TT:SSWm": "Ladron; Second-Story Work movement"
+		},		
 		"dateAdded": 1708191311,
 		"dateLastModified": 1708191311	   
 	},
 	"subclass":[
 		{
-			"name": "The Thief",
+			"name": "The Klepto Thief",
 			"source": "TierrasDevastadasThief",
 			"page": 11,
 			"className": "Rogue",
@@ -92,7 +95,11 @@
 			"header": 2,
 			"entries": [
 				"Also at 3rd level, you gain climbing and swimming speed equal to your walking speed. Furthermore, your running jump now adds your dexterity modifier to the distance and falling from 15 ft or less won't make you fall {@condition Prone} or recieve fall damage.",
-				"Lastly, trying to Roll across a hostile creature will only cost you 5 ft, and passing through your allies won't cost you any extra movement."							
+				"Lastly, trying to Roll across a hostile creature will only cost you 5 ft, and passing through your allies won't cost you any extra movement.",
+				{
+					"type": "refOptionalfeature",
+					"optionalfeature": "Remarkable Athlete Effects|TierrasDevastadasThief"
+				}
 			]
 		},
 		{
@@ -142,6 +149,37 @@
 			"entries": [
 				"From this level onwards you get a second bonus action."				
 			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Second-Story Work movement",
+			"source": "TierrasDevastadasThief",
+			"page": 11,
+			"entries": [
+			],
+			"featureType": [
+				"TT:SSWm"
+			],
+            "foundryEffects": [
+				{
+					"name": "SSW: Movement",
+					"transfer": true,
+					"changes": [
+						{
+						  "key": "system.attributes.movement.climb",
+						  "mode": 4,
+						  "value": "@data.attributes.movement.walk"
+						},
+						{
+						  "key": "system.attributes.movement.swim",
+						  "mode": 4,
+						  "value": "@data.attributes.movement.walk"
+						}
+					]
+				}
+			],
+            "foundryImg": "icons/weapons/bows/shortbow-recurve-yellow.webp"
 		}
 	]
 }
