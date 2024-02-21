@@ -759,8 +759,7 @@
 				  {
 					"key": "system.attributes.movement.climb",
 					"mode": 4,
-					"value": "@data.attributes.movement.walk",
-					"priority": null
+					"value": "@data.attributes.movement.walk"
 				  },
 				  {
 					"key": "system.attributes.movement.swim",
@@ -769,8 +768,7 @@
 				  }
 				]
 			  }
-			]
-	
+			]	
 		}
 	]
 }
