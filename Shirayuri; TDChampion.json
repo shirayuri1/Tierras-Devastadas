@@ -17,7 +17,8 @@
 			}
 		],
 		"optionalFeatureTypes":{
-			"DC:DCS": "Champion; Distinguished Combat Style"
+			"DC:DCS": "Champion; Distinguished Combat Style",
+			"DC:RAE": "Champion; Remarkable Athlete Effects"
 		},
 		"dateAdded": 1708272739,
 		"dateLastModified": 1708272739
@@ -736,39 +737,38 @@
 				}
             ],
             "foundryImg": "https://i.imgur.com/hCn84D5.png"
-		}
-	],
-	"foundrySubclassFeature": [
+		},
 		{
-			"name": "Remarkable Athlete",
+			"name": "Remarkable Athlete Effects",
 			"source": "TDDistinguishedChampion",
-			"className": "Fighter",
-			"classSource": "PHB",
-			"subclassShortName": "Champion",
-			"subclassSource": "TDDistinguishedChampion",
-			"level": 10,
-			"effects": [
-			  {
-				"name": "Remarkable Athlete",
-				"changes": [
-				  {
-					"key": "flags.dnd5e.remarkableAthlete",
-					"mode": 0,
-					"value": "true"
-				  },
-				  {
-					"key": "system.attributes.movement.climb",
-					"mode": 4,
-					"value": "@data.attributes.movement.walk"
-				  },
-				  {
-					"key": "system.attributes.movement.swim",
-					"mode": 4,
-					"value": "@data.attributes.movement.walk"
-				  }
-				]
-			  }
-			]	
+			"page": 13,
+			"entries": [],
+			"featureType": [
+				"DC:DCS"
+			],
+            "foundryEffects": [
+				{
+					"name": "DFS: Unarmed Fighting",
+					"transfer": true,
+					"changes": [
+						{
+						  "key": "flags.dnd5e.remarkableAthlete",
+						  "mode": 0,
+						  "value": "true"
+						},
+						{
+						  "key": "system.attributes.movement.climb",
+						  "mode": 4,
+						  "value": "@data.attributes.movement.walk"
+						},
+						{
+						  "key": "system.attributes.movement.swim",
+						  "mode": 4,
+						  "value": "@data.attributes.movement.walk"
+						}
+					]
+				}
+            ]
 		}
 	]
 }
