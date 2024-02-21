@@ -383,7 +383,11 @@
 			"header": 2,
 			"entries": [
 				"You gain proficiency in {@skill Athletics} or {@skill Acrobatics}, if you already had proficiency you gain expertise.",
-				"You can add half your proficiency bonus (rounded up) on skill checks that rely on Strength, Dexterity, or Constitution and that do not already apply your proficiency. Additionally, thanks to your immaculate physical condition, you gain climbing and swimming speed equal to your walking speed."
+				"You can add half your proficiency bonus (rounded up) on skill checks that rely on Strength, Dexterity, or Constitution and that do not already apply your proficiency. Additionally, thanks to your immaculate physical condition, you gain climbing and swimming speed equal to your walking speed.",
+				{
+					"type": "refOptionalfeature",
+					"optionalfeature": "Remarkable Athlete Effects|TDDistinguishedChampion"
+				}
 			],
 			"skillProficiencies":[
 				{
