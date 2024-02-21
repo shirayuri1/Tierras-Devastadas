@@ -2,9 +2,9 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "TDPotB",
-				"abbreviation": "TDPotB",
-				"full": "Tierras Devastadas Path of the Berserker",
+				"json": "TierrasDevastadasMadBerserker",
+				"abbreviation": "TierrasDevastadasMadBerserker",
+				"full": "Tierras Devastadas Path of the Mad Berserker",
 				"authors": [
 					"Hcito"
 				],
@@ -21,14 +21,14 @@
 	},
 	"subclass": [
 		{
-			"name": "The Berserker",
+			"name": "The Mad Berserker",
 			"subclassFeatures": [
-				"Path of the Berserker|Barbarian||Berserker|TDPotB|3|TDPotB",
-				"Simple Mind|Barbarian||Berserker|TDPotB|6|TDPotB",
-				"Negligent Attack|Barbarian||Berserker|TDPotB|10|TDPotB",
-				"Violent Retaliation|Barbarian||Berserker|TDPotB|14|TDPotB"
+				"Path of the Mad Berserker|Barbarian||Berserker|TierrasDevastadasMadBerserker|3|TierrasDevastadasMadBerserker",
+				"Simple Mind|Barbarian||Berserker|TierrasDevastadasMadBerserker|6|TierrasDevastadasMadBerserker",
+				"Negligent Attack|Barbarian||Berserker|TierrasDevastadasMadBerserker|10|TierrasDevastadasMadBerserker",
+				"Violent Retaliation|Barbarian||Berserker|TierrasDevastadasMadBerserker|14|TierrasDevastadasMadBerserker"
 			],
-			"source": "TDPotB",
+			"source": "TierrasDevastadasMadBerserker",
 			"shortName": "Berserker",
 			"className": "Barbarian",
 			"classSource": "PHB"
@@ -36,46 +36,47 @@
 	],
 	"subclassFeature": [
 		{
-			"name": "Path of the Berserker",
-			"source": "TDPotB",
+			"name": "Path of the Mad Berserker",
+			"source": "TierrasDevastadasMadBerserker",
 			"className": "Barbarian",
 			"classSource": "PHB",
 			"subclassShortName": "Berserker",
-			"subclassSource": "TDPotB",
+			"subclassSource": "TierrasDevastadasMadBerserker",
 			"level": 3,
 			"entries": [
 				"For some Barbarians, fury is only the means to achieve an objective, the objective being violence. The path of the Berserker is a path of limitless violence soaked in blood. When you enter the berserker rage, you enjoy the chaos of battle, without worries such as your health or safety.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Frenzy|Barbarian||Berserker|TDPotB|3|TDPotB"
+					"subclassFeature": "Frenzy|Barbarian||Berserker|TierrasDevastadasMadBerserker|3|TierrasDevastadasMadBerserker"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Intimidating Presence|Barbarian||Berserker|TDPotB|3|TDPotB"
+					"subclassFeature": "Intimidating Presence|Barbarian||Berserker|TierrasDevastadasMadBerserker|3|TierrasDevastadasMadBerserker"
 				}
 			]
 		},
 		{
 			"name": "Frenzy",
-			"source": "TDPotB",
+			"source": "TierrasDevastadasMadBerserker",
 			"className": "Barbarian",
 			"classSource": "PHB",
 			"subclassShortName": "Berserker",
-			"subclassSource": "TDPotB",
+			"subclassSource": "TierrasDevastadasMadBerserker",
 			"level": 3,
 			"header": 2,
 			"entries": [
 				"Starting at this level, your reckless attacks turn fury into a state of frenzy that alters your mind in search of violence.",
 				"While raging, all your attacks can become reckless attacks, and you can make a melee reckless attack with your bonus action, including the one used to enter a rage."
-			]
+			],
+			"foundryImg": "icons/skills/wounds/anatomy-organ-heart-red.webp"
 		},
 		{
 			"name": "Intimidating Presence",
-			"source": "TDPotB",
+			"source": "TierrasDevastadasMadBerserker",
 			"className": "Barbarian",
 			"classSource": "PHB",
 			"subclassShortName": "Berserker",
-			"subclassSource": "TDPotB",
+			"subclassSource": "TierrasDevastadasMadBerserker",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -84,11 +85,11 @@
 		},
 		{
 			"name": "Simple Mind",
-			"source": "TDPotB",
+			"source": "TierrasDevastadasMadBerserker",
 			"className": "Barbarian",
 			"classSource": "PHB",
 			"subclassShortName": "Berserker",
-			"subclassSource": "TDPotB",
+			"subclassSource": "TierrasDevastadasMadBerserker",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -99,11 +100,11 @@
 		},
 		{
 			"name": "Negligent Attack",
-			"source": "TDPotB",
+			"source": "TierrasDevastadasMadBerserker",
 			"className": "Barbarian",
 			"classSource": "PHB",
 			"subclassShortName": "Berserker",
-			"subclassSource": "TDPotB",
+			"subclassSource": "TierrasDevastadasMadBerserker",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -123,11 +124,11 @@
 		},
 		{
 			"name": "Violent Retaliation",
-			"source": "TDPotB",
+			"source": "TierrasDevastadasMadBerserker",
 			"className": "Barbarian",
 			"classSource": "PHB",
 			"subclassShortName": "Berserker",
-			"subclassSource": "TDPotB",
+			"subclassSource": "TierrasDevastadasMadBerserker",
 			"level": 14,
 			"header": 2,
 			"entries": [

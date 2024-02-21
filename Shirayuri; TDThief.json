@@ -17,7 +17,7 @@
 			}
 		],
 		"optionalFeatureTypes":{
-			"TT:SSWm": "Ladron; Second-Story Work movement"
+			"KT:SSWm": "Ladron; Second-Story Work movement"
 		},		
 		"dateAdded": 1708191311,
 		"dateLastModified": 1708191311	   
@@ -159,7 +159,7 @@
 			"entries": [
 			],
 			"featureType": [
-				"TT:SSWm"
+				"KT:SSWm"
 			],
             "foundryEffects": [
 				{
