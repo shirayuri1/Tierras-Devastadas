@@ -72,7 +72,8 @@
 					},
 					"title": "Shots"
 				}
-			]
+			],
+			"foundryImg": "icons/skills/ranged/target-bullseye-arrow-glowing.webp"
 		}
 	],
 	"subclassFeature":[
