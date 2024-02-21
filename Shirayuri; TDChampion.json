@@ -744,11 +744,11 @@
 			"page": 13,
 			"entries": [],
 			"featureType": [
-				"DC:DCS"
+				"DC:RAE"
 			],
             "foundryEffects": [
 				{
-					"name": "DFS: Unarmed Fighting",
+					"name": "Remarkable Athlete Effects",
 					"transfer": true,
 					"changes": [
 						{
