@@ -20,7 +20,7 @@
 			"AB:ASO": "Arcane Bersaglieri; Arcane Shot Options"
 		},
 		"dateAdded": 1708191311,
-		"dateLastModified": 1708191311       
+		"dateLastModified": 1708191311
 	},
 	"subclass":[
 		{
@@ -595,7 +595,7 @@
 					"value": 0,
 					"long": 30,
 					"units": "feet"
-				  },
+					},
 				"ability": "int",
 				"actionType": "save",
 				"damage.parts": [
@@ -700,12 +700,12 @@
 					"type": "special"
 				},
 				"duration": {
-				  "value": 1,
-				  "units": "minute"
+					"value": 1,
+					"units": "minute"
 				},
 				"target": {
-				  "value": 1,
-				  "type": "creature"
+					"value": 1,
+					"type": "creature"
 				},
 				"ability": "int",
 				"actionType": "abil",
@@ -741,16 +741,16 @@
 					"type": "special"
 				},
 				"target": {
-				  "value": 30,
-				  "width": 1,
-				  "units": "ft",
-				  "type": "line"
+					"value": 30,
+					"width": 1,
+					"units": "ft",
+					"type": "line"
 				},
 				"range": {
 					"value": 0,
 					"long": 30,
 					"units": "feet"
-				  },
+					},
 				"ability": "int",
 				"actionType": "save",
 				"damage.parts": [
@@ -784,16 +784,16 @@
 					"type": "special"
 				},
 				"target": {
-				  "value": 30,
-				  "width": 1,
-				  "units": "ft",
-				  "type": "line"
+					"value": 30,
+					"width": 1,
+					"units": "ft",
+					"type": "line"
 				},
 				"range": {
 					"value": 0,
 					"long": 30,
 					"units": "feet"
-				  },
+					},
 				"ability": "int",
 				"actionType": "save",
 				"damage.parts": [

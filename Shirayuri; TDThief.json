@@ -20,7 +20,7 @@
 			"KT:SSWm": "Ladron; Second-Story Work movement"
 		},		
 		"dateAdded": 1708191311,
-		"dateLastModified": 1708191311	   
+		"dateLastModified": 1708191311
 	},
 	"subclass":[
 		{
@@ -161,25 +161,25 @@
 			"featureType": [
 				"KT:SSWm"
 			],
-            "foundryEffects": [
+			"foundryEffects": [
 				{
 					"name": "SSW: Movement",
 					"transfer": true,
 					"changes": [
 						{
-						  "key": "system.attributes.movement.climb",
-						  "mode": 4,
-						  "value": "@data.attributes.movement.walk"
+							"key": "system.attributes.movement.climb",
+							"mode": 4,
+							"value": "@data.attributes.movement.walk"
 						},
 						{
-						  "key": "system.attributes.movement.swim",
-						  "mode": 4,
-						  "value": "@data.attributes.movement.walk"
+							"key": "system.attributes.movement.swim",
+							"mode": 4,
+							"value": "@data.attributes.movement.walk"
 						}
 					]
 				}
 			],
-            "foundryImg": "icons/weapons/bows/shortbow-recurve-yellow.webp"
+			"foundryImg": "icons/weapons/bows/shortbow-recurve-yellow.webp"
 		}
 	]
 }

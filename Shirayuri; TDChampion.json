@@ -40,7 +40,7 @@
 			"shortName": "Champion",
 			"className": "Fighter",
 			"classSource": "PHB",
-            "foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/maneuver-sword-katana-yellow.webp"
+			"foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/maneuver-sword-katana-yellow.webp"
 		}
 	],
 	"subclassFeature": [
@@ -64,7 +64,7 @@
 					"subclassFeature": "Distinguished Combat Style|Fighter||Champion|TDDistinguishedChampion|3|TDDistinguishedChampion"
 				}
 			],
-            "foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/maneuver-sword-katana-yellow.webp"
+			"foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/maneuver-sword-katana-yellow.webp"
 		},
 		{
 			"name": "Improved Critical",
@@ -96,7 +96,7 @@
 				"uses": {
 					"max": "@prof",
 					"per": "lr",
-                    "value": 1
+					"value": 1
 				}
 			}
 		},
@@ -249,7 +249,7 @@
 					]
 				}			
 			],
-            "foundryImg": "icons/commodities/treasure/medal-ribbon-star-gold-red.webp"
+			"foundryImg": "icons/commodities/treasure/medal-ribbon-star-gold-red.webp"
 		},
 		{
 			"name": "Critical Versatility",
@@ -305,7 +305,7 @@
 					"value": 2
 				}
 			},
-            "foundryImg": "https://i.imgur.com/hONNH37.jpg"
+			"foundryImg": "https://i.imgur.com/hONNH37.jpg"
 		},
 		{
 			"name": "Additional Fighting Style",
@@ -396,7 +396,7 @@
 				{
 					"acrobatics": true
 				},
-                {}
+				{}
 			],
 			"expertise": [
 				{
@@ -405,7 +405,7 @@
 				{
 					"acrobatics": true
 				},
-                {}
+				{}
 			]		
 		},
 		{
@@ -421,7 +421,7 @@
 			"entries": [
 				"When you score a critical hit with a weapon attack, you can roll one of the weapon's damage dice an additional time and add it as extra damage of the weapon's damage type."
 			],
-            "foundryImg": "https://i.imgur.com/lyNWAos.png"
+			"foundryImg": "https://i.imgur.com/lyNWAos.png"
 		},
 		{
 			"name": "Superior Critical",
@@ -450,7 +450,7 @@
 			"entries": [
 				"When using Indomitable you can keep any of the results. Additionally, your second wind feature increases his healing by 1d10."
 			],
-            "foundryImg": "icons/skills/wounds/anatomy-organ-heart-red.webp"
+			"foundryImg": "icons/skills/wounds/anatomy-organ-heart-red.webp"
 		},
 		{
 			"name": "Survivor",
@@ -478,7 +478,7 @@
 			"featureType": [
 				"DC:DCS"
 			],
-            "foundryEffects": [
+			"foundryEffects": [
 				{
 					"name": "DFS: Archery",
 					"transfer": true,
@@ -496,20 +496,20 @@
 					]
 				}
 			],
-            "foundryImg": "icons/weapons/bows/shortbow-recurve-yellow.webp"
+			"foundryImg": "icons/weapons/bows/shortbow-recurve-yellow.webp"
 		},
 		{
 			"name": "Distinguished Blind Fighting",
 			"source": "TDDistinguishedChampion",
 			"page": 11,
 			"entries": [
-                "You have {@sense blindsight} with a range of 15 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're  blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.",
-                "You also have advantage on Wisdom ({@skill perception}) checks that rely on hearing"
+				"You have {@sense blindsight} with a range of 15 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.",
+				"You also have advantage on Wisdom ({@skill perception}) checks that rely on hearing"
 			],
 			"featureType": [
 				"DC:DCS"
 			],
-            "foundryEffects": [
+			"foundryEffects": [
 				{
 					"name": "DFS: Blind Fighting",
 					"transfer": true,
@@ -522,7 +522,7 @@
 					]
 				}
 			],
-            "foundryImg": "https://i.imgur.com/bKEkKaB.png"
+			"foundryImg": "https://i.imgur.com/bKEkKaB.png"
 		},
 		{
 			"name": "Distinguished Defense",
@@ -534,7 +534,7 @@
 			"featureType": [
 				"DC:DCS"
 			],
-            "foundryEffects": [
+			"foundryEffects": [
 				{
 					"name": "DFS: Defense",
 					"transfer": true,
@@ -547,19 +547,19 @@
 					]
 				}
 			],
-            "foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/shield/heater-stone-orange.webp"
+			"foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/shield/heater-stone-orange.webp"
 		},
 		{
 			"name": "Distinguished Dueling",
 			"source": "TDDistinguishedChampion",
 			"page": 12,
 			"entries": [
-                "When you are wielding a melee weapon in one hand and no other weapons, you gain a +3 bonus to damage rolls with that weapon and you can replace any of your  Opportunity Attacks with the {@skill Shove} action."
+				"When you are wielding a melee weapon in one hand and no other weapons, you gain a +3 bonus to damage rolls with that weapon and you can replace any of your Opportunity Attacks with the {@skill Shove} action."
 			],
 			"featureType": [
 				"DC:DCS"
 			],
-            "foundryEffects": [
+			"foundryEffects": [
 				{
 					"name": "DFS: Dueling",
 					"transfer": true,
@@ -572,7 +572,7 @@
 					]
 				}
 			],
-            "foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/hand-grip-sword-orange.webp"
+			"foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/hand-grip-sword-orange.webp"
 		},
 		{
 			"name": "Distinguished Great Weapon Fighting",
@@ -584,7 +584,7 @@
 			"featureType": [
 				"DC:DCS"
 			],
-            "foundryEffects": [
+			"foundryEffects": [
 				{
 					"name": "DFS: Great Weapon Fighting",
 					"transfer": true,
@@ -597,7 +597,7 @@
 					]
 				}
 			],
-            "foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/strike-sword-steel-yellow.webp"
+			"foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/strike-sword-steel-yellow.webp"
 		},
 		{
 			"name": "Distinguished Interception",
@@ -609,7 +609,7 @@
 			"featureType": [
 				"DC:DCS"
 			],
-            "foundrySystem": {
+			"foundrySystem": {
 				"actionType": "heal",
 				"activation": {
 					"cost": 1,
@@ -622,7 +622,7 @@
 					]
 				]
 			},
-            "foundryImg": "https://i.imgur.com/pTz5JTq.png"
+			"foundryImg": "https://i.imgur.com/pTz5JTq.png"
 		},
 		{
 			"name": "Distinguished Protection",
@@ -634,7 +634,7 @@
 			"featureType": [
 				"DC:DCS"
 			],
-            "foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/magic/defensive/shield-barrier-deflect-gold.webp"
+			"foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/magic/defensive/shield-barrier-deflect-gold.webp"
 		},
 		{
 			"name": "Distinguished Superior Technique",
@@ -642,12 +642,12 @@
 			"page": 13,
 			"entries": [
 				"You learn one maneuver of your choice from among those available to the Battle Master archetype. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).",
-                "You gain two superiority dice, that are a d8 each (these dice are added to any superiority dice you have from another source). These dice are used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest."
+				"You gain two superiority dice, that are a d8 each (these dice are added to any superiority dice you have from another source). These dice are used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest."
 			],
 			"featureType": [
 				"DC:DCS"
 			],
-            "foundrySystem": {
+			"foundrySystem": {
 				"activation": {
 					"type": "special"
 				},
@@ -656,14 +656,14 @@
 					"per": "sr",
 					"value": 2
 				},
-                "actionType": "utility",
-                "damage.parts": [
+				"actionType": "utility",
+				"damage.parts": [
 					[
 						"1d8"
 					]
-                ]
+				]
 			},
-            "foundryImg": "https://i.imgur.com/FYBOu0Q.png"
+			"foundryImg": "https://i.imgur.com/FYBOu0Q.png"
 		},
 		{
 			"name": "Distinguished Thrown Weapon Fighting",
@@ -671,12 +671,12 @@
 			"page": 13,
 			"entries": [
 				"You can draw a weapon that has the thrown property or pick a weapon if it is within 5 ft of you as part of the attack you make with the weapon, and when you hit with a ranged weapon attack using a thrown weapon you gain +2 bonus to the damage roll.",
-                "In addition, being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged weapon attack."
+				"In addition, being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged weapon attack."
 			],
 			"featureType": [
 				"DC:DCS"
 			],
-            "foundryEffects": [
+			"foundryEffects": [
 				{
 					"name": "DFS: Thrown Weapon Fighting",
 					"transfer": true,
@@ -688,8 +688,8 @@
 						}
 					]
 				}
-            ],
-            "foundryImg": "https://i.imgur.com/aRH6jYe.png"
+			],
+			"foundryImg": "https://i.imgur.com/aRH6jYe.png"
 		},
 		{
 			"name": "Distinguished Two-Weapon Fighting",
@@ -701,7 +701,7 @@
 			"featureType": [
 				"DC:DCS"
 			],
-            "foundryEffects": [
+			"foundryEffects": [
 				{
 					"name": "DFS: Two-Weapon Fighting",
 					"transfer": true,
@@ -713,8 +713,8 @@
 						}
 					]
 				}
-            ],
-            "foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/weapons-crossed-swords-white-blue.webp"
+			],
+			"foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/weapons-crossed-swords-white-blue.webp"
 		},
 		{
 			"name": "Distinguished Unarmed Fighting",
@@ -722,12 +722,12 @@
 			"page": 13,
 			"entries": [
 				"Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier on a hit. If you aren't wielding any weapons or a shield when you make the attack roll, the d6 becomes a d8.",
-                "At the start of each of your turns, you can deal 1d4 + your Strength modifier bludgeoning damage to one creature grappled by you and all your unarmed strikes against that creature add your Strength modifier to the damage."
+				"At the start of each of your turns, you can deal 1d4 + your Strength modifier bludgeoning damage to one creature grappled by you and all your unarmed strikes against that creature add your Strength modifier to the damage."
 			],
 			"featureType": [
 				"DC:DCS"
 			],
-            "foundryEffects": [
+			"foundryEffects": [
 				{
 					"name": "DFS: Unarmed Fighting",
 					"transfer": true,
@@ -739,8 +739,8 @@
 						}
 					]
 				}
-            ],
-            "foundryImg": "https://i.imgur.com/hCn84D5.png"
+			],
+			"foundryImg": "https://i.imgur.com/hCn84D5.png"
 		},
 		{
 			"name": "Remarkable Athlete Effects",
@@ -750,29 +750,29 @@
 			"featureType": [
 				"DC:RAE"
 			],
-            "foundryEffects": [
+			"foundryEffects": [
 				{
 					"name": "Remarkable Athlete Effects",
 					"transfer": true,
 					"changes": [
 						{
-						  "key": "flags.dnd5e.remarkableAthlete",
-						  "mode": 0,
-						  "value": "true"
+							"key": "flags.dnd5e.remarkableAthlete",
+							"mode": 0,
+							"value": "true"
 						},
 						{
-						  "key": "system.attributes.movement.climb",
-						  "mode": 4,
-						  "value": "@data.attributes.movement.walk"
+							"key": "system.attributes.movement.climb",
+							"mode": 4,
+							"value": "@data.attributes.movement.walk"
 						},
 						{
-						  "key": "system.attributes.movement.swim",
-						  "mode": 4,
-						  "value": "@data.attributes.movement.walk"
+							"key": "system.attributes.movement.swim",
+							"mode": 4,
+							"value": "@data.attributes.movement.walk"
 						}
 					]
 				}
-            ]
+			]
 		}
 	]
 }
