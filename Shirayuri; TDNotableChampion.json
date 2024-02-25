@@ -244,7 +244,7 @@
 				},
 				"You can use this trait a number of times equal to your proficiency bonus, and you regain all uses on a short or long rest."
 			],
-			"foundrySystem": {
+			"foundryData": {
 				"activation": {
 					"type": "special"
 				},
