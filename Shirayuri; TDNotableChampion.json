@@ -18,7 +18,7 @@
 		],
 		"optionalFeatureTypes":{
 			"NC:NFS": "Champion; Notable Fighting Style",
-			"NC:RAE": "Champion; Remarkable Athlete Effects"
+			"NC:RAE": "Champion; Remarkable Athlete optional"
 		},
 		"dateAdded": 1708272739,
 		"dateLastModified": 1708272739
@@ -52,7 +52,7 @@
 					}
 				},
 				{
-					"name": "Remarkable Athlete",
+					"name": "Remarkable Athlete progresion",
 					"featureType": [
 						"NC:RAE"
 					],
@@ -244,16 +244,6 @@
 				},
 				"You can use this trait a number of times equal to your proficiency bonus, and you regain all uses on a short or long rest."
 			],
-			"foundryData": {
-				"activation": {
-					"type": "special"
-				},
-				"uses": {
-					"max": "@prof",
-					"per": "sr",
-					"value": 2
-				}
-			},
 			"foundryImg": "https://i.imgur.com/hONNH37.jpg"
 		},
 		{
@@ -284,61 +274,6 @@
 				"When you score a critical hit with a weapon attack, you can roll one of the weapon's damage dice an additional time and add it as extra damage of the weapon's damage type."
 			],
 			"foundryImg": "https://i.imgur.com/lyNWAos.png"
-		},
-		{
-			"name": "Remarkable Athlete",
-			"source": "TDNotableChampion",
-			"page": 70,
-			"className": "Fighter",
-			"classSource": "PHB",
-			"subclassShortName": "Champion",
-			"subclassSource": "TDNotableChampion",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"You gain proficiency in {@skill Athletics} or {@skill Acrobatics}, if you already had proficiency you gain expertise.",
-				"You can add half your proficiency bonus (rounded up) on skill checks that rely on Strength, Dexterity, or Constitution and that do not already apply your proficiency. Additionally, thanks to your immaculate physical condition, you gain climbing and swimming speed equal to your walking speed."
-			],			
-			"skillProficiencies":[
-				{
-					"athletics": true
-				},
-				{
-					"acrobatics": true
-				},
-				{}
-			],
-			"expertise": [
-				{
-					"athletics": true
-				},
-				{
-					"acrobatics": true
-				},
-				{}
-			],
-			"foundrySystem": {
-				"type": "effect",
-				"name": "Remarkable Athlete Effects",
-				"transfer": true,
-				"changes": [
-					{
-						"key": "flags.dnd5e.remarkableAthlete",
-						"mode": 0,
-						"value": "true"
-					},
-					{
-						"key": "data.attributes.movement.climb",
-						"mode": 4,
-						"value": "@data.attributes.movement.walk"
-					},
-					{
-						"key": "data.attributes.movement.swim",
-						"mode": 4,
-						"value": "@data.attributes.movement.walk"
-					}
-				]				
-			}
 		},
 		{
 			"name": "Superior Critical",
@@ -658,6 +593,45 @@
 				}
 			],
 			"foundryImg": "https://i.imgur.com/hCn84D5.png"
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"name": "Remarkable Athlete",
+			"source": "TDNotableChampion",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Champion",
+			"subclassSource": "TDNotableChampion",
+			"level": 10,
+			"entries": [
+				"You gain proficiency in {@skill Athletics} or {@skill Acrobatics}, if you already had proficiency you gain expertise.",
+				"You can add half your proficiency bonus (rounded up) on skill checks that rely on Strength, Dexterity, or Constitution and that do not already apply your proficiency. Additionally, thanks to your immaculate physical condition, you gain climbing and swimming speed equal to your walking speed."
+			],
+			"effects": [				
+				{
+					"name": "Remarkable Athlete Effects",
+					"img": "https://assets.forge-vtt.com/bazaar/core/icons/skills/movement/feet-winged-boots-brown.webp",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "flags.dnd5e.remarkableAthlete",
+							"mode": 0,
+							"value": "true"
+						},
+						{
+							"key": "data.attributes.movement.climb",
+							"mode": 4,
+							"value": "@data.attributes.movement.walk"
+						},
+						{
+							"key": "data.attributes.movement.swim",
+							"mode": 4,
+							"value": "@data.attributes.movement.walk"
+						}
+					]
+				}
+			]
 		}
 	]
 }
