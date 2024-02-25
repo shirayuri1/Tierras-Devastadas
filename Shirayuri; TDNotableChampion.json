@@ -338,8 +338,7 @@
 						"value": "@data.attributes.movement.walk"
 					}
 				]				
-			},
-			"foundryImg": "https://i.imgur.com/lyNWAos.png"
+			}
 		},
 		{
 			"name": "Superior Critical",
