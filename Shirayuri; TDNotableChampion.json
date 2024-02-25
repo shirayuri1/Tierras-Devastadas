@@ -17,8 +17,7 @@
 			}
 		],
 		"optionalFeatureTypes":{
-			"NC:NFS": "Champion; Notable Fighting Style",
-			"NC:RAE": "Champion; Remarkable Athlete optional"
+			"NC:NFS": "Champion; Notable Fighting Style"
 		},
 		"dateAdded": 1708272739,
 		"dateLastModified": 1708272739
@@ -259,6 +258,39 @@
 			"entries": [
 				"At 10th level, you can choose a second option from the Fighting Style class feature."
 			]
+		},
+		{
+			"name": "Remarkable Athlete",
+			"source": "TDNotableChampion",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Champion",
+			"subclassSource": "TDNotableChampion",
+			"level": 10,
+			"entries": [
+				"You gain proficiency in {@skill Athletics} or {@skill Acrobatics}, if you already had proficiency you gain expertise.",
+				"You can add half your proficiency bonus (rounded up) on skill checks that rely on Strength, Dexterity, or Constitution and that do not already apply your proficiency. Additionally, thanks to your immaculate physical condition, you gain climbing and swimming speed equal to your walking speed."
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true
+				},
+				{
+					"acrobatics": true
+				},
+				{}
+			],
+			"expertise": [
+				{
+					"athletics": true
+				},
+				{
+					"acrobatics": true
+				},
+				{}
+			],
+			"foundryImg": "https://i.imgur.com/lyNWAos.png"
 		},
 		{
 			"name": "Stay on Top",
@@ -593,45 +625,6 @@
 				}
 			],
 			"foundryImg": "https://i.imgur.com/hCn84D5.png"
-		}
-	],
-	"foundrySubclassFeature": [
-		{
-			"name": "Remarkable Athlete",
-			"source": "TDNotableChampion",
-			"className": "Fighter",
-			"classSource": "PHB",
-			"subclassShortName": "Champion",
-			"subclassSource": "TDNotableChampion",
-			"level": 10,
-			"entries": [
-				"You gain proficiency in {@skill Athletics} or {@skill Acrobatics}, if you already had proficiency you gain expertise.",
-				"You can add half your proficiency bonus (rounded up) on skill checks that rely on Strength, Dexterity, or Constitution and that do not already apply your proficiency. Additionally, thanks to your immaculate physical condition, you gain climbing and swimming speed equal to your walking speed."
-			],
-			"effects": [				
-				{
-					"name": "Remarkable Athlete Effects",
-					"img": "https://assets.forge-vtt.com/bazaar/core/icons/skills/movement/feet-winged-boots-brown.webp",
-					"transfer": true,
-					"changes": [
-						{
-							"key": "flags.dnd5e.remarkableAthlete",
-							"mode": 0,
-							"value": "true"
-						},
-						{
-							"key": "data.attributes.movement.climb",
-							"mode": 4,
-							"value": "@data.attributes.movement.walk"
-						},
-						{
-							"key": "data.attributes.movement.swim",
-							"mode": 4,
-							"value": "@data.attributes.movement.walk"
-						}
-					]
-				}
-			]
 		}
 	]
 }
