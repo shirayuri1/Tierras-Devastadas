@@ -258,57 +258,7 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"At 10th level, you can choose a second option from the Fighting Style class feature.",
-				{
-					"type": "options",
-					"count": 1,
-					"entries":[
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Notable Archery|TDNotableChampion"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Notable Blind Fighting|TDNotableChampion"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Notable Defense|TDNotableChampion"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Notable Dueling|TDNotableChampion"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Notable Great Weapon Fighting|TDNotableChampion"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Notable Interception|TDNotableChampion"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Notable Protection|TDNotableChampion"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Notable Superior Technique|TDNotableChampion"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Notable Thrown Weapon Fighting|TDNotableChampion"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Notable Two-Weapon Fighting|TDNotableChampion"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Notable Unarmed Fighting|TDNotableChampion"
-						}
-					]
-				}
+				"At 10th level, you can choose a second option from the Fighting Style class feature."
 			]
 		},
 		{
