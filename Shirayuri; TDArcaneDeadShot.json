@@ -73,6 +73,21 @@
 					"title": "Shots"
 				}
 			],
+			"optionalfeatureProgression":[
+				{
+					"name": "Arcane Shot Options",
+					"featureType": [
+						"ADS:ASO"
+					],
+					"progression": {
+						"3": 2,
+						"7": 3,
+						"10": 4,
+						"15": 5,
+						"18": 6
+					}
+				}
+			],
 			"foundryImg": "icons/skills/ranged/target-bullseye-arrow-glowing.webp"
 		}
 	],
@@ -247,44 +262,6 @@
 							]
 						}
 					]
-				},
-				{
-					"type": "options",
-					"count": 2,
-					"entries":[
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Banishing Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Beguiling Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Bursting Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Enfeebling Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Grasping Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Piercing Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Seeking Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Shadow Shot|TDArcaneDeadShot"
-						}
-					]
 				}
 			],
 			"foundryImg": "icons/skills/ranged/bow-arrows-blue.webp"
@@ -315,45 +292,7 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"At 7th level, you learn another Arcane Shot option of your choice.",
-				{
-					"type": "options",
-					"count": 1,
-					"entries": [
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Banishing Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Beguiling Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Bursting Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Enfeebling Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Grasping Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Piercing Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Seeking Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Shadow Shot|TDArcaneDeadShot"
-						}
-					]
-				}
+				"At 7th level, you learn another Arcane Shot option of your choice."
 			],
 			"foundryImg": "icons/skills/ranged/bow-arrows-blue.webp"
 		},
@@ -368,45 +307,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you learn another Arcane Shot option of your choice.",
-				{
-					"type": "options",
-					"count": 1,
-					"entries": [
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Banishing Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Beguiling Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Bursting Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Enfeebling Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Grasping Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Piercing Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Seeking Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Shadow Shot|TDArcaneDeadShot"
-						}
-					]
-				}
+				"At 10th level, you learn another Arcane Shot option of your choice."
 			],
 			"foundryImg": "icons/skills/ranged/bow-arrows-blue.webp"
 		},
@@ -421,45 +322,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"At 15th level, you learn another Arcane Shot option of your choice.",
-				{
-					"type": "options",
-					"count": 1,
-					"entries": [
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Banishing Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Beguiling Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Bursting Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Enfeebling Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Grasping Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Piercing Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Seeking Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Shadow Shot|TDArcaneDeadShot"
-						}
-					]
-				}
+				"At 15th level, you learn another Arcane Shot option of your choice."
 			],
 			"foundryImg": "icons/skills/ranged/bow-arrows-blue.webp"
 		},
@@ -474,45 +337,7 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level, you learn another Arcane Shot option of your choice.",
-				{
-					"type": "options",
-					"count": 1,
-					"entries": [
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Banishing Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Beguiling Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Bursting Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Enfeebling Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Grasping Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Piercing Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Seeking Shot|TDArcaneDeadShot"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Shadow Shot|TDArcaneDeadShot"
-						}
-					]
-				}
+				"At 18th level, you learn another Arcane Shot option of your choice."
 			],
 			"foundryImg": "icons/skills/ranged/bow-arrows-blue.webp"
 		},		
