@@ -2,9 +2,9 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "TDArcaneBersaglieri",
-				"abbreviation": "TDArcaneBersaglieri",
-				"full": "Tierras Devastadas Arcane Bersaglieri",
+				"json": "TDArcaneDeadShot",
+				"abbreviation": "TDArcaneDeadShot",
+				"full": "Tierras Devastadas Arcane Dead Shot",
 				"authors": [
 					"Shirayuri"
 				],
@@ -17,27 +17,27 @@
 			}
 		],
 		"optionalFeatureTypes":{
-			"AB:ASO": "Arcane Bersaglieri; Arcane Shot Options"
+			"ADS:ASO": "Arcane Dead Shot; Arcane Shot Options"
 		},
 		"dateAdded": 1708191311,
 		"dateLastModified": 1708191311
 	},
 	"subclass":[
 		{
-			"name": "Arcane Bersaglieri",
-			"source": "TDArcaneBersaglieri",
+			"name": "Arcane Dead Shot",
+			"source": "TDArcaneDeadShot",
 			"page": 11,
 			"className": "fighter",
 			"classSource": "PHB",
-			"shortName": "Arcane Bersaglieri",
+			"shortName": "Arcane Dead Shot",
 			"subclassFeatures": [
-				"Arcane Bersaglieri|fighter|PHB|Arcane Bersaglieri|TDArcaneBersaglieri|3|TDArcaneBersaglieri",
-				"Curving Shot|fighter|PHB|Arcane Bersaglieri|TDArcaneBersaglieri|7|TDArcaneBersaglieri",
-				"Additional Arcane Shot Option|fighter|PHB|Arcane Bersaglieri|TDArcaneBersaglieri|7|TDArcaneBersaglieri",
-				"Additional Arcane Shot Option|fighter|PHB|Arcane Bersaglieri|TDArcaneBersaglieri|10|TDArcaneBersaglieri",
-				"Ever-Ready Shot|fighter|PHB|Arcane Bersaglieri|TDArcaneBersaglieri|15|TDArcaneBersaglieri",
-				"Additional Arcane Shot Option|fighter|PHB|Arcane Bersaglieri|TDArcaneBersaglieri|15|TDArcaneBersaglieri",
-				"Additional Arcane Shot Option|fighter|PHB|Arcane Bersaglieri|TDArcaneBersaglieri|18|TDArcaneBersaglieri"
+				"Arcane Dead Shot|fighter|PHB|Arcane Dead Shot|TDArcaneDeadShot|3|TDArcaneDeadShot",
+				"Curving Shot|fighter|PHB|Arcane Dead Shot|TDArcaneDeadShot|7|TDArcaneDeadShot",
+				"Additional Arcane Shot Option|fighter|PHB|Arcane Dead Shot|TDArcaneDeadShot|7|TDArcaneDeadShot",
+				"Additional Arcane Shot Option|fighter|PHB|Arcane Dead Shot|TDArcaneDeadShot|10|TDArcaneDeadShot",
+				"Ever-Ready Shot|fighter|PHB|Arcane Dead Shot|TDArcaneDeadShot|15|TDArcaneDeadShot",
+				"Additional Arcane Shot Option|fighter|PHB|Arcane Dead Shot|TDArcaneDeadShot|15|TDArcaneDeadShot",
+				"Additional Arcane Shot Option|fighter|PHB|Arcane Dead Shot|TDArcaneDeadShot|18|TDArcaneDeadShot"
 			],
 			"additionalSpells":[
 				{
@@ -78,40 +78,40 @@
 	],
 	"subclassFeature":[
 		{
-			"name": "Arcane Bersaglieri",
-			"source": "TDArcaneBersaglieri",
+			"name": "Arcane Dead Shot",
+			"source": "TDArcaneDeadShot",
 			"className": "fighter",
 			"classSource": "PHB",
 			"page": 11,
-			"subclassShortName": "Arcane Bersaglieri",
-			"subclassSource": "TDArcaneBersaglieri",
+			"subclassShortName": "Arcane Dead Shot",
+			"subclassSource": "TDArcaneDeadShot",
 			"level": 3,
 			"header": 2,
 			"entries": [
-					"An Arcane Bersaglieri studies and modify a unique method of elven archery that weaves magic into attacks to produce supernatural effects. These elven techniques have been altered to suit the needs of a variety of races and cultures that aren't as fixated with bows, allowing these fighters to turn any kind of ammunition into a vessel for magic that harms and debilitates their enemies. Requiring both a mastery of ranged combat and an understanding of the arcane arts, Arcane Marksmen stand out as versatile and effective sharpshooters.",
+					"An Arcane Dead Shot studies and modify a unique method of elven archery that weaves magic into attacks to produce supernatural effects. These elven techniques have been altered to suit the needs of a variety of races and cultures that aren't as fixated with bows, allowing these fighters to turn any kind of ammunition into a vessel for magic that harms and debilitates their enemies. Requiring both a mastery of ranged combat and an understanding of the arcane arts, Arcane Dead Shot stand out as versatile and effective sharpshooters.",
 				{
 					"type":"refSubclassFeature",
-					"subclassFeature":"Arcane Bersaglieri Lore|fighter|PHB|Arcane Bersaglieri|TDArcaneBersaglieri|3|TDArcaneBersaglieri"
+					"subclassFeature":"Arcane Dead Shot Lore|fighter|PHB|Arcane Dead Shot|TDArcaneDeadShot|3|TDArcaneDeadShot"
 				},
 				{
 					"type":"refSubclassFeature",
-					"subclassFeature":"Arcane Shot|fighter|PHB|Arcane Bersaglieri|TDArcaneBersaglieri|3|TDArcaneBersaglieri"
+					"subclassFeature":"Arcane Shot|fighter|PHB|Arcane Dead Shot|TDArcaneDeadShot|3|TDArcaneDeadShot"
 				},
 				{
 					"type":"refSubclassFeature",
-					"subclassFeature":"Arcane Shot Options|fighter|PHB|Arcane Bersaglieri|TDArcaneBersaglieri|3|TDArcaneBersaglieri"
+					"subclassFeature":"Arcane Shot Options|fighter|PHB|Arcane Dead Shot|TDArcaneDeadShot|3|TDArcaneDeadShot"
 				}
 			],			
 			"foundryImg": "icons/skills/ranged/target-bullseye-arrow-glowing.webp"
 		},
 		{
-			"name": "Arcane Bersaglieri Lore",
-			"source": "TDArcaneBersaglieri",
+			"name": "Arcane Dead Shot Lore",
+			"source": "TDArcaneDeadShot",
 			"className": "fighter",
 			"classSource": "PHB",
 			"page": 11,
-			"subclassShortName": "Arcane Bersaglieri",
-			"subclassSource": "TDArcaneBersaglieri",
+			"subclassShortName": "Arcane Dead Shot",
+			"subclassSource": "TDArcaneDeadShot",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -129,12 +129,12 @@
 		},
 		{
 			"name": "Arcane Shot",
-			"source": "TDArcaneBersaglieri",
+			"source": "TDArcaneDeadShot",
 			"className": "fighter",
 			"classSource": "PHB",
 			"page": 11,
-			"subclassShortName": "Arcane Bersaglieri",
-			"subclassSource": "TDArcaneBersaglieri",
+			"subclassShortName": "Arcane Dead Shot",
+			"subclassSource": "TDArcaneDeadShot",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -164,12 +164,12 @@
 		},
 		{
 			"name": "Arcane Shot Options",
-			"source": "TDArcaneBersaglieri",
+			"source": "TDArcaneDeadShot",
 			"className": "fighter",
 			"classSource": "PHB",
 			"page": 11,
-			"subclassShortName": "Arcane Bersaglieri",
-			"subclassSource": "TDArcaneBersaglieri",
+			"subclassShortName": "Arcane Dead Shot",
+			"subclassSource": "TDArcaneDeadShot",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -194,6 +194,7 @@
 							"name": "Beguiling Shot",
 							"entries": [
 								"Your enchantment magic causes this shot to temporarily beguile its target. Choose one of your allies within 30 feet of the target. The creature hit by the arrow takes an extra {@dice 2d6} psychic damage, and must succeed on a Wisdom saving throw or it is {@condition charmed} by the chosen ally until the start of your next turn. This effect ends early if the chosen ally attacks the {@condition charmed} target, deals damage to it, or forces it to make a saving throw.",
+								"The attack and psychic damage can be non-lethal",
 								"The psychic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level."
 							]
 						},
@@ -201,7 +202,7 @@
 							"type": "item",
 							"name": "Bursting Shot",
 							"entries": [
-								"You imbue your shot with force energy drawn from the school of evocation. The energy detonates after your attack. Immediately after the shot hits the creature, the target and all other creatures within 10 feet of it take {@dice 2d6} force damage each.",
+								"You imbue your shot with force energy drawn from the school of evocation. The energy detonates after your attack. Immediately after the shot hits the creature, the target and all other creatures within 15 feet of it take {@dice 2d6} force damage each.",
 								"The force damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level."
 							]
 						},
@@ -209,7 +210,7 @@
 							"type": "item",
 							"name": "Enfeebling Shot",
 							"entries": [
-								"You weave necromantic magic into your shot. The creature hit by the shot takes an extra {@dice 2d6} necrotic damage. The target must also succeed on a Constitution saving throw, or the damage dealt by its weapon attacks is halved until the start of your next turn.",
+								"You weave necromantic magic into your shot. The creature hit by the shot takes an extra {@dice 2d6} necrotic damage. The target must also succeed on a Constitution saving throw, or the damage dealt by its weapon attacks or magical effects is halved until the start of your next turn.",
 								"The necrotic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level."
 							]
 						},
@@ -217,7 +218,7 @@
 							"type": "item",
 							"name": "Grasping Shot",
 							"entries": [
-								"When this shot strikes its target, conjuration magic creates grasping, poisonous brambles, which wrap around the target. The creature hit by the shot takes an extra {@dice 2d6} poison damage, its speed is reduced by 10 feet, and it takes {@dice 2d6} slashing damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength ({@skill Athletics}) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this arcane shot option again.",
+								"When this shot strikes its target, conjuration magic creates grasping, poisonous brambles, which wrap around the target. The creature hit by the shot takes an extra {@dice 2d6} poison damage, its speed is reduced by 10 feet, and it takes {@dice 2d6} slashing damage the first time on each turn it moves or is moved 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength ({@skill Athletics}) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this arcane shot option again.",
 								"The poison damage and slashing damage both increase to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level."
 							]
 						},
@@ -225,15 +226,15 @@
 							"type": "item",
 							"name": "Piercing Shot",
 							"entries": [
-								"You use transmutation magic to give your shot an ethereal quality. When you use this option, you don't make an attack roll for the attack. Instead, the shot fires forward in a line that is 1 foot wide and 30 feet long, before disappearing. The shot passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a target takes damage as if it were hit by the shot, plus an extra {@dice 1d6} force damage. On a successful save, a target takes half as much damage.",
-								"When you reach 10th level in this subclass the range increases to 60 feet. At 18th level the force damage increases to {@dice 2d6}."
+								"You use transmutation magic to give your shot an ethereal quality. When you use this option, you don't make an attack roll for the attack. Instead, the shot fires forward in a line that is 1 foot wide and 60 feet long, before disappearing. The shot passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a target takes damage as if it were hit by the shot, plus an extra {@dice 1d6} force damage. On a successful save, a target takes half as much damage.",
+								"When you reach 10th level in this subclass the range increases to 120 feet. At 18th level the force damage increases to {@dice 2d6}."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Seeking Shot",
 							"entries": [
-								"Using divination magic, you grant your ammunition the ability to seek out a target. When you use this option, you don't make an attack roll for the attack. Instead, choose one creature you have seen in the past minute. The ammunition flies toward that creature, moving around corners if necessary and ignoring three-quarters cover and half cover. If the target is within the weapon's range and there is a path large enough for the ammunition to travel to the target, the target must make a Dexterity saving throw. Otherwise, the ammunition disappears after traveling as far as it can. On a failed save, the target takes damage as if it were hit by the ammunition, plus an extra separate {@dice 1d6} of the weapons damage type, and you learn the target's current location. On a successful save, the target takes half as much weapon damage, no extra damage and you don't learn its location.",
+								"Using divination magic, you grant your ammunition the ability to seek out a target. When you use this option, you don't make an attack roll for the attack. Instead, choose one creature you have seen in the past minute. The ammunition flies toward that creature, moving around corners if necessary and ignoring three-quarters cover and half cover. If the target is within the weapon's range and there is a path large enough for the ammunition to travel to the target, the target must make a Dexterity saving throw. Otherwise, the ammunition disappears after traveling as far as it can. On a failed save, the target takes damage as if it were hit by the ammunition, plus an extra separate {@dice 1d6} of the weapons damage type, and you learn the target's location for the next 8 hours. On a successful save, the target takes half as much weapon damage, no extra damage and you don't learn its location.",
 								"The extra weapon damage impacts again for another {@dice 1d6} when you reach 10th level in this class and a total of three times at 18th level."
 							]
 						},
@@ -241,7 +242,7 @@
 							"type": "item",
 							"name": "Shadow Shot",
 							"entries": [
-								"You weave illusion magic into your shot, causing it to occlude your foe's vision with shadows. The creature hit by the shot takes an extra {@dice 2d6} psychic damage, and must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away from itself until the start of your next turn.",
+								"You weave illusion magic into your arrow, causing it to occlude your foe's vision while they are disoriented by strange sounds. The creature hit by the arrow takes an extra {@dice 2d6} psychic damage, and it must succeed on a Wisdom saving throw or be unable to see or hear anything farther than 5 feet away until the start of your next turn.",
 								"The psychic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level."
 							]
 						}
@@ -253,35 +254,35 @@
 					"entries":[
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Banishing Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Banishing Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Beguiling Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Beguiling Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Bursting Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Bursting Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Enfeebling Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Enfeebling Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Grasping Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Grasping Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Piercing Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Piercing Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Seeking Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Seeking Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Shadow Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Shadow Shot|TDArcaneDeadShot"
 						}
 					]
 				}
@@ -290,12 +291,12 @@
 		},
 		{
 			"name": "Curving Shot",
-			"source": "TDArcaneBersaglieri",
+			"source": "TDArcaneDeadShot",
 			"className": "fighter",
 			"classSource": "PHB",
 			"page": 13,
-			"subclassShortName": "Arcane Bersaglieri",
-			"subclassSource": "TDArcaneBersaglieri",
+			"subclassShortName": "Arcane Dead Shot",
+			"subclassSource": "TDArcaneDeadShot",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -305,11 +306,11 @@
 		},
 		{
 			"name": "Additional Arcane Shot Option",
-			"source": "TDArcaneBersaglieri",
+			"source": "TDArcaneDeadShot",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassSource": "TDArcaneBersaglieri",
-			"subclassShortName": "Arcane Bersaglieri",
+			"subclassSource": "TDArcaneDeadShot",
+			"subclassShortName": "Arcane Dead Shot",
 			"page": 1,
 			"level": 7,
 			"header": 2,
@@ -321,35 +322,35 @@
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Banishing Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Banishing Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Beguiling Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Beguiling Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Bursting Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Bursting Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Enfeebling Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Enfeebling Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Grasping Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Grasping Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Piercing Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Piercing Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Seeking Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Seeking Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Shadow Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Shadow Shot|TDArcaneDeadShot"
 						}
 					]
 				}
@@ -358,11 +359,11 @@
 		},
 		{
 			"name": "Additional Arcane Shot Option",
-			"source": "TDArcaneBersaglieri",
+			"source": "TDArcaneDeadShot",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassSource": "TDArcaneBersaglieri",
-			"subclassShortName": "Arcane Bersaglieri",
+			"subclassSource": "TDArcaneDeadShot",
+			"subclassShortName": "Arcane Dead Shot",
 			"page": 1,
 			"level": 10,
 			"header": 2,
@@ -374,35 +375,35 @@
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Banishing Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Banishing Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Beguiling Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Beguiling Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Bursting Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Bursting Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Enfeebling Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Enfeebling Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Grasping Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Grasping Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Piercing Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Piercing Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Seeking Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Seeking Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Shadow Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Shadow Shot|TDArcaneDeadShot"
 						}
 					]
 				}
@@ -411,11 +412,11 @@
 		},
 		{
 			"name": "Additional Arcane Shot Option",
-			"source": "TDArcaneBersaglieri",
+			"source": "TDArcaneDeadShot",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassSource": "TDArcaneBersaglieri",
-			"subclassShortName": "Arcane Bersaglieri",
+			"subclassSource": "TDArcaneDeadShot",
+			"subclassShortName": "Arcane Dead Shot",
 			"page": 1,
 			"level": 15,
 			"header": 2,
@@ -427,35 +428,35 @@
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Banishing Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Banishing Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Beguiling Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Beguiling Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Bursting Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Bursting Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Enfeebling Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Enfeebling Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Grasping Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Grasping Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Piercing Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Piercing Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Seeking Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Seeking Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Shadow Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Shadow Shot|TDArcaneDeadShot"
 						}
 					]
 				}
@@ -464,11 +465,11 @@
 		},
 		{
 			"name": "Additional Arcane Shot Option",
-			"source": "TDArcaneBersaglieri",
+			"source": "TDArcaneDeadShot",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassSource": "TDArcaneBersaglieri",
-			"subclassShortName": "Arcane Bersaglieri",
+			"subclassSource": "TDArcaneDeadShot",
+			"subclassShortName": "Arcane Dead Shot",
 			"page": 1,
 			"level": 18,
 			"header": 2,
@@ -480,35 +481,35 @@
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Banishing Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Banishing Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Beguiling Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Beguiling Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Bursting Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Bursting Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Enfeebling Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Enfeebling Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Grasping Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Grasping Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Piercing Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Piercing Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Seeking Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Seeking Shot|TDArcaneDeadShot"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Shadow Shot|TDArcaneBersaglieri"
+							"optionalfeature": "Shadow Shot|TDArcaneDeadShot"
 						}
 					]
 				}
@@ -517,16 +518,16 @@
 		},		
 		{
 			"name": "Ever-Ready Shot",
-			"source": "TDArcaneBersaglieri",
+			"source": "TDArcaneDeadShot",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassSource": "TDArcaneBersaglieri",
-			"subclassShortName": "Arcane Bersaglieri",
+			"subclassSource": "TDArcaneDeadShot",
+			"subclassShortName": "Arcane Dead Shot",
 			"page": 1,
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level, your marksmanship is always ready for a fight. When you roll initiative, you regain one use of Arcane Shot."
+				"Starting at 15th level, your arcane shot will be available in the most difficult moments of combat. You have two uses of each shot and regain both on a short or long rest."
 			],
 			"foundryImg": "icons/containers/ammunition/arrows-quiver-black.webp"
 		}
@@ -534,7 +535,7 @@
 	"optionalfeature": [
 		{
 			"name": "Banishing Shot",
-			"source": "TDArcaneBersaglieri",
+			"source": "TDArcaneDeadShot",
 			"page": 11,
 			"entries": [
 				"You use abjuration magic to try to temporarily banish your target from this plane. If the shot hits a creature, the target must also succeed on a Charisma saving throw or be banished. While banished in this way, its speed is 0, and it is {@condition incapacitated}. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.",
@@ -566,15 +567,16 @@
 			},
 			"foundryImg": "icons/magic/control/silhouette-fall-slip-prone.webp",
 			"featureType": [
-				"AB:ASO"
+				"ADS:ASO"
 			]
 		},
 		{
 			"name": "Beguiling Shot",
-			"source": "TDArcaneBersaglieri",
+			"source": "TDArcaneDeadShot",
 			"page": 11,
 			"entries": [
 				"Your enchantment magic causes this shot to temporarily beguile its target. Choose one of your allies within 30 feet of the target. The creature hit by the arrow takes an extra {@dice 2d6} psychic damage, and must succeed on a Wisdom saving throw or it is {@condition charmed} by the chosen ally until the start of your next turn. This effect ends early if the chosen ally attacks the {@condition charmed} target, deals damage to it, or forces it to make a saving throw.",
+				"The attack and psychic damage can be non-lethal",
 				"The psychic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level."			
 			],
 			"foundrySystem": {
@@ -603,15 +605,15 @@
 			},
 			"foundryImg": "https://i.imgur.com/nfROxKI.png",
 			"featureType": [
-				"AB:ASO"
+				"ADS:ASO"
 			]
 		},
 		{
 			"name": "Bursting Shot",
-			"source": "TDArcaneBersaglieri",
+			"source": "TDArcaneDeadShot",
 			"page": 12,
 			"entries": [
-				"You imbue your shot with force energy drawn from the school of evocation. The energy detonates after your attack. Immediately after the shot hits the creature, the target and all other creatures within 10 feet of it take {@dice 2d6} force damage each.",
+				"You imbue your shot with force energy drawn from the school of evocation. The energy detonates after your attack. Immediately after the shot hits the creature, the target and all other creatures within 15 feet of it take {@dice 2d6} force damage each.",
 				"The force damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level."
 			],
 			"foundrySystem": {
@@ -638,15 +640,15 @@
 			},
 			"foundryImg": "icons/magic/fire/explosion-fireball-medium-orange.webp",
 			"featureType": [
-				"AB:ASO"
+				"ADS:ASO"
 			]
 		},
 		{
 			"name": "Enfeebling Shot",
-			"source": "TDArcaneBersaglieri",
+			"source": "TDArcaneDeadShot",
 			"page": 12,
 			"entries": [
-				"You weave necromantic magic into your shot. The creature hit by the shot takes an extra {@dice 2d6} necrotic damage. The target must also succeed on a Constitution saving throw, or the damage dealt by its weapon attacks is halved until the start of your next turn.",
+				"You weave necromantic magic into your shot. The creature hit by the shot takes an extra {@dice 2d6} necrotic damage. The target must also succeed on a Constitution saving throw, or the damage dealt by its weapon attacks or magical effects is halved until the start of your next turn.",
 				"The necrotic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level."
 			],
 			"foundrySystem": {
@@ -674,15 +676,15 @@
 			},
 			"foundryImg": "icons/skills/ranged/arrow-gem-flying-poisoned-green.webp",
 			"featureType": [
-				"AB:ASO"
+				"ADS:ASO"
 			]
 		},
 		{
 			"name": "Grasping Shot",
-			"source": "TDArcaneBersaglieri",
+			"source": "TDArcaneDeadShot",
 			"page": 12,
 			"entries": [
-				"When this shot strikes its target, conjuration magic creates grasping, poisonous brambles, which wrap around the target. The creature hit by the shot takes an extra {@dice 2d6} poison damage, its speed is reduced by 10 feet, and it takes {@dice 2d6} slashing damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength ({@skill Athletics}) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this arcane shot option again.",
+				"When this shot strikes its target, conjuration magic creates grasping, poisonous brambles, which wrap around the target. The creature hit by the shot takes an extra {@dice 2d6} poison damage, its speed is reduced by 10 feet, and it takes {@dice 2d6} slashing damage the first time on each turn it moves or is moved 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength ({@skill Athletics}) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this arcane shot option again.",
 				"The poison damage and slashing damage both increase to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level."
 			],
 			"foundrySystem": {
@@ -715,16 +717,16 @@
 			},
 			"foundryImg": "icons/magic/nature/root-vine-thorned-coil-green.webp",
 			"featureType": [
-				"AB:ASO"
+				"ADS:ASO"
 			]
 		},
 		{
 			"name": "Piercing Shot",
-			"source": "TDArcaneBersaglieri",
+			"source": "TDArcaneDeadShot",
 			"page": 12,
 			"entries": [
-				"You use transmutation magic to give your shot an ethereal quality. When you use this option, you don't make an attack roll for the attack. Instead, the shot fires forward in a line that is 1 foot wide and 30 feet long, before disappearing. The shot passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a target takes damage as if it were hit by the shot, plus an extra {@dice 1d6} force damage. On a successful save, a target takes half as much damage.",
-				"When you reach 10th level in this subclass the range increases to 60 feet. At 18th level the force damage increases to {@dice 2d6}."
+				"You use transmutation magic to give your shot an ethereal quality. When you use this option, you don't make an attack roll for the attack. Instead, the shot fires forward in a line that is 1 foot wide and 60 feet long, before disappearing. The shot passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a target takes damage as if it were hit by the shot, plus an extra {@dice 1d6} force damage. On a successful save, a target takes half as much damage.",
+				"When you reach 10th level in this subclass the range increases to 120 feet. At 18th level the force damage increases to {@dice 2d6}."
 			],
 			"foundrySystem": {
 				"activation": {
@@ -758,15 +760,15 @@
 			},
 			"foundryImg": "icons/skills/ranged/arrow-flying-white-blue.webp",
 			"featureType": [
-				"AB:ASO"
+				"ADS:ASO"
 			]
 		},
 		{
 			"name": "Seeking Shot",
-			"source": "TDArcaneBersaglieri",
+			"source": "TDArcaneDeadShot",
 			"page": 12,
 			"entries": [
-				"Using divination magic, you grant your ammunition the ability to seek out a target. When you use this option, you don't make an attack roll for the attack. Instead, choose one creature you have seen in the past minute. The ammunition flies toward that creature, moving around corners if necessary and ignoring three-quarters cover and half cover. If the target is within the weapon's range and there is a path large enough for the ammunition to travel to the target, the target must make a Dexterity saving throw. Otherwise, the ammunition disappears after traveling as far as it can. On a failed save, the target takes damage as if it were hit by the ammunition, plus an extra separate {@dice 1d6} of the weapons damage type, and you learn the target's current location. On a successful save, the target takes half as much weapon damage, no extra damage and you don't learn its location.",
+				"Using divination magic, you grant your ammunition the ability to seek out a target. When you use this option, you don't make an attack roll for the attack. Instead, choose one creature you have seen in the past minute. The ammunition flies toward that creature, moving around corners if necessary and ignoring three-quarters cover and half cover. If the target is within the weapon's range and there is a path large enough for the ammunition to travel to the target, the target must make a Dexterity saving throw. Otherwise, the ammunition disappears after traveling as far as it can. On a failed save, the target takes damage as if it were hit by the ammunition, plus an extra separate {@dice 1d6} of the weapons damage type, and you learn the target's location for the next 8 hours. On a successful save, the target takes half as much weapon damage, no extra damage and you don't learn its location.",
 				"The extra weapon damage impacts again for another {@dice 1d6} when you reach 10th level in this class and a total of three times at 18th level."
 			],
 			"foundrySystem": {
@@ -801,15 +803,15 @@
 			},
 			"foundryImg": "icons/skills/targeting/target-strike-triple-blue.webp",
 			"featureType": [
-				"AB:ASO"
+				"ADS:ASO"
 			]
 		},
 		{
 			"name": "Shadow Shot",
-			"source": "TDArcaneBersaglieri",
+			"source": "TDArcaneDeadShot",
 			"page": 13,
 			"entries": [
-				"You weave illusion magic into your shot, causing it to occlude your foe's vision with shadows. The creature hit by the shot takes an extra {@dice 2d6} psychic damage, and must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away from itself until the start of your next turn.",
+				"You weave illusion magic into your arrow, causing it to occlude your foe's vision while they are disoriented by strange sounds. The creature hit by the arrow takes an extra {@dice 2d6} psychic damage, and it must succeed on a Wisdom saving throw or be unable to see or hear anything farther than 5 feet away until the start of your next turn.",
 				"The psychic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level."
 			],
 			"foundrySystem": {
@@ -833,7 +835,7 @@
 			},
 			"foundryImg": "icons/skills/ranged/arrow-flying-gray-brown.webp",
 			"featureType": [
-				"AB:ASO"
+				"ADS:ASO"
 			]
 		}
 	]
