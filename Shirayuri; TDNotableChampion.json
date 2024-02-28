@@ -364,7 +364,7 @@
 			],
 			"foundryEffects": [
 				{
-					"name": "DFS: Archery",
+					"name": "NFS: Archery",
 					"transfer": true,
 					"changes": [
 						{
@@ -395,7 +395,7 @@
 			],
 			"foundryEffects": [
 				{
-					"name": "DFS: Blind Fighting",
+					"name": "NFS: Blind Fighting",
 					"transfer": true,
 					"changes": [
 						{
@@ -420,7 +420,7 @@
 			],
 			"foundryEffects": [
 				{
-					"name": "DFS: Defense",
+					"name": "NFS: Defense",
 					"transfer": true,
 					"changes": [
 						{
@@ -445,7 +445,7 @@
 			],
 			"foundryEffects": [
 				{
-					"name": "DFS: Dueling",
+					"name": "NFS: Dueling",
 					"transfer": true,
 					"changes": [
 						{
@@ -470,7 +470,7 @@
 			],
 			"foundryEffects": [
 				{
-					"name": "DFS: Great Weapon Fighting",
+					"name": "NFS: Great Weapon Fighting",
 					"transfer": true,
 					"changes": [
 						{
@@ -562,7 +562,7 @@
 			],
 			"foundryEffects": [
 				{
-					"name": "DFS: Thrown Weapon Fighting",
+					"name": "NFS: Thrown Weapon Fighting",
 					"transfer": true,
 					"changes": [
 						{
@@ -587,7 +587,7 @@
 			],
 			"foundryEffects": [
 				{
-					"name": "DFS: Two-Weapon Fighting",
+					"name": "NFS: Two-Weapon Fighting",
 					"transfer": true,
 					"changes": [
 						{
@@ -613,7 +613,7 @@
 			],
 			"foundryEffects": [
 				{
-					"name": "DFS: Unarmed Fighting",
+					"name": "NFS: Unarmed Fighting",
 					"transfer": true,
 					"changes": [
 						{
