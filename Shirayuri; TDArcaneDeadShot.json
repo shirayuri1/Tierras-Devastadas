@@ -154,7 +154,7 @@
 			"header": 2,
 			"entries": [
 				"At 3rd level, you learn to unleash special magical effects with some of your shots. When you gain this feature, you learn two Arcane Shot options of your choice (see 'Arcane Shot Options' below) and when you attack with a weapon that uses ammunition, you can use your Intelligence modifier, instead of Dexterity.",
-				"Once per turn when you fire an ammunition from a ranged weapon as part of the {@action Attack} action, you can apply one of your Arcane Shot options to that arrow. You decide to use the option when the arrow hits a creature, unless the option doesn't involve an attack roll. You have 1 + proficiency bonus uses of this ability, and you regain all expended uses of it when you finish a long rest.",
+				"Once per turn when you fire an ammunition from a ranged weapon as part of the {@action Attack} action, you can apply one of your Arcane Shot options to that ammunition. You decide to use the option when the ammunition hits a creature, unless the option doesn't involve an attack roll. You have 1 + proficiency bonus uses of this ability, and you regain all expended uses of it when you finish a long rest.",
 				"You gain an additional Arcane Shot option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th. Each option also improves when you become a 10th and 18th-level fighter.",
 				"If an option requires a saving throw, your Arcane Shot save DC equals:",
 				{
@@ -201,14 +201,14 @@
 							"name": "Banishing Shot",
 							"entries": [
 								"You use abjuration magic to try to temporarily banish your target from this plane. If the shot hits a creature, the target must also succeed on a Charisma saving throw or be banished. While banished in this way, its speed is 0, and it is {@condition incapacitated}. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.",
-								"After you reach 10th level in this class, a target also takes {@dice 1d6} force damage when the arrow hits it and the damage increases to {@dice 2d6} at 18th level."
+								"After you reach 10th level in this class, a target also takes {@dice 1d6} force damage when the ammunition hits it and the damage increases to {@dice 2d6} at 18th level."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Beguiling Shot",
 							"entries": [
-								"Your enchantment magic causes this shot to temporarily beguile its target. Choose one of your allies within 30 feet of the target. The creature hit by the arrow takes an extra {@dice 2d6} psychic damage, and must succeed on a Wisdom saving throw or it is {@condition charmed} by the chosen ally until the start of your next turn. This effect ends early if the chosen ally attacks the {@condition charmed} target, deals damage to it, or forces it to make a saving throw.",
+								"Your enchantment magic causes this shot to temporarily beguile its target. Choose one of your allies within 30 feet of the target. The creature hit by the ammunition takes an extra {@dice 2d6} psychic damage, and must succeed on a Wisdom saving throw or it is {@condition charmed} by the chosen ally until the start of your next turn. This effect ends early if the chosen ally attacks the {@condition charmed} target, deals damage to it, or forces it to make a saving throw.",
 								"The attack and psychic damage can be non-lethal",
 								"The psychic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level."
 							]
@@ -257,7 +257,7 @@
 							"type": "item",
 							"name": "Shadow Shot",
 							"entries": [
-								"You weave illusion magic into your arrow, causing it to occlude your foe's vision while they are disoriented by strange sounds. The creature hit by the arrow takes an extra {@dice 2d6} psychic damage, and it must succeed on a Wisdom saving throw or be unable to see or hear anything farther than 5 feet away until the start of your next turn.",
+								"You weave illusion magic into your ammunition, causing it to occlude your foe's vision while they are disoriented by strange sounds. The creature hit by the ammunition takes an extra {@dice 2d6} psychic damage, and it must succeed on a Wisdom saving throw or be unable to see or hear anything farther than 5 feet away until the start of your next turn.",
 								"The psychic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level."
 							]
 						}
@@ -364,7 +364,7 @@
 			"page": 11,
 			"entries": [
 				"You use abjuration magic to try to temporarily banish your target from this plane. If the shot hits a creature, the target must also succeed on a Charisma saving throw or be banished. While banished in this way, its speed is 0, and it is {@condition incapacitated}. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.",
-				"After you reach 10th level in this class, a target also takes {@dice 1d6} force damage when the arrow hits it and the damage increases to {@dice 2d6} at 18th level."
+				"After you reach 10th level in this class, a target also takes {@dice 1d6} force damage when the ammunition hits it and the damage increases to {@dice 2d6} at 18th level."
 			],
 			"foundrySystem": {
 				"activation": {
@@ -400,8 +400,8 @@
 			"source": "TDArcaneDeadShot",
 			"page": 11,
 			"entries": [
-				"Your enchantment magic causes this shot to temporarily beguile its target. Choose one of your allies within 30 feet of the target. The creature hit by the arrow takes an extra {@dice 2d6} psychic damage, and must succeed on a Wisdom saving throw or it is {@condition charmed} by the chosen ally until the start of your next turn. This effect ends early if the chosen ally attacks the {@condition charmed} target, deals damage to it, or forces it to make a saving throw.",
-				"The attack and psychic damage can be non-lethal",
+				"Your enchantment magic causes this shot to temporarily beguile its target. Choose one of your allies within 30 feet of the target. The creature hit by the ammunition takes an extra {@dice 2d6} psychic damage, and must succeed on a Wisdom saving throw or it is {@condition charmed} by the chosen ally until the start of your next turn. This effect ends early if the chosen ally attacks the {@condition charmed} target, deals damage to it, or forces it to make a saving throw.",
+				"This shot and it's ammunition can deal non-lethal damage.",
 				"The psychic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level."			
 			],
 			"foundrySystem": {
@@ -636,7 +636,7 @@
 			"source": "TDArcaneDeadShot",
 			"page": 13,
 			"entries": [
-				"You weave illusion magic into your arrow, causing it to occlude your foe's vision while they are disoriented by strange sounds. The creature hit by the arrow takes an extra {@dice 2d6} psychic damage, and it must succeed on a Wisdom saving throw or be unable to see or hear anything farther than 5 feet away until the start of your next turn.",
+				"You weave illusion magic into your ammunition, causing it to occlude your foe's vision while they are disoriented by strange sounds. The creature hit by the ammunition takes an extra {@dice 2d6} psychic damage, and it must succeed on a Wisdom saving throw or be unable to see or hear anything farther than 5 feet away until the start of your next turn.",
 				"The psychic damage increases to {@dice 3d6} when you reach 10th level in this class and {@dice 4d6} at 18th level."
 			],
 			"foundrySystem": {
