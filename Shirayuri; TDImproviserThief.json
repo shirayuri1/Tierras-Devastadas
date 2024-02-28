@@ -111,7 +111,8 @@
 			"header": 2,
 			"entries": [
 				"Starting at this level you gain the ability to use a second bonus action through this feature. You can use this trait a number of times equal to your Dexterity modifier, and you regain its uses after finishing a long rest."				
-			]
+			],
+			"foundryImg": "icons/magic/symbols/symbol-lightning-bolt.webp"
 		},
 		{
 			"name": "Stealthy and Untouchable",
@@ -131,7 +132,8 @@
 				{
 					"anyProficientSkill": 1
 				}
-			]
+			],
+			"foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/magic/perception/silhouette-stealth-shadow.webp"
 		},
 		{
 			"name": "Finder Keepers",
