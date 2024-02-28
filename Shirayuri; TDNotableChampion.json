@@ -49,15 +49,6 @@
 						"3": 1,
 						"7": 2
 					}
-				},
-				{
-					"name": "Remarkable Athlete progresion",
-					"featureType": [
-						"NC:RAE"
-					],
-					"progression": {
-						"10": 1
-					}
 				}
 			],
 			"foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/maneuver-sword-katana-yellow.webp"
