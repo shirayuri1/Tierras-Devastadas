@@ -29,7 +29,7 @@
 			"shortName": "Thief",
 			"subclassFeatures": [
 				"Improviser Thief|Rogue|PHB|Thief|TDImproviserThief|3|TDImproviserThief",
-				"Supreme Sneak|Rogue|PHB|Thief|TDImproviserThief|9|TDImproviserThief",
+				"Stealthy and Untouchable|Rogue|PHB|Thief|TDImproviserThief|9|TDImproviserThief",
 				"Finder Keepers|Rogue|PHB|Thief|TDImproviserThief|13|TDImproviserThief",
 				"Thief's Reflexes|Rogue|PHB|Thief|TDImproviserThief|17|TDImproviserThief"				
 			]			
@@ -114,7 +114,7 @@
 			]
 		},
 		{
-			"name": "Supreme Sneak",
+			"name": "Stealthy and Untouchable",
 			"source": "TDImproviserThief",
 			"className": "Rogue",
 			"classSource": "PHB",
@@ -124,7 +124,8 @@
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"When you reach 9th level in this sub-class, you gain a single expertise in a skill you are already proficient. Aditionally, you gain advantage on Dexterity ({@skill Stealth}) checks if you move no more than half your speed on the same turn."
+				"From this level onwards, your movements are agile and refined. You no longer generate attacks of opportunity and gain an extra proficiency among your skills in which you already have proficiency.",
+				"Additionally, you gain advantage on Dexterity ({@skill Stealth}) checks as long as you don't move more than half your speed in the same turn or are prone."
 			],
 			"expertise": [
 				{
