@@ -21,9 +21,9 @@
 	},
 	"subclass": [
 		{
-			"name": "The Mad Berserker",
+			"name": "Path of the Maniac Berserker",
 			"subclassFeatures": [
-				"Path of the Mad Berserker|Barbarian||Berserker|TDManiacBerserker|3|TDManiacBerserker",
+				"Path of the Maniac Berserker|Barbarian||Berserker|TDManiacBerserker|3|TDManiacBerserker",
 				"Simple Mind|Barbarian||Berserker|TDManiacBerserker|6|TDManiacBerserker",
 				"Negligent Attack|Barbarian||Berserker|TDManiacBerserker|10|TDManiacBerserker",
 				"Violent Retaliation|Barbarian||Berserker|TDManiacBerserker|14|TDManiacBerserker"
@@ -36,7 +36,7 @@
 	],
 	"subclassFeature": [
 		{
-			"name": "Path of the Mad Berserker",
+			"name": "Path of the Maniac Berserker",
 			"source": "TDManiacBerserker",
 			"className": "Barbarian",
 			"classSource": "PHB",
