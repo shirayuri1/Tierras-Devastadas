@@ -107,7 +107,7 @@
 			"subclassSource": "TDImproviserThief",
 			"subclassShortName": "Thief",
 			"page": 1,
-			"level": 17,
+			"level": 3,
 			"header": 2,
 			"entries": [
 				"Starting at this level you gain the ability to use a second bonus action through this feature. You can use this trait a number of times equal to your Dexterity modifier, and you regain its uses after finishing a long rest."				
