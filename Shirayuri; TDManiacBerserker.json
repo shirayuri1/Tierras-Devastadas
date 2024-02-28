@@ -65,8 +65,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Starting at this level, your reckless attacks turn fury into a state of frenzy that alters your mind in search of violence.",
-				"While raging, all your attacks can become reckless attacks, and you can make a melee reckless attack with your bonus action, including the one used to enter a rage."
+				"Starting at 3rd level, your reckless attacks turn fury into a state of frenzy that alters your mind in search of violence. While raging, all the attacks on your turn can become reckless attacks, and you can make a melee reckless attack with your bonus action. Additionally, as part of your bonus action for entering a frenzy, you can make a reckless attack with a melee weapon."
 			],
 			"foundryImg": "icons/skills/wounds/anatomy-organ-heart-red.webp"
 		},
@@ -132,7 +131,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"While enraged, when you take damage from a creature you can use your reaction to move closer to your attacker or another hostile creature, using up to half your movement and make a melee attack against it."
+				"While enraged, when you take damage from a creature you can use your reaction to move closer to your attacker or another hostile creature, using up to half your movement to make a melee attack against it."
 			],
 			"foundryImg": "icons/skills/melee/blood-slash-foam-red.webp"
 		}
