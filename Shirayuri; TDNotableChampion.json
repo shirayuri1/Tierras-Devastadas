@@ -132,57 +132,57 @@
 					"items": [
 						{
 							"type": "item",
-							"name": "Notable Archery",
+							"name": " Notable Archery",
 							"entry": "You gain a +1 bonus to damage rolls you make with ranged weapons."
 						},
 						{
 							"type": "item",
-							"name": "Notable Blind Fighting",
+							"name": " Notable Blind Fighting",
 							"entry":"Blindsight increases to 15 ft. and you have advantage on wisdom (perception) checks that rely on hearing."
 						},
 						{
 							"type": "item",
-							"name": "Notable Defense",
+							"name": " Notable Defense",
 							"entry": "You gain +1 AC when you do not have a shield equipped."
 						},
 						{
 							"type": "item",
-							"name": "Notable Dueling",
+							"name": " Notable Dueling",
 							"entry": "+1 to damage rolls, additionally, you can replace your opportunity attacks with the {@action shove} action."
 						},
 						{
 							"type": "item",
-							"name": "Notable Great Weapon Fighting",
+							"name": " Notable Great Weapon Fighting",
 							"entry": "+1 to attack rolls with two-handed weapons."
 						},
 						{
 							"type": "item",
-							"name": "Notable Interception",
+							"name": " Notable Interception",
 							"entry": "Mitigated damage is calculated as 1d12 + (2 x proficiency)."
 						},
 						{
 							"type": "item",
-							"name": "Notable Protection",
+							"name": " Notable Protection",
 							"entry": "Disadvantage is applied on all attacks against the protected target until the end of the attacker's turn. Alternatively, if the attacker is within 5 feet of you, you can impose disadvantage on all of his attacks that you are not the target of."
 						},
 						{
 							"type": "item",
-							"name": "Notable Superior Technique",
+							"name": " Notable Superior Technique",
 							"entry": "You have one additional superiority die and both are 1d8"
 						},
 						{
 							"type": "item",
-							"name": "Notable Thrown Weapon Fighting",
+							"name": " Notable Thrown Weapon Fighting",
 							"entry": "Being within 5 feet of a hostile creature no longer imposes disadvantage on your ranged weapon attacks, and you can pick up weapons within 5 feet as part of the attack."
 						},
 						{
 							"type": "item",
-							"name": "Notable Two-Weapon Fighting",
+							"name": " Notable Two-Weapon Fighting",
 							"entry": "+1 to damage rolls with dual weapon"
 						},
 						{
 							"type": "item",
-							"name": "Notable Unarmed Fighting",
+							"name": " Notable Unarmed Fighting",
 							"entry": "Against a creature you have grappled, add your strength modifier to the damage roll you deal at the start of the turn and your unarmed strikes."
 						}						
 					]
