@@ -281,7 +281,32 @@
 					"acrobatics": true
 				},
 				{}
-			]
+			],
+			"foundrySystem": {
+				"effect":[
+					{
+						"name": "Remarkable Athlete",
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.remarkableAthlete",
+								"mode": 0,
+								"value": "true"
+							},
+							{
+								"key": "data.attributes.movement.climb",
+								"mode": 4,
+								"value": "@data.attributes.movement.walk"
+							},
+							{
+								"key": "data.attributes.movement.swim",
+								"mode": 4,
+								"value": "@data.attributes.movement.walk"
+							}
+						]
+					}	
+				]
+			}
 		},
 		{
 			"name": "Stay on Top",
