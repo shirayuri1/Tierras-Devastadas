@@ -405,7 +405,7 @@
 						  "key": "flags.dnd5e.weaponCriticalThreshold",
 						  "mode": 5,
 						  "value": "19",
-						  "priority": "20"
+						  "priority": "5"
 						}
 					],
 					"transfer": true,
@@ -439,7 +439,7 @@
 						  "key": "flags.dnd5e.weaponCriticalThreshold",
 						  "mode": 5,
 						  "value": "18",
-						  "priority": "4"
+						  "priority": "10"
 						}
 					],
 					"transfer": true,
