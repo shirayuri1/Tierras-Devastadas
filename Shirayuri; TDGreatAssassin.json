@@ -101,7 +101,11 @@
 				"At 9th level you gain proficiency with the poisoner's kit and can apply poisons to your weapons as a bonus action. When you apply a poison to your weapons with this trait you can choose between 4 ammo or one weapon. The poison dilutes after a minute, and in the case of weapon, it also ends if you have hit four times with it.",
 				"Additionally, your weapon attacks deal {@dice 2d4} additional poison damage."				
 			],
-			"skillProficiencies":,
+			"toolProficiencies": [
+				{
+					"poisoner's kit": true
+				}
+			],
 			"foundryImg": "icons/magic/symbols/symbol-lightning-bolt.webp"
 		},
 		{
