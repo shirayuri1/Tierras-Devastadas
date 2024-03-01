@@ -112,6 +112,20 @@
 			"entries": [
 				"Starting at this level you gain the ability to use a second bonus action through this feature. You can use this trait a number of times equal to your Dexterity modifier, and you regain its uses after finishing a long rest."				
 			],
+			"foundrySystem": {
+				"ability": "",
+				"actionType": "",
+				"activation": {
+					"cost": 1,
+					"type": "special"
+				},
+				"target.type": "self",
+				"uses": {
+					"max": "@prof",
+					"per": "lr",
+					"value": 2
+				}
+			},
 			"foundryImg": "icons/magic/symbols/symbol-lightning-bolt.webp"
 		},
 		{
@@ -178,13 +192,6 @@
 				"Also at 3rd level, you gain climbing and swimming speed equal to your walking speed. Furthermore, your running jump now adds your dexterity modifier to the distance and falling from 15 ft or less won't make you fall {@condition Prone} or recieve fall damage.",
 				"Lastly, trying to Roll across a hostile creature will only cost you 5 ft, and passing through your allies won't cost you any extra movement."
 			],
-			"actorDataMod": {
-				"uses": {
-				  "value": 2,
-				  "max": "@prof",
-				  "per": "sr"
-				}
-			},
 			"effects": [
 				{
 					"changes": [
@@ -200,17 +207,7 @@
 						  "value": "@data.attributes.movement.walk",
 						  "priority": "20"
 						}
-					],
-					"transfer": true,
-					"flags": {
-					  "dae": {
-						"selfTarget": false,
-						"stackable": "none",
-						"durationExpression": "",
-						"specialDuration": [],
-						"transfer": true
-					  }
-					}
+					]
 				}
 			]					
 		}
