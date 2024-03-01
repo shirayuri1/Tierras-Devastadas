@@ -164,5 +164,55 @@
 				"From this level onwards you have two reactions."				
 			]
 		}
+	],
+	"foundrySubclassFeature": [		
+		{
+			"name": "Second-Story Work",
+			"source": "TDImproviserThief",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Thief",
+			"subclassSource": "TDImproviserThief",
+			"level": 3,
+			"entries": [
+				"Also at 3rd level, you gain climbing and swimming speed equal to your walking speed. Furthermore, your running jump now adds your dexterity modifier to the distance and falling from 15 ft or less won't make you fall {@condition Prone} or recieve fall damage.",
+				"Lastly, trying to Roll across a hostile creature will only cost you 5 ft, and passing through your allies won't cost you any extra movement."
+			],
+			"system": {
+				"uses": {
+				  "value": "2",
+				  "max": "@prof",
+				  "per": "sr"
+				}
+			},
+			"effects": [
+				{
+					"changes": [
+						{
+						  "key": "data.attributes.movement.swim",
+						  "mode": 4,
+						  "value": "@data.attributes.movement.walk",
+						  "priority": "20"
+						},
+						{
+						  "key": "data.attributes.movement.climb",
+						  "mode": 4,
+						  "value": "@data.attributes.movement.walk",
+						  "priority": "20"
+						}
+					],
+					"transfer": true,
+					"flags": {
+					  "dae": {
+						"selfTarget": false,
+						"stackable": "none",
+						"durationExpression": "",
+						"specialDuration": [],
+						"transfer": true
+					  }
+					}
+				}
+			]					
+		}
 	]
 }

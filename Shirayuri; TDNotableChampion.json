@@ -260,10 +260,6 @@
 			"subclassShortName": "Champion",
 			"subclassSource": "TDNotableChampion",
 			"level": 10,
-			"entries": [
-				"subclassYou gain proficiency in {@skill Athletics} or {@skill Acrobatics}, if you already had proficiency you gain expertise.",
-				"You can add half your proficiency bonus (rounded up) on skill checks that rely on Strength, Dexterity, or Constitution and that do not already apply your proficiency. Additionally, thanks to your immaculate physical condition, you gain climbing and swimming speed equal to your walking speed."
-			],
 			"skillProficiencies": [
 				{
 					"athletics": true
@@ -386,7 +382,7 @@
 				}
 			],			
 			"entries": [
-				"foundrysubclass You gain proficiency in {@skill Athletics} or {@skill Acrobatics}, if you already had proficiency you gain expertise.",
+				"You gain proficiency in {@skill Athletics} or {@skill Acrobatics}, if you already had proficiency you gain expertise.",
 				"You can add half your proficiency bonus (rounded up) on skill checks that rely on Strength, Dexterity, or Constitution and that do not already apply your proficiency. Additionally, thanks to your immaculate physical condition, you gain climbing and swimming speed equal to your walking speed."
 			]
 		}
