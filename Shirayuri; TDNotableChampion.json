@@ -283,7 +283,7 @@
 				{}
 			],
 			"foundrySystem": {
-				"systemEffect":[
+				"effects":[
 					{
 						"name": "Remarkable Athlete",
 						"transfer": true,
