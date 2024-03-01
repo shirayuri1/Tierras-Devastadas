@@ -261,7 +261,7 @@
 			"subclassSource": "TDNotableChampion",
 			"level": 10,
 			"entries": [
-				"You gain proficiency in {@skill Athletics} or {@skill Acrobatics}, if you already had proficiency you gain expertise.",
+				"subclassYou gain proficiency in {@skill Athletics} or {@skill Acrobatics}, if you already had proficiency you gain expertise.",
 				"You can add half your proficiency bonus (rounded up) on skill checks that rely on Strength, Dexterity, or Constitution and that do not already apply your proficiency. Additionally, thanks to your immaculate physical condition, you gain climbing and swimming speed equal to your walking speed."
 			],
 			"skillProficiencies": [
@@ -281,32 +281,7 @@
 					"acrobatics": true
 				},
 				{}
-			],
-			"foundrySystem": {
-				"effects":[
-					{
-						"name": "Remarkable Athlete",
-						"transfer": true,
-						"changes": [
-							{
-								"key": "flags.dnd5e.remarkableAthlete",
-								"mode": 0,
-								"value": "true"
-							},
-							{
-								"key": "data.attributes.movement.climb",
-								"mode": 4,
-								"value": "@data.attributes.movement.walk"
-							},
-							{
-								"key": "data.attributes.movement.swim",
-								"mode": 4,
-								"value": "@data.attributes.movement.walk"
-							}
-						]
-					}	
-				]
-			}
+			]
 		},
 		{
 			"name": "Stay on Top",
@@ -364,6 +339,55 @@
 			"header": 2,
 			"entries": [
 				"At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 10 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points."
+			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"name": "Remarkable Athlete",
+			"source": "TDNotableChampion",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Champion",
+			"subclassSource": "TDNotableChampion",
+			"level": 10,
+			"effects": [
+				{
+					"changes": [
+						{
+						  "key": "flags.dnd5e.remarkableAthlete",
+						  "mode": 0,
+						  "value": "true",
+						  "priority": "20"
+						},
+						{
+						  "key": "data.attributes.movement.swim",
+						  "mode": 4,
+						  "value": "@data.attributes.movement.walk",
+						  "priority": "20"
+						},
+						{
+						  "key": "data.attributes.movement.climb",
+						  "mode": 4,
+						  "value": "@data.attributes.movement.walk",
+						  "priority": "20"
+						}
+					],
+					"transfer": true,
+					"flags": {
+					  "dae": {
+						"selfTarget": false,
+						"stackable": "none",
+						"durationExpression": "",
+						"specialDuration": [],
+						"transfer": true
+					  }
+					}
+				}
+			],			
+			"entries": [
+				"foundrysubclass You gain proficiency in {@skill Athletics} or {@skill Acrobatics}, if you already had proficiency you gain expertise.",
+				"You can add half your proficiency bonus (rounded up) on skill checks that rely on Strength, Dexterity, or Constitution and that do not already apply your proficiency. Additionally, thanks to your immaculate physical condition, you gain climbing and swimming speed equal to your walking speed."
 			]
 		}
 	],
