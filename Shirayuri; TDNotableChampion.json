@@ -260,6 +260,7 @@
 			"subclassShortName": "Champion",
 			"subclassSource": "TDNotableChampion",
 			"level": 10,
+			"entries": [],
 			"skillProficiencies": [
 				{
 					"athletics": true
