@@ -116,7 +116,7 @@
 			"page": 11,
 			"subclassShortName": "Assassin",
 			"subclassSource": "TDGreatAssassin",
-			"level": 9,
+			"level": 13,
 			"header": 2,
 			"entries": [
 				"At 13th level, your great experience allows you to act decisively in the face of hostility. If a combat starts and you are present for its first round, you get an extra turn before it starts. During this turn, consider all other creatures present as surprised."
@@ -131,7 +131,7 @@
 			"page": 13,
 			"subclassShortName": "Assassin",
 			"subclassSource": "TDGreatAssassin",
-			"level": 13,
+			"level": 17,
 			"header": 2,
 			"entries": [
 				"At level 17 you learn to deliver an accurate blow to your victim's vitals. When you hit a critical hit, you can double the damage dealt. You can use this trait once per short rest."
