@@ -135,5 +135,33 @@
 			],
 			"foundryImg": "icons/skills/melee/blood-slash-foam-red.webp"
 		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"name": "Intimidating Presence",
+			"source": "TDManiacBerserker",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Berserker",
+			"subclassSource": "TDManiacBerserker",
+			"level": 3,
+			"entries": [
+				"Your imposture and build passively help to impose your will on others, allowing you to use your strength modifier instead of charisma on your charisma ({@skill intimidation}) rolls"
+			],
+			"effects": [
+				{
+					"changes": [
+					  {
+						"key": "data.skills.itm.ability",
+						"mode": 5,
+						"value": "str",
+						"priority": "20"
+					  }
+					],
+					"transfer": true
+				}
+				
+			]
+		}
 	]
 }
