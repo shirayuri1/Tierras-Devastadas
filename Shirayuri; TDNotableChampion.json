@@ -386,6 +386,74 @@
 				"You gain proficiency in {@skill Athletics} or {@skill Acrobatics}, if you already had proficiency you gain expertise.",
 				"You can add half your proficiency bonus (rounded up) on skill checks that rely on Strength, Dexterity, or Constitution and that do not already apply your proficiency. Additionally, thanks to your immaculate physical condition, you gain climbing and swimming speed equal to your walking speed."
 			]
+		},
+		{
+			"name": "Improved Critical",
+			"entries": [
+				"Your weapon attacks reduce their critical range by one, for example they are critical on a 19 or 20, plus when you critically hit with a weapon attack you can regain an amount of health equal to 1d6 + your constitution modifier. You can regain life with this trait a number of times equal to your proficiency modifier per long rest."
+			],
+			"source": "TDNotableChampion",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Champion",
+			"subclassSource": "TDNotableChampion",
+			"level": 3,
+			"effects": [
+				{
+					"changes": [
+						{
+						  "key": "flags.dnd5e.weaponCriticalThreshold",
+						  "mode": 5,
+						  "value": "19",
+						  "priority": "20"
+						}
+					],
+					"transfer": true,
+					"flags": {
+					  "dae": {
+						"selfTarget": false,
+						"stackable": "none",
+						"durationExpression": "",
+						"specialDuration": [],
+						"transfer": true
+					  }
+					}
+				}
+			]
+		},		
+		{
+			"name": "Superior Critical",
+			"source": "TDNotableChampion",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Champion",
+			"subclassSource": "TDNotableChampion",
+			"level": 15,
+			"entries": [
+				"Starting at 15th level, The critical range of your weapon attacks is reduced by 2."
+			],
+			"effects": [
+				{
+					"changes": [
+						{
+						  "key": "flags.dnd5e.weaponCriticalThreshold",
+						  "mode": 5,
+						  "value": "18",
+						  "priority": "4"
+						}
+					],
+					"transfer": true,
+					"flags": {
+					  "dae": {
+						"selfTarget": false,
+						"stackable": "none",
+						"durationExpression": "",
+						"specialDuration": [],
+						"transfer": true
+					  }
+					}
+				}
+			]
 		}
 	],
 	"optionalfeature": [
