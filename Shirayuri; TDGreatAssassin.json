@@ -57,7 +57,8 @@
 					"type":"refSubclassFeature",
 					"subclassFeature":"Ready to Kill|Rogue|PHB|Assassin|TDGreatAssassin|3|TDGreatAssassin"
 				}			
-			]
+			],
+			"foundryImg": "icons/magic/unholy/silhouette-robe-evil-power.webp"
 		},
 		{
 			"name": "Assassinate",
@@ -71,7 +72,8 @@
 			"header": 2,
 			"entries": [
 				"You have mastered the arts of delivering death to your victims. Once per turn, you can give yourself advantage on a weapon attack; if the attack hits, it is considered a critical hit. You can use this ability a number of times equal to your dexterity modifier, and you regain all uses of it after a long rest. Uses are spent regardless of whether the attack hits or misses."
-			]			
+			],
+			"foundryImg": "icons/skills/melee/blood-slash-foam-red.webp"
 		},
 		{
 			"name": "Ready to Kill",
@@ -85,7 +87,8 @@
 			"header": 2,
 			"entries": [
 				"You have advantage against creatures that have not yet taken their turn, and you also have advantage on initiative rolls"
-			]
+			],
+			"foundryImg": "icons/skills/melee/blade-tip-energy-green.webp"
 		},
 		{
 			"name": "Poison Enthusiast",
@@ -106,7 +109,7 @@
 					"poisoner's kit": true
 				}
 			],
-			"foundryImg": "icons/magic/symbols/symbol-lightning-bolt.webp"
+			"foundryImg": "icons/skills/toxins/poison-bottle-open-fire-purple.webp"
 		},
 		{
 			"name": "Unexpected Blow",
@@ -121,7 +124,7 @@
 			"entries": [
 				"At 13th level, your great experience allows you to act decisively in the face of hostility. If a combat starts and you are present for its first round, you get an extra turn before it starts. During this turn, consider all other creatures present as surprised."
 			],
-			"foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/magic/perception/silhouette-stealth-shadow.webp"
+			"foundryImg": "icons/skills/targeting/crosshair-arrowhead-blue.webp"
 		},
 		{
 			"name": "Lethal Blow",
@@ -135,7 +138,8 @@
 			"header": 2,
 			"entries": [
 				"At level 17 you learn to deliver an accurate blow to your victim's vitals. When you hit a critical hit, you can double the damage dealt. You can use this trait once per short rest."
-			]
+			],
+			"foundryImg": "icons/skills/melee/strike-axe-red.webp"
 		}
 	],
 	"foundrySubclassFeature": [	
