@@ -156,9 +156,8 @@
 					"changes": [
 						{
 						  "key": "flags.dnd5e.initiativeAdv",
-						  "mode": 0,
-						  "value": "true",
-						  "priority": "20"
+						  "mode": "CUSTOM",
+						  "value": "true"
 						}
 					]
 				}
