@@ -58,6 +58,22 @@
 					"subclassFeature":"Ready to Kill|Rogue|PHB|Assassin|TDGreatAssassin|3|TDGreatAssassin"
 				}			
 			],
+			"foundrySystem": {
+				"effects":[
+					{
+						"name": "Great Assassin",
+						"transfer": true,
+						"changes": [
+							{
+							  "key": "flags.dnd5e.initiativeAdv",
+							  "mode": 0,
+							  "value": "true",
+							  "priority": 20
+							}
+						]
+					}
+				]
+			},
 			"foundryImg": "icons/magic/unholy/silhouette-robe-evil-power.webp"
 		},
 		{
@@ -74,6 +90,21 @@
 				"You have mastered the arts of delivering death to your victims. Once per turn, you can give yourself advantage on a weapon attack; if the attack hits, it is considered a critical hit. You can use this ability a number of times equal to your dexterity modifier, and you regain all uses of it after a long rest. Uses are spent regardless of whether the attack hits or misses."
 			],
 			"foundryImg": "icons/skills/melee/blood-slash-foam-red.webp"
+		},
+		{
+			"name": "Ready to Kill",
+			"source": "TDGreatAssassin",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"page": 11,
+			"subclassShortName": "Assassin",
+			"subclassSource": "TDGreatAssassin",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You have advantage against creatures that have not yet taken their turn, and you also have advantage on initiative rolls"
+			],
+			"foundryImg": "icons/skills/melee/blade-tip-energy-green.webp"
 		},
 		{
 			"name": "Poison Enthusiast",
@@ -125,30 +156,6 @@
 				"At level 17 you learn to deliver an accurate blow to your victim's vitals. When you hit a critical hit, you can double the damage dealt. You can use this trait once per short rest."
 			],
 			"foundryImg": "icons/skills/melee/strike-axe-red.webp"
-		}
-	],
-	"foundrySubclassFeature": [
-		{
-			"name": "Ready to Kill",
-			"source": "TDGreatAssassin",
-			"className": "Rogue",
-			"classSource": "PHB",
-			"subclassSource": "TDGreatAssassin",
-			"subclassShortName": "Assassin",
-			"level": 3,
-			"effects": [
-				{
-					"name": "Ready to Kill",
-					"transfer": true,
-					"changes": [
-						{
-						  "key": "flags.dnd5e.initiativeAdv",
-						  "mode": "CUSTOM",
-						  "value": "true"
-						}
-					]
-				}
-			]			
 		}
 	]
 }
