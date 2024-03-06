@@ -76,21 +76,6 @@
 			"foundryImg": "icons/skills/melee/blood-slash-foam-red.webp"
 		},
 		{
-			"name": "Ready to Kill",
-			"source": "TDGreatAssassin",
-			"className": "Rogue",
-			"classSource": "PHB",
-			"page": 11,
-			"subclassShortName": "Assassin",
-			"subclassSource": "TDGreatAssassin",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"You have advantage against creatures that have not yet taken their turn, and you also have advantage on initiative rolls"
-			],
-			"foundryImg": "icons/skills/melee/blade-tip-energy-green.webp"
-		},
-		{
 			"name": "Poison Enthusiast",
 			"source": "TDGreatAssassin",
 			"className": "Rogue",
