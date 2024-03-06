@@ -153,6 +153,8 @@
 			"level": 3,
 			"effects": [
 				{
+					"name": "Ready to Kill",
+					"transfer": true,
 					"changes": [
 						{
 						  "key": "flags.dnd5e.initiativeAdv",
