@@ -109,22 +109,6 @@
 					"poisoner's kit": true
 				}
 			],
-			"foundrySystem": {
-				"subEntities":{
-					"effects": [
-						{
-							"changes": [
-								{
-								  "key": "flags.dnd5e.initiativeAdv",
-								  "mode": 0,
-								  "value": "true",
-								  "priority": "20"
-								}
-							]
-						}
-					]
-				}
-			},
 			"foundryImg": "icons/skills/toxins/poison-bottle-open-fire-purple.webp"
 		},
 		{
@@ -156,6 +140,29 @@
 				"At level 17 you learn to deliver an accurate blow to your victim's vitals. When you hit a critical hit, you can double the damage dealt. You can use this trait once per short rest."
 			],
 			"foundryImg": "icons/skills/melee/strike-axe-red.webp"
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"name": "Ready to Kill",
+			"source": "TDGreatAssassin",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassSource": "TDGreatAssassin",
+			"subclassShortName": "Assassin",
+			"level": 3,
+			"effects": [
+				{
+					"changes": [
+						{
+						  "key": "flags.dnd5e.initiativeAdv",
+						  "mode": 0,
+						  "value": "true",
+						  "priority": "20"
+						}
+					]
+				}
+			]			
 		}
 	]
 }
