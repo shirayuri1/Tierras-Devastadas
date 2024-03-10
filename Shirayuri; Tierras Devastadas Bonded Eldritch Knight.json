@@ -66,10 +66,10 @@
 					"title": "Uses"
 				},
 				{
-					"type": "dice",
+					"type": "ScaleValue",
 					"configuration": {
 						"identifier": "damage",
-						"type": "number",
+						"type": "dice",
 						"scale": {
 							"7": {
 								"number": 3,
