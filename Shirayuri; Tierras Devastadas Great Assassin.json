@@ -72,7 +72,7 @@
 			"header": 2,
 			"entries": [
 				"You have mastered the arts of delivering death to your victims. Once per turn, you can give yourself advantage on a weapon attack; if the attack hits, it is considered a critical hit. You can use this ability a number of times equal to your dexterity modifier, and you regain all uses of it after a long rest. Uses are spent regardless of whether the attack hits or misses."
-			],
+			],			
 			"foundryImg": "icons/skills/melee/blood-slash-foam-red.webp"
 		},
 		{
