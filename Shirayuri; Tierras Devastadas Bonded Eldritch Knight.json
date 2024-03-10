@@ -24,16 +24,13 @@
 	},
 	"subclass": [
 		{
-			"name": "Awakened Eldritch Knight",
+			"name": "Bonded Eldritch Knight",
 			"subclassFeatures": [
-				"Awakened Eldritch Knight|Fighter||Eldritch Knight|TDBondedEldritchKnight|3|TDBondedEldritchKnight",
-				"Critical Versatility|Fighter||Eldritch Knight|TDBondedEldritchKnight|7|TDBondedEldritchKnight",
-				"Additional Notable Fighting Style|Fighter||Eldritch Knight|TDBondedEldritchKnight|7|TDBondedEldritchKnight",
-				"Remarkable Athlete|Fighter||Eldritch Knight|TDBondedEldritchKnight|10|TDBondedEldritchKnight",
-				"Stay on Top|Fighter||Eldritch Knight|TDBondedEldritchKnight|10|TDBondedEldritchKnight",
-				"Superior Critical|Fighter||Eldritch Knight|TDBondedEldritchKnight|15|TDBondedEldritchKnight",
-				"Comeback|Fighter||Eldritch Knight|TDBondedEldritchKnight|15|TDBondedEldritchKnight",
-				"Survivor|Fighter||Eldritch Knight|TDBondedEldritchKnight|18|TDBondedEldritchKnight"
+				"Bonded Eldritch Knight|Fighter||Eldritch Knight|TDBondedEldritchKnight|3|TDBondedEldritchKnight",
+				"Eldritch Burst|Fighter||Eldritch Knight|TDBondedEldritchKnight|7|TDBondedEldritchKnight",
+				"Advanced Arcanist Stances|Fighter||Eldritch Knight|TDBondedEldritchKnight|10|TDBondedEldritchKnight",
+				"Deploy Eldritch Arsenal|Fighter||Eldritch Knight|TDBondedEldritchKnight|15|TDBondedEldritchKnight",
+				"Triple Arcanist Stance|Fighter||Eldritch Knight|TDBondedEldritchKnight|18|TDBondedEldritchKnight"
 			],
 			"source": "TDBondedEldritchKnight",
 			"shortName": "Eldritch Knight",
@@ -41,9 +38,9 @@
 			"classSource": "PHB",
 			"optionalfeatureProgression":[
 				{
-					"name": "Notable Fighting Style",
+					"name": "Arcanist Stance",
 					"featureType": [
-						"AEK:ECT"
+						"BEK:AS"
 					],
 					"progression": {
 						"3": 1,
@@ -51,7 +48,44 @@
 					}
 				}
 			],
-			"foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/maneuver-sword-katana-yellow.webp"
+			"foundryAdvancement": [
+				{
+					"type": "ScaleValue",
+					"configuration": {
+						"identifier": "uses",
+						"type": "number",
+						"scale": {
+							"10": {
+								"value": 2
+							},
+							"17": {
+								"value": 3
+							}
+						}
+					},
+					"title": "Uses"
+				},
+				{
+					"type": "dice",
+					"configuration": {
+						"identifier": "damage",
+						"type": "number",
+						"scale": {
+							"7": {
+								"number": 3,
+								"faces": 8
+							},
+							"15": {
+								"number": 5,
+								"faces": 8
+							}
+						}
+					},
+					"title": "Damage"
+
+				}
+			],
+			"foundryImg": "icons/skills/melee/hand-grip-sword-orange.webp"
 		}
 	],
 	"subclassFeature": [
@@ -72,15 +106,15 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Postures|Fighter||Eldritch Knight|TDBondedEldritchKnight|3|TDBondedEldritchKnight"
+					"subclassFeature": "Arcanist Stances|Fighter||Eldritch Knight|TDBondedEldritchKnight|3|TDBondedEldritchKnight"
 				}
 			],
-			"foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/maneuver-sword-katana-yellow.webp"
+			"foundryImg": "icons/skills/melee/hand-grip-sword-orange.webp"
 		},
 		{
 			"name": "Weapon Bond",
 			"entries": [
-				"You are a self-taught and innovative magic practitioner, at 3rd level you learn a ritual to bond with a weapon on a short or long rest. You can only have 2 bonded weapons at a time, other creatures cannot disarm you of them and have disadvantage when using them. Once per turn you can add your Intelligence modifier to the damage of one of his attacks.",
+				"You are a self-taught and innovative magic practitioner, at 3rd level you learn a ritual to bond with a weapon on a short or long rest. You can only have 2 bonded weapons at a time, other creatures cannot disarm you of them and have disadvantage when using them. Once per turn you can add your Intelligence modifier to the damage made with bonded a weapon or subclass trait.",
 				"If any of the traits that uses a bonded weapon require a saving throw or a skill check, the Weapon DC is calculated as follow:",
 				{
 					"type": "abilityDc",
@@ -97,7 +131,8 @@
 			"subclassShortName": "Eldritch Knight",
 			"subclassSource": "TDBondedEldritchKnight",
 			"level": 3,
-			"header": 1
+			"header": 1,			
+			"foundryImg": "icons/skills/melee/hand-grip-staff-blue.webp"
 		},
 		{
 			"name": "Arcanist Stances",
@@ -121,7 +156,7 @@
 						{
 							"type": "item",
 							"name": "Abjurer's Stance",
-							"entry": "Your weapons radiate protective energy, you passively gain +1 AC, and as a bonus action you can activate your weapon to give one creature in it's reach range and you temporary hit points equal to your Intelligence modifier + your proficiency bonus."
+							"entry": "Your weapons radiate protective energy, you passively gain +1 AC, and as a bonus action you can activate your weapon to give you and another creature within reach temporary hit points equal to your Intelligence modifier + your proficiency bonus."
 						},
 						{
 							"type": "item",
@@ -141,18 +176,7 @@
 					]
 				}
 			],
-			"foundrySystem": {
-				"activation": {
-					"cost": 1,
-					"type": "special"
-				},
-				"uses": {
-					"max": "@prof",
-					"per": "lr",
-					"value": 1
-				}
-			},
-			"foundryImg": "icons/commodities/treasure/medal-ribbon-star-gold-red.webp"
+			"foundryImg": "icons/magic/fire/dagger-rune-enchant-flame-strong-blue.webp"
 		},
 		{
 			"name": "Eldritch Burst",
@@ -165,7 +189,8 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"When a bonded weapon attack hits, intangible copies of it or its ammunition jump in all directions. Other creatures within 10 feet of the one hit must make a intelligence saving throw against your Weapon DC. On a miss they receive 3d8 + your intelligence modifier psychic damage, or half that if they pass. You can maintain concentration as if it were a spell to solidify the copies and turn the ground they land on into difficult terrain for 1 minute. You are immune to both damage and negative effects from this trait and can use it up to 2 times per short rest."
+				"When a bonded weapon attack hits, intangible copies of it or its ammunition jump in all directions. Other creatures within 10 feet of the one hit must make a intelligence saving throw against your Weapon DC. On a miss they receive 3d8 psychic damage, or half that if they pass. You can maintain concentration as if it were a spell to solidify the copies and turn the ground they land on into difficult terrain for 1 minute. You are immune to both damage and negative effects from this trait and can use it up to 2 times per short rest.",
+				"At 15 level you have one more use per short rest, the damage increases to 5d8 and you get new options while maintaining concentration "
 			],			
 			"foundrySystem": {
 				"activation": {
@@ -181,17 +206,17 @@
 				},				
 				"damage.parts": [
 					[
-						"3d8 + @mod",
+						"@scale.bonded-eldritch-knight.damage",
 						"psychic"
 					]
 				],
 				"uses": {
-					"max": "2",
+					"max": "@scale.bonded-eldritch-knight.uses",
 					"per": "sr",
 					"value": 2
 				}
 			},
-			"foundryImg": "https://i.imgur.com/hONNH37.jpg"
+			"foundryImg": "icons/skills/ranged/daggers-thrown-salvo-teal.webp"
 		},
 		{
 			"name": "Advanced Arcanist Stances",
@@ -204,7 +229,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Your Arcanist Stances receive the following upgrades and you can hold 2 at a time:",
+				"Your Arcanist Stances receive the following upgrades and you can mantain 2 at a time:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -235,7 +260,7 @@
 					]
 				}
 			],
-			"foundryImg": "icons/commodities/treasure/medal-ribbon-star-gold-red.webp"
+			"foundryImg": "icons/magic/fire/dagger-rune-enchant-flame-strong-red.webp"
 		},
 		{
 			"name": "Deploy Eldritch Arsenal",
@@ -272,7 +297,8 @@
 						}
 					]
 				}
-			]
+			],
+			"foundryImg": "https://imgur.com/e4UeDSs.png"
 		},
 		{
 			"name": "Triple Arcanist Stance",
@@ -287,7 +313,7 @@
 			"entries": [
 				"As a bonus action you can use mantain another of your arcanist stances at the same time for one minute. You can use this trait once per short rest."
 			],
-			"foundryImg": "https://i.imgur.com/lyNWAos.png"
+			"foundryImg": "icons/skills/melee/strike-weapons-orange.webp"
 		}
 	],
 	"optionalfeature": [
@@ -296,7 +322,7 @@
 			"source": "TDBondedEldritchKnight",
 			"page": 11,
 			"entries": [
-				"Your weapons radiate protective energy, you passively gain +1 AC, and as a bonus action you can activate your weapon to give one creature in it's reach range and you temporary hit points equal to your Intelligence modifier + your proficiency bonus.",
+				"Your weapons radiate protective energy similar to the {@spell Shield} spell, you passively gain +1 AC, and as a bonus action you can activate your weapon to give you and one other creature in it's reach temporary hit points equal to your Intelligence modifier + your proficiency bonus.",
 				"At 10th level the AC bonus increases to +2 and the temporary hit points double"
 			],
 			"featureType": [
@@ -315,7 +341,25 @@
 					]
 				}
 			],
-			"foundryImg": "icons/weapons/bows/shortbow-recurve-yellow.webp"
+			"foundrySystem": {
+				"activation": {
+					"type": "special"
+				},
+				"uses": {
+					"max": "max(1, floor(@abilities.int.mod))",
+					"per": "lr",
+					"value": 1
+				},
+				"ability": "int",
+				"actionType": "heal",
+				"damage.parts": [
+					[
+						"@mod + @prof",
+						"temphp"
+					]
+				]
+			},
+			"foundryImg": "icons/magic/defensive/barrier-shield-dome-deflect-blue.webp"
 		},
 		{
 			"name": "Conjurer's Stance",
@@ -328,7 +372,17 @@
 			"featureType": [
 				"BEK:AS"
 			],
-			"foundryImg": "https://i.imgur.com/bKEkKaB.png"
+			"foundrySystem": {
+				"activation": {
+					"type": "special"
+				},
+				"uses": {
+					"max": "max(1, floor(@abilities.int.mod))",
+					"per": "lr",
+					"value": 1
+				}
+			},
+			"foundryImg": "icons/skills/melee/sword-twirl-orange.webp"
 		},
 		{
 			"name": "Evoker's Stance",
@@ -341,32 +395,40 @@
 			"featureType": [
 				"BEK:AS"
 			],
-			"foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/shield/heater-stone-orange.webp"
+			"foundrySystem": {
+				"activation": {
+					"type": "special"
+				},
+				"uses": {
+					"max": "max(1, floor(@abilities.int.mod))",
+					"per": "lr",
+					"value": 1
+				}
+			},
+			"foundryImg": "icons/magic/light/projectile-stars-blue.webp"
 		},
 		{
 			"name": "Transmuter's Stance",
 			"source": "TDBondedEldritchKnight",
 			"page": 12,
 			"entries": [
-				"When you are wielding a melee weapon in one hand and no other weapons, you gain a +3 bonus to damage rolls with that weapon and you can replace any of your Opportunity Attacks with the {@skill Shove} action."
+				"Your weapons change length and shape at will, mimicking the effects of spells like {@spell Enlarge/Reduce} or {@spell Catapult|XGE}. Passively, melee weapons have +5 feet of reach and ranged weapons can change their damage to bludgeoning. Upon impact you can activate them to use the {@action shvoe} action contested against your Weapon DC.",
+				"At 10th level as a bonus action and until the beginning of your next turn, one of your weapons begins to levitate around you, freeing your hands. While levitating you can attack as if you were holding it 5 feet away from you."
 			],
 			"featureType": [
 				"BEK:AS"
 			],
-			"foundryEffects": [
-				{
-					"name": "NFS: Dueling",
-					"transfer": true,
-					"changes": [
-						{
-							"key": "data.bonuses.mwak.damage",
-							"mode": 2,
-							"value": "3"
-						}
-					]
+			"foundrySystem": {
+				"activation": {
+					"type": "special"
+				},
+				"uses": {
+					"max": "max(1, floor(@abilities.int.mod))",
+					"per": "lr",
+					"value": 1
 				}
-			],
-			"foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/hand-grip-sword-orange.webp"
+			},
+			"foundryImg": "icons/skills/ranged/projectile-explosion-black-orange.webp"
 		}
 	]
 }
