@@ -1,0 +1,372 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "TDBondedEldritchKnight",
+				"abbreviation": "TDBondedEldritchKnight",
+				"full": "Tierras Devastadas Bonded Eldritch Knight",
+				"authors": [
+					"Shirayuri"
+				],
+				"convertedBy": [
+					"Shirayuri"
+				],
+				"version": "1.0",
+				"url": "https://docs.google.com/document/d/1YvvrajMf3rjyVm6mlCbZaMEGIu_2e3Keda971zkXVmo/edit",
+				"targetSchema": "1.0"
+			}
+		],
+		"optionalFeatureTypes":{
+			"BEK:AS": "Bonded Eldritch Knight; Arcanist Stances"
+		},
+		"dateAdded": 1709248403,
+		"dateLastModified": 1709248403
+	},
+	"subclass": [
+		{
+			"name": "Awakened Eldritch Knight",
+			"subclassFeatures": [
+				"Awakened Eldritch Knight|Fighter||Eldritch Knight|TDBondedEldritchKnight|3|TDBondedEldritchKnight",
+				"Critical Versatility|Fighter||Eldritch Knight|TDBondedEldritchKnight|7|TDBondedEldritchKnight",
+				"Additional Notable Fighting Style|Fighter||Eldritch Knight|TDBondedEldritchKnight|7|TDBondedEldritchKnight",
+				"Remarkable Athlete|Fighter||Eldritch Knight|TDBondedEldritchKnight|10|TDBondedEldritchKnight",
+				"Stay on Top|Fighter||Eldritch Knight|TDBondedEldritchKnight|10|TDBondedEldritchKnight",
+				"Superior Critical|Fighter||Eldritch Knight|TDBondedEldritchKnight|15|TDBondedEldritchKnight",
+				"Comeback|Fighter||Eldritch Knight|TDBondedEldritchKnight|15|TDBondedEldritchKnight",
+				"Survivor|Fighter||Eldritch Knight|TDBondedEldritchKnight|18|TDBondedEldritchKnight"
+			],
+			"source": "TDBondedEldritchKnight",
+			"shortName": "Eldritch Knight",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"optionalfeatureProgression":[
+				{
+					"name": "Notable Fighting Style",
+					"featureType": [
+						"AEK:ECT"
+					],
+					"progression": {
+						"3": 1,
+						"10": 2
+					}
+				}
+			],
+			"foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/maneuver-sword-katana-yellow.webp"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Bonded Eldritch Knight",
+			"source": "TDBondedEldritchKnight",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Eldritch Knight",
+			"subclassSource": "TDBondedEldritchKnight",
+			"level": 3,
+			"entries": [
+				"The Eldric Knight archetype seeks to combine arcane knowledge with martial skills, this variant discards the orthodoxy of spellcasting in search of new techniques that do not interrupt the fluidity of combat. It draws inspiration from spells and schools of magic that it adapts and combines with weapon fighting styles to explore and exploit its full potential. Eldric Knights require a high intellect to control their weapons, but they do not learn spells as such.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Weapon Bond|Fighter||Eldritch Knight|TDBondedEldritchKnight|3|TDBondedEldritchKnight"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Postures|Fighter||Eldritch Knight|TDBondedEldritchKnight|3|TDBondedEldritchKnight"
+				}
+			],
+			"foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/maneuver-sword-katana-yellow.webp"
+		},
+		{
+			"name": "Weapon Bond",
+			"entries": [
+				"You are a self-taught and innovative magic practitioner, at 3rd level you learn a ritual to bond with a weapon on a short or long rest. You can only have 2 bonded weapons at a time, other creatures cannot disarm you of them and have disadvantage when using them. Once per turn you can add your Intelligence modifier to the damage of one of his attacks.",
+				"If any of the traits that uses a bonded weapon require a saving throw or a skill check, the Weapon DC is calculated as follow:",
+				{
+					"type": "abilityDc",
+					"name": "Weapon",
+					"attributes": [
+						"int"
+					]
+				}
+			],
+			"source": "TDBondedEldritchKnight",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Eldritch Knight",
+			"subclassSource": "TDBondedEldritchKnight",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Arcanist Stances",
+			"source": "TDBondedEldritchKnight",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Eldritch Knight",
+			"subclassSource": "TDBondedEldritchKnight",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"At this level you also develop 4 postures that combine certain spells and schools of magic with martial techniques. You memorize 1 of them and can replace it every time you level up in this class. Each stance allows you to activate your weapons by unleashing a unique magical effect a number of times equal to your Intelligence modifier (minimum 1) per long rest.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"columns": 1,
+					"page": 0,
+					"name": "",
+					"items": [
+						{
+							"type": "item",
+							"name": "Abjurer's Stance",
+							"entry": "Your weapons radiate protective energy, you passively gain +1 AC, and as a bonus action you can activate your weapon to give one creature in it's reach range and you temporary hit points equal to your Intelligence modifier + your proficiency bonus."
+						},
+						{
+							"type": "item",
+							"name": "Conjurer's Stance",
+							"entry":"While on the same plane you can summon your bonded weapon to your hand as part of an attack. With a bonus action you can activate it to throw it 60 feet (or use its long throwing range) and warp to its location."
+						},
+						{
+							"type": "item",
+							"name": "Evoker's Stance",
+							"entry": "Your weapons are imbued with the power of the magic missiles spell, passively dealing 1d4 force damage. When you miss one of your attacks with a bonded weapon you can activate it to inflict on the target 1 point of force damage."
+						},
+						{
+							"type": "item",
+							"name": "Transmuter's Stance",
+							"entry": "Your bonded weapons change length and shape at will. Passively, melee weapons have +5 feet of reach and ranged weapons can change their damage to bludgeoning. Upon impact with this weapon you can activate it to use the {@action shove} action against the target, the skill check is made against your Weapon DC."
+						}
+					]
+				}
+			],
+			"foundrySystem": {
+				"activation": {
+					"cost": 1,
+					"type": "special"
+				},
+				"uses": {
+					"max": "@prof",
+					"per": "lr",
+					"value": 1
+				}
+			},
+			"foundryImg": "icons/commodities/treasure/medal-ribbon-star-gold-red.webp"
+		},
+		{
+			"name": "Eldritch Burst",
+			"source": "TDBondedEldritchKnight",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Eldritch Knight",
+			"subclassSource": "TDBondedEldritchKnight",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"When a bonded weapon attack hits, intangible copies of it or its ammunition jump in all directions. Other creatures within 10 feet of the one hit must make a intelligence saving throw against your Weapon DC. On a miss they receive 3d8 + your intelligence modifier psychic damage, or half that if they pass. You can maintain concentration as if it were a spell to solidify the copies and turn the ground they land on into difficult terrain for 1 minute. You are immune to both damage and negative effects from this trait and can use it up to 2 times per short rest."
+			],			
+			"foundrySystem": {
+				"activation": {
+					"cost": 1,
+					"type": "special"
+				},				
+				"ability": "int",
+				"actionType": "save",
+				"save": {
+					"ability": "int",
+					"dc": null,
+					"scaling": "int"
+				},				
+				"damage.parts": [
+					[
+						"3d8 + @mod",
+						"psychic"
+					]
+				],
+				"uses": {
+					"max": "2",
+					"per": "sr",
+					"value": 2
+				}
+			},
+			"foundryImg": "https://i.imgur.com/hONNH37.jpg"
+		},
+		{
+			"name": "Advanced Arcanist Stances",
+			"source": "TDBondedEldritchKnight",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Eldritch Knight",
+			"subclassSource": "TDBondedEldritchKnight",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Your Arcanist Stances receive the following upgrades and you can hold 2 at a time:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"columns": 1,
+					"page": 0,
+					"name": "",
+					"items": [
+						{
+							"type": "item",
+							"name": "Abjurer's Stance",
+							"entry": "+1 passive AC ioncrease to +2 and doubles temporary hit points."
+						},
+						{
+							"type": "item",
+							"name": "Conjurer's Stance",
+							"entry":"After throwing it, but before warping you can attack with the weapon from any point it has passed as if you were holding it"
+						},
+						{
+							"type": "item",
+							"name": "Evoker's Stance",
+							"entry": "Weapon force damage increases to 2d4, and activated damage on a miss to 1d4."
+						},
+						{
+							"type": "item",
+							"name": "Transmuter's Stance",
+							"entry": "As a bonus action your weapon levitates around you freeing your hands and you can attack as if you were holding it 5 feet away from you."
+						}
+					]
+				}
+			],
+			"foundryImg": "icons/commodities/treasure/medal-ribbon-star-gold-red.webp"
+		},
+		{
+			"name": "Deploy Eldritch Arsenal",
+			"source": "TDBondedEldritchKnight",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Eldritch Knight",
+			"subclassSource": "TDBondedEldritchKnight",
+			"level": 15,
+			"entries": [
+				"You gain one more use of Blade Burst, and after using it you can maintain concentration as if it were a spell to generate one of the following effects on the copies after they fall to the ground:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"columns": 1,
+					"page": 0,
+					"name": "",
+					"items": [
+						{
+							"type": "item",
+							"name": "Unending Arsenal",
+							"entry": "Copies of the bonded weapon duplicate endlessly upon sensing movement for 1 minute, any creature entering or moving through the area must make a dexterity saving throw against your Weapon DC or take 3d6 of your weapon's base damage on a fail. You can expand the radius by 5 feet with a bonus action."
+						},
+						{
+							"type": "item",
+							"name": "Ethereal Arsenal",
+							"entry":"The copies dissolve into a magical whirlpool that moves with you as the center imitating the effects of the {@spell Warding Wind|XGE} spell and providing advantage on dexterity saving throws"
+						},
+						{
+							"type": "item",
+							"name": "Unbreakable Arsenal",
+							"entry": "Before they fall the copies are rearranged around a 10 feet sphere's perimeter like a cage that blocks movement and provides half cover in both directions. Entering or exiting this cage requires a Strength (Athletics) check against your Weapon DC as an action."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Triple Arcanist Stance",
+			"source": "TDBondedEldritchKnight",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Eldritch Knight",
+			"subclassSource": "TDBondedEldritchKnight",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"As a bonus action you can use mantain another of your arcanist stances at the same time for one minute. You can use this trait once per short rest."
+			],
+			"foundryImg": "https://i.imgur.com/lyNWAos.png"
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Abjurer's Stance",
+			"source": "TDBondedEldritchKnight",
+			"page": 11,
+			"entries": [
+				"Your weapons radiate protective energy, you passively gain +1 AC, and as a bonus action you can activate your weapon to give one creature in it's reach range and you temporary hit points equal to your Intelligence modifier + your proficiency bonus.",
+				"At 10th level the AC bonus increases to +2 and the temporary hit points double"
+			],
+			"featureType": [
+				"BEK:AS"
+			],
+			"foundryEffects": [
+				{
+					"name": "AS: Abjurer AC",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.ac.bonus",
+							"mode": 2,
+							"value": "+1"
+						}
+					]
+				}
+			],
+			"foundryImg": "icons/weapons/bows/shortbow-recurve-yellow.webp"
+		},
+		{
+			"name": "Conjurer's Stance",
+			"source": "TDBondedEldritchKnight",
+			"page": 11,
+			"entries": [
+				"While on the same plane you can summon your bonded weapon to your hand as part of an attack. With a bonus action you can activate it to throw it 60 feet (or use its Throwing long range) and warp to its location.",
+				"At 10th level After throwing it, but before warping you can attack with the weapon from any point it has passed as if you were holding it"
+			],
+			"featureType": [
+				"BEK:AS"
+			],
+			"foundryImg": "https://i.imgur.com/bKEkKaB.png"
+		},
+		{
+			"name": "Evoker's Stance",
+			"source": "TDBondedEldritchKnight",
+			"page": 12,
+			"entries": [
+				"Your weapons are imbued with the power of the magic missile spell, passively dealing 1d4 force damage. When you miss one of your attacks with a bonded weapon you can activate it to inflict on the target 1 point of force damage.",
+				"At 10th level the weapon's force damage increases to 2d4, and activated force damage on a miss to 1d4."
+			],
+			"featureType": [
+				"BEK:AS"
+			],
+			"foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/shield/heater-stone-orange.webp"
+		},
+		{
+			"name": "Transmuter's Stance",
+			"source": "TDBondedEldritchKnight",
+			"page": 12,
+			"entries": [
+				"When you are wielding a melee weapon in one hand and no other weapons, you gain a +3 bonus to damage rolls with that weapon and you can replace any of your Opportunity Attacks with the {@skill Shove} action."
+			],
+			"featureType": [
+				"BEK:AS"
+			],
+			"foundryEffects": [
+				{
+					"name": "NFS: Dueling",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "data.bonuses.mwak.damage",
+							"mode": 2,
+							"value": "3"
+						}
+					]
+				}
+			],
+			"foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/hand-grip-sword-orange.webp"
+		}
+	]
+}
