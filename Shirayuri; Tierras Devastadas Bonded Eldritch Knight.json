@@ -35,6 +35,7 @@
 			"classSource": "PHB",			
 			"spellcastingAbility": "int",
 			"casterProgression": "1/3",
+
 			"cantripProgression": [
 				0,
 				0,
@@ -113,12 +114,12 @@
 					"subclasses": [
 						{
 							"name": "Eldritch Knight",
-							"source": "PHB"
+							"source": "TDBondedEldritchKnight"
 						}
 					],
 					"colLabels": [
-						"{@filter Cantrips Known|spells|level=0|subclass=Fighter: Eldritch Knight}",
-						"{@filter Spells Known|spells|subclass=Fighter: Eldritch Knight}"
+						"{@filter Cantrips Known|spells|level=0|subclass=Fighter: Bonded Eldritch Knight}",
+						"{@filter Spells Known|spells|subclass=Fighter: Bonded Eldritch Knight}"
 					],
 					"rows": [
 						[
@@ -207,15 +208,15 @@
 					"title": "Spell Slots per Spell Level",
 					"subclasses": [
 						{
-							"name": "Eldritch Knight",
-							"source": "PHB"
+							"name": "Bonded Eldritch Knight",
+							"source": "TDBondedEldritchKnight"
 						}
 					],
 					"colLabels": [
-						"{@filter 1st|spells|level=1|subclass=Fighter: Eldritch Knight}",
-						"{@filter 2nd|spells|level=2|subclass=Fighter: Eldritch Knight}",
-						"{@filter 3rd|spells|level=3|subclass=Fighter: Eldritch Knight}",
-						"{@filter 4th|spells|level=4|subclass=Fighter: Eldritch Knight}"
+						"{@filter 1st|spells|level=1|subclass=Fighter: Bonded Eldritch Knight}",
+						"{@filter 2nd|spells|level=2|subclass=Fighter: Bonded Eldritch Knight}",
+						"{@filter 3rd|spells|level=3|subclass=Fighter: Bonded Eldritch Knight}",
+						"{@filter 4th|spells|level=4|subclass=Fighter: Bonded Eldritch Knight}"
 					],
 					"rowsSpellProgression": [
 						[
@@ -511,7 +512,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"The bond with your weapons is strengthened and helps you resist magic. When you use your {@classFeature Indomitable|Fighter||9} trait to resist a magical effect, add your Intelligence modifier to the roll (minimum +1) and gain resistance to that effect's damage."
+				"The bond with your weapons is strengthened and helps you resist magic. When using your {@classFeature Indomitable|Fighter||9} trait to resist spell or magical effect, add your Intelligence modifier to the roll (minimum +1) and gain resistance to any damage that comes from that spell or effect."
 			],
 			"foundryImg": "icons/skills/melee/maneuver-daggers-paired-orange.webp"
 		},
