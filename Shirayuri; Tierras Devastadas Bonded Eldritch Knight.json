@@ -81,20 +81,6 @@
 			],
 			"additionalSpells": [
 				{
-					"known":{
-						"3":[
-							"Booming Blade|TCE#c"
-						]
-					}
-				},
-				{
-					"known":{
-						"3":[
-							"Green-Flame Blade|TCE#c"
-						]
-					}
-				},
-				{
 					"expanded": {
 						"3": [
 							{
