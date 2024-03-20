@@ -455,7 +455,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"When you use your {@classFeature Second Wind|Warrior Sidekick|TCE|2} trait, you regain spell slots equal to half your proficiency bonus (rounded up), once per long rest."
+				"When you use your {@classFeature Second Wind|Fighter||1} trait, you regain spell slots equal to half your proficiency bonus (rounded up), once per long rest."
 			],
 			"foundrySystem": {
 				"activation": {
@@ -526,7 +526,7 @@
 			"subclassSource": "TDBondedEldritchKnight",
 			"level": 15,
 			"entries": [
-				"When you use Action Surge you can teleport up to 30 feet to a place you can see and cast a cantrip that requires one action as a bonus action, before or after using the aditional action."
+				"When you use {{@classFeature Actrion Surge|Fighter||2} you can teleport up to 30 feet to a place you can see and cast a cantrip that requires one action as a bonus action, before or after using the aditional action."
 			],
 			"foundryImg": "icons/skills/ranged/projectile-explosion-black-orange.webp"
 		},
