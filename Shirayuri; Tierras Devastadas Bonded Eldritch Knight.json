@@ -309,6 +309,24 @@
 			],
 			"additionalSpells": [
 				{
+					"known": {
+						"3": [
+							"booming blade#c",
+							{
+								"choose": {
+									"from": [
+										"dancing lights#c",
+										"friends#c",
+										"message#c",
+										"resistance#c",
+										"spare the dying#c",
+										"traveler's enigma|ChroniclesofEberron#c"
+									],
+									"count": 2
+								}
+							}
+						]
+					},
 					"expanded": {
 						"3": [
 							{
