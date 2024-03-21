@@ -35,237 +35,16 @@
 			"classSource": "PHB",			
 			"spellcastingAbility": "int",
 			"casterProgression": "1/3",
-			"subclassSpells": [
-				"Absorb Elements|XGE",
-				"Aganazzar's Scorcher|XGE",
-				"Aid|PHB",
-				"Air Bubble|AAG",
-				"Alarm|PHB",
-				"Alter Self|PHB",
-				"Animate Dead|PHB",
-				"Antagonize|BMT",
-				"Arcane Eye|PHB",
-				"Arcane Lock|PHB",
-				"Armor of Agathys|PHB",
-				"Ashardalon's Stride|FTD",
-				"Augury|PHB",
-				"Aura of Life|PHB",
-				"Aura of Purity|PHB",
-				"Aura of Vitality|PHB",
-				"Banishment|PHB",
-				"Beacon of Hope|PHB",
-				"Bestow Curse|PHB",
-				"Blight|PHB",
-				"Blinding Smite|PHB",
-				"Blindness/Deafness|PHB",
-				"Blink|PHB",
-				"Blur|PHB",
-				"Borrowed Knowledge|SCC",
-				"Branding Smite|PHB",
-				"Burning Hands|PHB",
-				"Catapult|XGE",
-				"Catnap|XGE",
-				"Cause Fear|XGE",
-				"Ceremony|XGE",
-				"Chaos Bolt|XGE",
-				"Charm Monster|XGE",
-				"Charm Person|PHB",
-				"Chromatic Orb|PHB",
-				"Clairvoyance|PHB",
-				"Cloud of Daggers|PHB",
-				"Color Spray|PHB",
-				"Comprehend Languages|PHB",
-				"Confusion|PHB",
-				"Conjure Minor Elementals|PHB",
-				"Continual Flame|PHB",
-				"Control Water|PHB",
-				"Counterspell|PHB",
-				"Crown of Madness|PHB",
-				"Crusader's Mantle|PHB",
-				"Cure Wounds|PHB",
-				"Darkness|PHB",
-				"Darkvision|PHB",
-				"Daylight|PHB",
-				"Death Ward|PHB",
-				"Detect Magic|PHB",
-				"Detect Thoughts|PHB",
-				"Dimension Door|PHB",
-				"Disguise Self|PHB",
-				"Dispel Magic|PHB",
-				"Distort Value|AI",
-				"Divination|PHB",
-				"Divine Favor|PHB",
-				"Dragon's Breath|XGE",
-				"Dust Devil|XGE",
-				"Earth Tremor|XGE",
-				"Earthbind|XGE",
-				"Elemental Bane|XGE",
-				"Enemies Abound|XGE",
-				"Enhance Ability|PHB",
-				"Enlarge/Reduce|PHB",
-				"Erupting Earth|XGE",
-				"Evard's Black Tentacles|PHB",
-				"Expeditious Retreat|PHB",
-				"Fabricate|PHB",
-				"Faerie Fire|PHB",
-				"False Life|PHB",
-				"Fast Friends|AI",
-				"Fear|PHB",
-				"Feather Fall|PHB",
-				"Feign Death|PHB",
-				"Find Familiar|PHB",
-				"Fire Shield|PHB",
-				"Fireball|PHB",
-				"Flame Arrows|XGE",
-				"Flame Blade|PHB",
-				"Flaming Sphere|PHB",
-				"Fly|PHB",
-				"Fog Cloud|PHB",
-				"Freedom of Movement|PHB",
-				"Frost Fingers|IDRotF",
-				"Gaseous Form|PHB",
-				"Gate Seal|SatO",
-				"Gentle Repose|PHB",
-				"Gift of Gab|AI",
-				"Glyph of Warding|PHB",
-				"Gravity Sinkhole|EGW",
-				"Grease|PHB",
-				"Greater Invisibility|PHB",
-				"Guiding Bolt|PHB",
-				"Gust of Wind|PHB",
-				"Hallucinatory Terrain|PHB",
-				"Haste|PHB",
-				"Healing Word|PHB",
-				"Hellish Rebuke|PHB",
-				"Hold Person|PHB",
-				"Hypnotic Pattern|PHB",
-				"Ice Knife|XGE",
-				"Ice Storm|PHB",
-				"Identify|PHB",
-				"Illusory Script|PHB",
-				"Incite Greed|AI",
-				"Intellect Fortress|TCE",
-				"Invisibility|PHB",
-				"Jim's Glowing Coin|AI",
-				"Jim's Magic Missile|AI",
-				"Jump|PHB",
-				"Kinetic Jaunt|SCC",
-				"Knock|PHB",
-				"Leomund's Secret Chest|PHB",
-				"Leomund's Tiny Hut|PHB",
-				"Lesser Restoration|PHB",
-				"Levitate|PHB",
-				"Life Transference|XGE",
-				"Lightning Bolt|PHB",
-				"Locate Creature|PHB",
-				"Locate Object|PHB",
-				"Longstrider|PHB",
-				"Mage Armor|PHB",
-				"Magic Circle|PHB",
-				"Magic Missile|PHB",
-				"Magic Mouth|PHB",
-				"Magic Weapon|PHB",
-				"Major Image|PHB",
-				"Mass Healing Word|PHB",
-				"Maximilian's Earthen Grasp|XGE",
-				"Melf's Acid Arrow|PHB",
-				"Melf's Minute Meteors|XGE",
-				"Mind Spike|XGE",
-				"Mirror Image|PHB",
-				"Misty Step|PHB",
-				"Moonbeam|PHB",
-				"Mordenkainen's Faithful Hound|PHB",
-				"Mordenkainen's Private Sanctum|PHB",
-				"Nathair's Mischief|FTD",
-				"Nondetection|PHB",
-				"Nystul's Magic Aura|PHB",
-				"Otiluke's Resilient Sphere|PHB",
-				"Pass without Trace|PHB",
-				"Phantasmal Force|PHB",
-				"Phantasmal Killer|PHB",
-				"Phantom Steed|PHB",
-				"Polymorph|PHB",
-				"Prayer of Healing|PHB",
-				"Protection from Energy|PHB",
-				"Protection from Evil and Good|PHB",
-				"Protection from Poison|PHB",
-				"Pulse Wave|EGW",
-				"Pyrotechnics|XGE",
-				"Raulothim's Psychic Lance|FTD",
-				"Ray of Enfeeblement|PHB",
-				"Ray of Sickness|PHB",
-				"Remove Curse|PHB",
-				"Rime's Binding Ice|FTD",
-				"Rope Trick|PHB",
-				"Sanctuary|PHB",
-				"Scorching Ray|PHB",
-				"Searing Smite|PHB",
-				"See Invisibility|PHB",
-				"Sending|PHB",
-				"Shadow Blade|XGE",
-				"Shatter|PHB",
-				"Shield|PHB",
-				"Shield of Faith|PHB",
-				"Sickening Radiance|XGE",
-				"Silent Image|PHB",
-				"Silvery Barbs|SCC",
-				"Skywrite|XGE",
-				"Sleep|PHB",
-				"Sleet Storm|PHB",
-				"Slow|PHB",
-				"Snare|XGE",
-				"Snilloc's Snowball Swarm|XGE",
-				"Speak with Dead|PHB",
-				"Spider Climb|PHB",
-				"Spirit of Death|BMT",
-				"Spirit Shroud|TCE",
-				"Spiritual Weapon|PHB",
-				"Spray of Cards|BMT",
-				"Staggering Smite|PHB",
-				"Stinking Cloud|PHB",
-				"Stone Shape|PHB",
-				"Stoneskin|PHB",
-				"Storm Sphere|XGE",
-				"Suggestion|PHB",
-				"Summon Aberration|TCE",
-				"Summon Construct|TCE",
-				"Summon Elemental|TCE",
-				"Summon Fey|TCE",
-				"Summon Greater Demon|XGE",
-				"Summon Lesser Demons|XGE",
-				"Summon Shadowspawn|TCE",
-				"Summon Undead|TCE",
-				"Tasha's Caustic Brew|TCE",
-				"Tasha's Hideous Laughter|PHB",
-				"Tasha's Mind Whip|TCE",
-				"Tenser's Floating Disk|PHB",
-				"Thunder Step|XGE",
-				"Thunderous Smite|PHB",
-				"Thunderwave|PHB",
-				"Tidal Wave|XGE",
-				"Tiny Servant|XGE",
-				"Tongues|PHB",
-				"Unseen Servant|PHB",
-				"Vampiric Touch|PHB",
-				"Vitriolic Sphere|XGE",
-				"Vortex Warp|SCC",
-				"Wall of Fire|PHB",
-				"Wall of Sand|XGE",
-				"Wall of Water|XGE",
-				"Warding Bond|PHB",
-				"Warding Wind|XGE",
-				"Warp Sense|SatO",
-				"Water Breathing|PHB",
-				"Watery Sphere|XGE",
-				"Web|PHB",
-				"Wind Wall|PHB",
-				"Witch Bolt|PHB",
-				"Wither and Bloom|SCC",
-				"Wrathful Smite|PHB"
-			],
 			"cantripProgression": [
 				0,
 				0,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
 				3,
 				3,
 				3,
@@ -273,17 +52,10 @@
 				3,
 				3,
 				3,
-				4,
-				4,
-				4,
-				4,
-				4,
-				4,
-				4,
-				4,
-				4,
-				4,
-				4
+				3,
+				3,
+				3,
+				3
 			],
 			"spellsKnownProgression": [
 				0,
@@ -310,19 +82,14 @@
 			"additionalSpells": [
 				{
 					"known": {
-						"3": [
-							"booming blade#c",
+						"3":[
 							{
 								"choose": {
 									"from": [
-										"dancing lights#c",
-										"friends#c",
-										"message#c",
-										"resistance#c",
-										"spare the dying#c",
-										"traveler's enigma|ChroniclesofEberron#c"
+										"booming blade|tce#c",
+										"green-flame blade|tce#c"
 									],
-									"count": 2
+									"count": 1
 								}
 							}
 						]
@@ -359,12 +126,12 @@
 					"subclasses": [
 						{
 							"name": "Eldritch Knight",
-							"source": "TDBondedEldritchKnight"
+							"source": "PHB"
 						}
 					],
 					"colLabels": [
-						"{@filter Cantrips Known|spells|level=0|subclass=Fighter: Bonded Eldritch Knight}",
-						"{@filter Spells Known|spells|subclass=Fighter: Bonded Eldritch Knight}"
+						"{@filter Cantrips Known|spells|level=0|subclass=Fighter: Eldritch Knight}",
+						"{@filter Spells Known|spells|subclass=Fighter: Eldritch Knight}"
 					],
 					"rows": [
 						[
@@ -376,75 +143,75 @@
 							0
 						],
 						[
-							3,
+							2,
 							3
 						],
 						[
-							3,
+							2,
 							4
 						],
 						[
-							3,
+							2,
 							4
 						],
 						[
-							3,
+							2,
 							4
 						],
 						[
-							3,
+							2,
 							5
 						],
 						[
-							3,
+							2,
+							6
+						],
+						[
+							2,
 							6
 						],
 						[
 							3,
-							6
-						],
-						[
-							4,
 							7
 						],
 						[
-							4,
+							3,
 							8
 						],
 						[
-							4,
+							3,
 							8
 						],
 						[
-							4,
+							3,
 							9
 						],
 						[
-							4,
+							3,
 							10
 						],
 						[
-							4,
+							3,
 							10
 						],
 						[
-							4,
+							3,
 							11
 						],
 						[
-							4,
+							3,
 							11
 						],
 						[
-							4,
+							3,
 							11
 						],
 						[
-							4,
+							3,
 							12
 						],
 						[
-							4,
+							3,
 							13
 						]
 					]
@@ -453,15 +220,15 @@
 					"title": "Spell Slots per Spell Level",
 					"subclasses": [
 						{
-							"name": "Bonded Eldritch Knight",
-							"source": "TDBondedEldritchKnight"
+							"name": "Eldritch Knight",
+							"source": "PHB"
 						}
 					],
 					"colLabels": [
-						"{@filter 1st|spells|level=1|subclass=Fighter: Bonded Eldritch Knight}",
-						"{@filter 2nd|spells|level=2|subclass=Fighter: Bonded Eldritch Knight}",
-						"{@filter 3rd|spells|level=3|subclass=Fighter: Bonded Eldritch Knight}",
-						"{@filter 4th|spells|level=4|subclass=Fighter: Bonded Eldritch Knight}"
+						"{@filter 1st|spells|level=1|subclass=Fighter: Eldritch Knight}",
+						"{@filter 2nd|spells|level=2|subclass=Fighter: Eldritch Knight}",
+						"{@filter 3rd|spells|level=3|subclass=Fighter: Eldritch Knight}",
+						"{@filter 4th|spells|level=4|subclass=Fighter: Eldritch Knight}"
 					],
 					"rowsSpellProgression": [
 						[
@@ -586,9 +353,8 @@
 						]
 					]
 				}
-			],
-			"foundryImg": "icons/magic/unholy/hand-weapon-glow-black-green.webp"
-		}
+			]
+		}	
 	],
 	"subclassFeature": [
 		{
