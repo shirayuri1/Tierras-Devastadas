@@ -35,6 +35,38 @@
 			"classSource": "PHB",			
 			"spellcastingAbility": "int",
 			"casterProgression": "1/3",
+			"subclassSpells": [
+				"Acid Splash|PHB",
+				"Blade Ward|PHB",
+				"Booming Blade|TCE",
+				"Chill Touch|PHB",
+				"Control Flames|XGE",
+				"Create Bonfire|XGE",
+				"Dancing Lights|PHB",
+				"Fire Bolt|PHB",
+				"Friends|PHB",
+				"Frostbite|XGE",
+				"Green-Flame Blade|TCE",
+				"Gust|XGE",
+				"Infestation|XGE",
+				"Light|PHB",
+				"Lightning Lure|TCE",
+				"Mage Hand|PHB",
+				"Mending|PHB",
+				"Message|PHB",
+				"Mind Sliver|TCE",
+				"Minor Illusion|PHB",
+				"Mold Earth|XGE",
+				"Poison Spray|PHB",
+				"Prestidigitation|PHB",
+				"Ray of Frost|PHB",
+				"Shape Water|XGE",
+				"Shocking Grasp|PHB",
+				"Sword Burst|TCE",
+				"Thunderclap|XGE",
+				"Toll the Dead|XGE",
+				"True Strike|PHB"
+			],
 			"cantripProgression": [
 				0,
 				0,
@@ -86,10 +118,38 @@
 							{
 								"choose": {
 									"from": [
-										"booming blade|tce#c",
-										"green-flame blade|tce#c"
+										"Acid Splash|PHB",
+										"Blade Ward|PHB",
+										"Booming Blade|TCE",
+										"Chill Touch|PHB",
+										"Control Flames|XGE",
+										"Create Bonfire|XGE",
+										"Dancing Lights|PHB",
+										"Fire Bolt|PHB",
+										"Friends|PHB",
+										"Frostbite|XGE",
+										"Green-Flame Blade|TCE",
+										"Gust|XGE",
+										"Infestation|XGE",
+										"Light|PHB",
+										"Lightning Lure|TCE",
+										"Mage Hand|PHB",
+										"Mending|PHB",
+										"Message|PHB",
+										"Mind Sliver|TCE",
+										"Minor Illusion|PHB",
+										"Mold Earth|XGE",
+										"Poison Spray|PHB",
+										"Prestidigitation|PHB",
+										"Ray of Frost|PHB",
+										"Shape Water|XGE",
+										"Shocking Grasp|PHB",
+										"Sword Burst|TCE",
+										"Thunderclap|XGE",
+										"Toll the Dead|XGE",
+										"True Strike|PHB"
 									],
-									"count": 1
+									"count": 2
 								}
 							}
 						]
@@ -97,7 +157,13 @@
 					"expanded": {
 						"3": [
 							{
-								"all": "level=0|class=Wizard"
+								"choose": {
+									"from": [
+										"booming blade|tce#c",
+										"green-flame blade|tce#c"
+									],
+									"count": 1
+								}
 							},
 							{
 								"all": "level=1|class=Wizard"
