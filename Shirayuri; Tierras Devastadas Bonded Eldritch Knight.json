@@ -544,7 +544,7 @@
 			"subclassSource": "TDBondedEldritchKnight",
 			"level": 15,
 			"entries": [
-				"When you use {{@classFeature Actrion Surge|Fighter||2} you can teleport up to 30 feet to a place you can see and cast a cantrip that requires one action as a bonus action, before or after using the aditional action."
+				"When you use {@classFeature Actrion Surge|Fighter||2} you can teleport up to 30 feet to a place you can see and cast a cantrip that requires one action as a bonus action, before or after using the aditional action."
 			],
 			"foundryImg": "icons/skills/ranged/projectile-explosion-black-orange.webp"
 		},
