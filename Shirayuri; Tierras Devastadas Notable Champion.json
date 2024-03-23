@@ -234,6 +234,13 @@
 				},
 				"You can use this trait a number of times equal to your proficiency bonus, and you regain all uses on a short or long rest."
 			],
+			"foundrySystem": {
+				"uses": {
+					"max": "@prof",
+					"per": "sr",
+					"value": 3
+				}
+			},
 			"foundryImg": "https://i.imgur.com/hONNH37.jpg"
 		},
 		{
@@ -336,7 +343,21 @@
 			"header": 2,
 			"entries": [
 				"At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 10 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points."
-			]
+			],
+			"foundrySystem": {
+				"ability": "con",
+				"actionType": "heal",
+				"activation": {
+					"cost": 1,
+					"type": "special"
+				},
+				"damage.parts": [
+					[
+						"10 + @mod",
+						"healing"
+					]
+				]
+			}
 		}
 	],
 	"foundrySubclassFeature": [
