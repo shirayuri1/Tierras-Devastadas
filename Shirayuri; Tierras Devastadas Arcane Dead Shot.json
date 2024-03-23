@@ -39,18 +39,19 @@
 				"Additional Arcane Shot Option|fighter|PHB|Arcane Dead Shot|TDArcaneDeadShot|15|TDArcaneDeadShot",
 				"Additional Arcane Shot Option|fighter|PHB|Arcane Dead Shot|TDArcaneDeadShot|18|TDArcaneDeadShot"
 			],
-			"additionalSpells":[
+			"additionalSpells": [
 				{
-					"known":{
+					"known": {
 						"3":[
-							"prestidigitation#c"
-						]
-					}
-				},
-				{
-					"known":{
-						"3":[
-							"druidcraft#c"
+							{
+								"choose": {
+									"from": [
+										"prestidigitation#c",
+										"druidcraft#c"
+									],
+									"count": 1
+								}
+							}
 						]
 					}
 				}
@@ -170,7 +171,7 @@
 			"header": 2,
 			"entries": [
 				"At 3rd level, you learn to unleash special magical effects with some of your shots. When you gain this feature, you learn two Arcane Shot options of your choice (see 'Arcane Shot Options' below) and when you attack with a weapon that uses ammunition, you can use your Intelligence modifier, instead of Dexterity.",
-				"Once per turn when you fire an ammunition from a ranged weapon as part of the {@action Attack} action, you can apply one of your Arcane Shot options to that ammunition. You decide to use the option when the ammunition hits a creature, unless the option doesn't involve an attack roll. You have 1 + proficiency bonus uses of this ability, and you regain all expended uses of it when you finish a long rest.",
+				"Once per turn when you fire an ammunition from a ranged weapon as part of the {@action Attack} action, you can apply one of your Arcane Shot options to that ammunition. You decide to use the option when the ammunition hits a creature, unless the option doesn't involve an attack roll. You have 1 use of each option, and you regain all expended uses when you finish a long rest.",
 				"You gain an additional Arcane Shot option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th. Each option also improves when you become a 10th and 18th-level fighter.",
 				"If an option requires a saving throw, your Arcane Shot save DC equals:",
 				{
@@ -181,16 +182,6 @@
 					]
 				}			
 			],
-			"foundrySystem": {
-				"activation": {
-					"type": "special"
-				},
-				"uses": {
-					"max": "1+@prof",
-					"per": "lr",
-					"value": 3
-				}
-			},
 			"foundryImg": "icons/skills/ranged/bow-arrows-blue.webp"
 		},
 		{
