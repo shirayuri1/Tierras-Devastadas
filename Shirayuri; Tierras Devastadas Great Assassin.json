@@ -47,8 +47,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You focus your training on the grim art of death. Those who adhere to this archetype are diverse—hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity. Stealth, poison, and disguise help you eliminate your foes with deadly efficiency.",
-				"Your archetype grants you features at 3rd level and then again at 9th, 13th, and 17th level.",
+				"You focus your training on the grim art of death. Those who adhere to this archetype are diverse—hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity. Stealth and poison help you eliminate your foes with deadly efficiency.",
 				{
 					"type":"refSubclassFeature",
 					"subclassFeature":"Assassinate|Rogue|PHB|Great Assassin|TDGreatAssassin|3|TDGreatAssassin"
