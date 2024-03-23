@@ -207,7 +207,8 @@
 						  "value": "@system.attributes.movement.walk",
 						  "priority": "20"
 						}
-					]
+					],
+					"transfer": true
 				}
 			]					
 		}
