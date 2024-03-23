@@ -31,7 +31,8 @@
 			"source": "TDManiacBerserker",
 			"shortName": "Berserker",
 			"className": "Barbarian",
-			"classSource": "PHB"
+			"classSource": "PHB",
+			"foundryImg": "icons/weapons/swords/sword-broad-serrated-blue.webp"
 		}
 	],
 	"subclassFeature": [

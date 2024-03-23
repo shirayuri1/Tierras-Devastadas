@@ -32,7 +32,8 @@
 				"Poison Enthusiast|Rogue|PHB|Assassin|TDGreatAssassin|9|TDGreatAssassin",
 				"Unexpected Blow|Rogue|PHB|Assassin|TDGreatAssassin|13|TDGreatAssassin",
 				"Lethal Blow|Rogue|PHB|Assassin|TDGreatAssassin|17|TDGreatAssassin"				
-			]			
+			],
+			"foundryImg": "icons/magic/unholy/silhouette-robe-evil-power.webp"			
 		}
 	],
 	"subclassFeature":[
