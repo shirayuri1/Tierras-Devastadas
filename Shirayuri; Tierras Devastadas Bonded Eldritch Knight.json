@@ -530,7 +530,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"The bond with your weapons is strengthened and helps you resist magic. When using your {@classFeature Indomitable|Fighter||9} trait to resist spell or magical effect, add your Intelligence modifier to the roll (minimum +1) and gain resistance to any damage that comes from that spell or effect."
+				"The bond with your weapons is strengthened and helps you resist magic. When using your {@classFeature Indomitable|Fighter||9} trait to resist a spell or magical effect, add your Intelligence modifier to the roll (minimum +1) and gain resistance to any damage that comes from that spell or effect."
 			],
 			"foundryImg": "icons/skills/melee/maneuver-daggers-paired-orange.webp"
 		},
@@ -544,7 +544,7 @@
 			"subclassSource": "TDBondedEldritchKnight",
 			"level": 15,
 			"entries": [
-				"When you use {@classFeature Actrion Surge|Fighter||2} you can teleport up to 30 feet to a place you can see and cast a cantrip that requires one action as a bonus action, before or after using the aditional action."
+				"When you use {@classFeature Action Surge|Fighter||2} you can teleport up to 30 feet to a place you can see and cast a cantrip that requires one action as a bonus action, before or after using the aditional action."
 			],
 			"foundryImg": "icons/skills/ranged/projectile-explosion-black-orange.webp"
 		},
