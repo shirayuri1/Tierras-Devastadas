@@ -25,12 +25,12 @@
 			"page": 11,
 			"className": "Rogue",
 			"classSource": "PHB",
-			"shortName": "Assassin",
+			"shortName": "Great Assassin",
 			"subclassFeatures": [
-				"Great Assassin|Rogue|PHB|Assassin|TDGreatAssassin|3|TDGreatAssassin",
-				"Poison Enthusiast|Rogue|PHB|Assassin|TDGreatAssassin|9|TDGreatAssassin",
-				"Unexpected Blow|Rogue|PHB|Assassin|TDGreatAssassin|13|TDGreatAssassin",
-				"Lethal Blow|Rogue|PHB|Assassin|TDGreatAssassin|17|TDGreatAssassin"				
+				"Great Assassin|Rogue|PHB|Great Assassin|TDGreatAssassin|3|TDGreatAssassin",
+				"Poison Enthusiast|Rogue|PHB|Great Assassin|TDGreatAssassin|9|TDGreatAssassin",
+				"Unexpected Blow|Rogue|PHB|Great Assassin|TDGreatAssassin|13|TDGreatAssassin",
+				"Lethal Blow|Rogue|PHB|Great Assassin|TDGreatAssassin|17|TDGreatAssassin"				
 			],
 			"foundryImg": "icons/magic/unholy/silhouette-robe-evil-power.webp"			
 		}
@@ -42,7 +42,7 @@
 			"className": "Rogue",
 			"classSource": "PHB",
 			"page": 11,
-			"subclassShortName": "Assassin",
+			"subclassShortName": "Great Assassin",
 			"subclassSource": "TDGreatAssassin",
 			"level": 3,
 			"header": 2,
@@ -51,11 +51,11 @@
 				"Your archetype grants you features at 3rd level and then again at 9th, 13th, and 17th level.",
 				{
 					"type":"refSubclassFeature",
-					"subclassFeature":"Assassinate|Rogue|PHB|Assassin|TDGreatAssassin|3|TDGreatAssassin"
+					"subclassFeature":"Assassinate|Rogue|PHB|Great Assassin|TDGreatAssassin|3|TDGreatAssassin"
 				},
 				{
 					"type":"refSubclassFeature",
-					"subclassFeature":"Ready to Kill|Rogue|PHB|Assassin|TDGreatAssassin|3|TDGreatAssassin"
+					"subclassFeature":"Ready to Kill|Rogue|PHB|Great Assassin|TDGreatAssassin|3|TDGreatAssassin"
 				}			
 			],
 			"foundryImg": "icons/magic/unholy/silhouette-robe-evil-power.webp"
@@ -66,7 +66,7 @@
 			"className": "Rogue",
 			"classSource": "PHB",
 			"page": 11,
-			"subclassShortName": "Assassin",
+			"subclassShortName": "Great Assassin",
 			"subclassSource": "TDGreatAssassin",
 			"level": 3,
 			"header": 2,
@@ -93,7 +93,7 @@
 			"className": "Rogue",
 			"classSource": "PHB",
 			"page": 11,
-			"subclassShortName": "Assassin",
+			"subclassShortName": "Great Assassin",
 			"subclassSource": "TDGreatAssassin",
 			"level": 3,
 			"header": 2,
@@ -124,7 +124,7 @@
 			"className": "Rogue",
 			"classSource": "PHB",
 			"subclassSource": "TDGreatAssassin",
-			"subclassShortName": "Assassin",
+			"subclassShortName": "Great Assassin",
 			"page": 1,
 			"level": 9,
 			"header": 2,
@@ -158,7 +158,7 @@
 			"className": "Rogue",
 			"classSource": "PHB",
 			"page": 11,
-			"subclassShortName": "Assassin",
+			"subclassShortName": "Great Assassin",
 			"subclassSource": "TDGreatAssassin",
 			"level": 13,
 			"header": 2,
@@ -173,7 +173,7 @@
 			"className": "Rogue",
 			"classSource": "PHB",
 			"page": 13,
-			"subclassShortName": "Assassin",
+			"subclassShortName": "Great Assassin",
 			"subclassSource": "TDGreatAssassin",
 			"level": 17,
 			"header": 2,
@@ -201,7 +201,7 @@
 			"source": "TDGreatAssassin",
 			"className": "Rogue",
 			"classSource": "PHB",
-			"subclassShortName": "Assassin",
+			"subclassShortName": "Great Assassin",
 			"subclassSource": "TDGreatAssassin",
 			"level": 3,
 			"entries": [

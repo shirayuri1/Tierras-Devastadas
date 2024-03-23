@@ -22,14 +22,14 @@
 		{
 			"name": "Bonded Eldritch Knight",
 			"subclassFeatures": [
-				"Bonded Eldritch Knight|Fighter||Eldritch Knight|TDBondedEldritchKnight|3|TDBondedEldritchKnight",
-				"War Magic|Fighter||Eldritch Knight|TDBondedEldritchKnight|7|TDBondedEldritchKnight",
-				"Indomitable Bond|Fighter||Eldritch Knight|TDBondedEldritchKnight|10|TDBondedEldritchKnight",
-				"Eldritch Surge|Fighter||Eldritch Knight|TDBondedEldritchKnight|15|TDBondedEldritchKnight",
-				"Improved War Magic|Fighter||Eldritch Knight|TDBondedEldritchKnight|18|TDBondedEldritchKnight"
+				"Bonded Eldritch Knight|Fighter||Bonded Eldritch Knight|TDBondedEldritchKnight|3|TDBondedEldritchKnight",
+				"War Magic|Fighter||Bonded Eldritch Knight|TDBondedEldritchKnight|7|TDBondedEldritchKnight",
+				"Indomitable Bond|Fighter||Bonded Eldritch Knight|TDBondedEldritchKnight|10|TDBondedEldritchKnight",
+				"Eldritch Surge|Fighter||Bonded Eldritch Knight|TDBondedEldritchKnight|15|TDBondedEldritchKnight",
+				"Improved War Magic|Fighter||Bonded Eldritch Knight|TDBondedEldritchKnight|18|TDBondedEldritchKnight"
 			],
 			"source": "TDBondedEldritchKnight",
-			"shortName": "Eldritch Knight",
+			"shortName": "Bonded Eldritch Knight",
 			"className": "Fighter",
 			"classSource": "PHB",			
 			"spellcastingAbility": "int",
@@ -131,13 +131,13 @@
 				{
 					"subclasses": [
 						{
-							"name": "Eldritch Knight",
+							"name": "Bonded Eldritch Knight",
 							"source": "PHB"
 						}
 					],
 					"colLabels": [
-						"{@filter Cantrips Known|spells|level=0|subclass=Fighter: Eldritch Knight}",
-						"{@filter Spells Known|spells|subclass=Fighter: Eldritch Knight}"
+						"{@filter Cantrips Known|spells|level=0|subclass=Fighter: Bonded Eldritch Knight}",
+						"{@filter Spells Known|spells|subclass=Fighter: Bonded Eldritch Knight}"
 					],
 					"rows": [
 						[
@@ -226,15 +226,15 @@
 					"title": "Spell Slots per Spell Level",
 					"subclasses": [
 						{
-							"name": "Eldritch Knight",
+							"name": "Bonded Eldritch Knight",
 							"source": "PHB"
 						}
 					],
 					"colLabels": [
-						"{@filter 1st|spells|level=1|subclass=Fighter: Eldritch Knight}",
-						"{@filter 2nd|spells|level=2|subclass=Fighter: Eldritch Knight}",
-						"{@filter 3rd|spells|level=3|subclass=Fighter: Eldritch Knight}",
-						"{@filter 4th|spells|level=4|subclass=Fighter: Eldritch Knight}"
+						"{@filter 1st|spells|level=1|subclass=Fighter: Bonded Eldritch Knight}",
+						"{@filter 2nd|spells|level=2|subclass=Fighter: Bonded Eldritch Knight}",
+						"{@filter 3rd|spells|level=3|subclass=Fighter: Bonded Eldritch Knight}",
+						"{@filter 4th|spells|level=4|subclass=Fighter: Bonded Eldritch Knight}"
 					],
 					"rowsSpellProgression": [
 						[
@@ -370,22 +370,22 @@
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Eldritch Knight",
+			"subclassShortName": "Bonded Eldritch Knight",
 			"subclassSource": "TDBondedEldritchKnight",
 			"level": 3,
 			"entries": [
-				"The Bonded Eldritch Knight combines the martial mastery common to all fighters with the careful study of magic. They use magical techniques similar to those practiced by wizards, focusing their study on two of the eight schools of magic - abjuration and evocation. Abjuration spells grant an Eldritch Knight additional protection in combat, while evocation spells damage many enemies at once, extending the fighter's reach in combat. These knights learn a comparatively small number of spells, committting them to memory rather than keeping them in a spellbook.",
+				"The Bonded Eldritch Knight combines the martial mastery common to all fighters with the careful study of magic. They use magical techniques similar to those practiced by wizards, focusing their study on two of the eight schools of magic - abjuration and evocation. Abjuration spells grant a Bonded Eldritch Knight additional protection in combat, while evocation spells damage many enemies at once, extending the fighter's reach in combat. These knights learn a comparatively small number of spells, committting them to memory rather than keeping them in a spellbook.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spellcasting|Fighter||Eldritch Knight|TDBondedEldritchKnight|3|TDBondedEldritchKnight"
+					"subclassFeature": "Spellcasting|Fighter||Bonded Eldritch Knight|TDBondedEldritchKnight|3|TDBondedEldritchKnight"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Weapon Bond|Fighter||Eldritch Knight|TDBondedEldritchKnight|3|TDBondedEldritchKnight"
+					"subclassFeature": "Weapon Bond|Fighter||Bonded Eldritch Knight|TDBondedEldritchKnight|3|TDBondedEldritchKnight"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Eldritch Recovery|Fighter||Eldritch Knight|TDBondedEldritchKnight|3|TDBondedEldritchKnight"
+					"subclassFeature": "Eldritch Recovery|Fighter||Bonded Eldritch Knight|TDBondedEldritchKnight|3|TDBondedEldritchKnight"
 				}
 			],
 			"foundryImg": "icons/magic/unholy/hand-weapon-glow-black-green.webp"
@@ -393,7 +393,7 @@
 		{
 			"name": "Spellcasting",
 			"entries": [
-				"<div class=\"rd__b  rd__b--1\"><p>When you reach 3rd level, you augment your martial prowess with the ability to cast spells. See <a href=\"https://5etools-mirror-1.github.io/book.html#PHB,10\">chapter 10</a> for the general rules of spellcasting and <a href=\"https://5etools-mirror-1.github.io/book.html#PHB,11\">chapter 11</a> for the <a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstclass:wizard=1\">wizard spell list</a>.</p><div class=\"rd__b  rd__b--2\"><h3 class=\"rd__h rd__h--2\" data-title-index=\"101\"> <span class=\"entry-title-inner\">Cantrips</span><span class=\"ve-flex-vh-center\"><span class=\"rd__h-toggle ml-2 clickable\" data-rd-h-toggle-button=\"true\">[-]</span></span></h3> <p>You learn {@spell Booming Blade|TCE} or {@spell Green-Flame Blade|TCE}, and two cantrips of your choice from the <a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstclass:wizard=1\">wizard spell list</a>. You learn an additional wizard cantrip of your choice at 10th level.</p></div><div class=\"rd__b  rd__b--2\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"102\"> <span class=\"entry-title-inner\">Spell Slots.</span></span> <p>The Eldritch Knight Spellcasting table shows how many spell slots you have to cast your spells</a> of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p><div class=\"rd__spc-inline-post\"></div><p>For example, if you know the 1st-level spell {@spell shield} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell shield} using either slot.</p></div></div><div class=\"rd__b  rd__b--2\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"103\"> <span class=\"entry-title-inner\">Spells Known of 1st-Level and Higher.</span></span> <p>You know three first level spells, two of which you must choose from the evocation or abjuration school of any list. The third can be from any school of magic, but from the wizard spell list.</p><div class=\"rd__spc-inline-post\"></div><p>The Spells Known column of the Eldritch Knight Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an abjuration or evocation spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.</p><p>The spells you learn at 8th, 14th, and 20th level can come from any school of magic as long as they are from the wizard spell list.</p><p>Whenever you gain a level in this class, you can replace one of the spells or cantrips you know with another spell or cantrip. The new spell must be of a level for which you have spell slots, and it must be an abjuration or evocation spell, unless you're replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic.</p></div></div><div class=\"rd__b  rd__b--2\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"104\"> <span class=\"entry-title-inner\">Spellcasting Ability.</span></span> <p>Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.</p><p></p></div></div></div>",
+				"<div class=\"rd__b  rd__b--1\"><p>When you reach 3rd level, you augment your martial prowess with the ability to cast spells. See <a href=\"https://5etools-mirror-1.github.io/book.html#PHB,10\">chapter 10</a> for the general rules of spellcasting and <a href=\"https://5etools-mirror-1.github.io/book.html#PHB,11\">chapter 11</a> for the <a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstclass:wizard=1\">wizard spell list</a>.</p><div class=\"rd__b  rd__b--2\"><h3 class=\"rd__h rd__h--2\" data-title-index=\"101\"> <span class=\"entry-title-inner\">Cantrips</span><span class=\"ve-flex-vh-center\"><span class=\"rd__h-toggle ml-2 clickable\" data-rd-h-toggle-button=\"true\">[-]</span></span></h3> <p>You learn {@spell Booming Blade|TCE} or {@spell Green-Flame Blade|TCE}, and two cantrips of your choice from the <a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstclass:wizard=1\">wizard spell list</a>. You learn an additional wizard cantrip of your choice at 10th level.</p></div><div class=\"rd__b  rd__b--2\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"102\"> <span class=\"entry-title-inner\">Spell Slots.</span></span> <p>The Bonded Eldritch Knight Spellcasting table shows how many spell slots you have to cast your spells</a> of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p><div class=\"rd__spc-inline-post\"></div><p>For example, if you know the 1st-level spell {@spell shield} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell shield} using either slot.</p></div></div><div class=\"rd__b  rd__b--2\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"103\"> <span class=\"entry-title-inner\">Spells Known of 1st-Level and Higher.</span></span> <p>You know three first level spells, two of which you must choose from the evocation or abjuration school of any list. The third can be from any school of magic, but from the wizard spell list.</p><div class=\"rd__spc-inline-post\"></div><p>The Spells Known column of the Bonded Eldritch Knight Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an abjuration or evocation spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.</p><p>The spells you learn at 8th, 14th, and 20th level can come from any school of magic as long as they are from the wizard spell list.</p><p>Whenever you gain a level in this class, you can replace one of the spells or cantrips you know with another spell or cantrip. The new spell must be of a level for which you have spell slots, and it must be an abjuration or evocation spell, unless you're replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic.</p></div></div><div class=\"rd__b  rd__b--2\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"104\"> <span class=\"entry-title-inner\">Spellcasting Ability.</span></span> <p>Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.</p><p></p></div></div></div>",
 				{
 					"type": "abilityDc",
 					"name": "Spell",
@@ -413,7 +413,7 @@
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Eldritch Knight",
+			"subclassShortName": "Bonded Eldritch Knight",
 			"subclassSource": "TDBondedEldritchKnight",
 			"level": 3,
 			"header": 1,			
@@ -456,7 +456,7 @@
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Eldritch Knight",
+			"subclassShortName": "Bonded Eldritch Knight",
 			"subclassSource": "TDBondedEldritchKnight",
 			"level": 3,
 			"header": 1,			
@@ -468,7 +468,7 @@
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Eldritch Knight",
+			"subclassShortName": "Bonded Eldritch Knight",
 			"subclassSource": "TDBondedEldritchKnight",
 			"level": 3,
 			"header": 2,
@@ -498,7 +498,7 @@
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Eldritch Knight",
+			"subclassShortName": "Bonded Eldritch Knight",
 			"subclassSource": "TDBondedEldritchKnight",
 			"level": 7,
 			"header": 2,
@@ -525,7 +525,7 @@
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Eldritch Knight",
+			"subclassShortName": "Bonded Eldritch Knight",
 			"subclassSource": "TDBondedEldritchKnight",
 			"level": 10,
 			"header": 2,
@@ -540,7 +540,7 @@
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Eldritch Knight",
+			"subclassShortName": "Bonded Eldritch Knight",
 			"subclassSource": "TDBondedEldritchKnight",
 			"level": 15,
 			"entries": [
@@ -554,7 +554,7 @@
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Eldritch Knight",
+			"subclassShortName": "Bonded Eldritch Knight",
 			"subclassSource": "TDBondedEldritchKnight",
 			"level": 18,
 			"header": 2,

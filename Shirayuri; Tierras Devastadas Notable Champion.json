@@ -25,17 +25,17 @@
 		{
 			"name": "Notable Champion",
 			"subclassFeatures": [
-				"Notable Champion|Fighter||Champion|TDNotableChampion|3|TDNotableChampion",
-				"Critical Versatility|Fighter||Champion|TDNotableChampion|7|TDNotableChampion",
-				"Additional Notable Fighting Style|Fighter||Champion|TDNotableChampion|7|TDNotableChampion",
-				"Remarkable Athlete|Fighter||Champion|TDNotableChampion|10|TDNotableChampion",
-				"Stay on Top|Fighter||Champion|TDNotableChampion|10|TDNotableChampion",
-				"Superior Critical|Fighter||Champion|TDNotableChampion|15|TDNotableChampion",
-				"Comeback|Fighter||Champion|TDNotableChampion|15|TDNotableChampion",
-				"Survivor|Fighter||Champion|TDNotableChampion|18|TDNotableChampion"
+				"Notable Champion|Fighter||Notable Champion|TDNotableChampion|3|TDNotableChampion",
+				"Critical Versatility|Fighter||Notable Champion|TDNotableChampion|7|TDNotableChampion",
+				"Additional Notable Fighting Style|Fighter||Notable Champion|TDNotableChampion|7|TDNotableChampion",
+				"Remarkable Athlete|Fighter||Notable Champion|TDNotableChampion|10|TDNotableChampion",
+				"Stay on Top|Fighter||Notable Champion|TDNotableChampion|10|TDNotableChampion",
+				"Superior Critical|Fighter||Notable Champion|TDNotableChampion|15|TDNotableChampion",
+				"Comeback|Fighter||Notable Champion|TDNotableChampion|15|TDNotableChampion",
+				"Survivor|Fighter||Notable Champion|TDNotableChampion|18|TDNotableChampion"
 			],
 			"source": "TDNotableChampion",
-			"shortName": "Champion",
+			"shortName": "Notable Champion",
 			"className": "Fighter",
 			"classSource": "PHB",
 			"optionalfeatureProgression":[
@@ -60,18 +60,18 @@
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Champion",
+			"subclassShortName": "Notable Champion",
 			"subclassSource": "TDNotableChampion",
 			"level": 3,
 			"entries": [
 				"The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Improved Critical|Fighter||Champion|TDNotableChampion|3|TDNotableChampion"
+					"subclassFeature": "Improved Critical|Fighter||Notable Champion|TDNotableChampion|3|TDNotableChampion"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Notable Fighting Style|Fighter||Champion|TDNotableChampion|3|TDNotableChampion"
+					"subclassFeature": "Notable Fighting Style|Fighter||Notable Champion|TDNotableChampion|3|TDNotableChampion"
 				}
 			],
 			"foundryImg": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/maneuver-sword-katana-yellow.webp"
@@ -85,7 +85,7 @@
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Champion",
+			"subclassShortName": "Notable Champion",
 			"subclassSource": "TDNotableChampion",
 			"level": 3,
 			"header": 1,
@@ -116,7 +116,7 @@
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Champion",
+			"subclassShortName": "Notable Champion",
 			"subclassSource": "TDNotableChampion",
 			"level": 3,
 			"header": 2,
@@ -195,7 +195,7 @@
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Champion",
+			"subclassShortName": "Notable Champion",
 			"subclassSource": "TDNotableChampion",
 			"level": 7,
 			"header": 2,
@@ -248,7 +248,7 @@
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Champion",
+			"subclassShortName": "Notable Champion",
 			"subclassSource": "TDNotableChampion",
 			"level": 7,
 			"header": 2,
@@ -263,7 +263,7 @@
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Champion",
+			"subclassShortName": "Notable Champion",
 			"subclassSource": "TDNotableChampion",
 			"level": 10,
 			"entries": [],
@@ -292,7 +292,7 @@
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Champion",
+			"subclassShortName": "Notable Champion",
 			"subclassSource": "TDNotableChampion",
 			"level": 10,
 			"header": 2,
@@ -307,7 +307,7 @@
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Champion",
+			"subclassShortName": "Notable Champion",
 			"subclassSource": "TDNotableChampion",
 			"level": 15,
 			"header": 2,
@@ -321,7 +321,7 @@
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Champion",
+			"subclassShortName": "Notable Champion",
 			"subclassSource": "TDNotableChampion",
 			"level": 15,
 			"header": 2,
@@ -336,7 +336,7 @@
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Champion",
+			"subclassShortName": "Notable Champion",
 			"subclassSource": "TDNotableChampion",
 			"level": 18,
 			"header": 2,
@@ -366,7 +366,7 @@
 			"source": "TDNotableChampion",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Champion",
+			"subclassShortName": "Notable Champion",
 			"subclassSource": "TDNotableChampion",
 			"level": 10,
 			"effects": [
@@ -416,7 +416,7 @@
 			"source": "TDNotableChampion",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Champion",
+			"subclassShortName": "Notable Champion",
 			"subclassSource": "TDNotableChampion",
 			"level": 3,
 			"effects": [
@@ -447,7 +447,7 @@
 			"source": "TDNotableChampion",
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Champion",
+			"subclassShortName": "Notable Champion",
 			"subclassSource": "TDNotableChampion",
 			"level": 15,
 			"entries": [

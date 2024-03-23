@@ -22,13 +22,13 @@
 		{
 			"name": "Path of the Maniac Berserker",
 			"subclassFeatures": [
-				"Path of the Maniac Berserker|Barbarian||Berserker|TDManiacBerserker|3|TDManiacBerserker",
-				"Simple Mind|Barbarian||Berserker|TDManiacBerserker|6|TDManiacBerserker",
-				"Negligent Attack|Barbarian||Berserker|TDManiacBerserker|10|TDManiacBerserker",
-				"Violent Retaliation|Barbarian||Berserker|TDManiacBerserker|14|TDManiacBerserker"
+				"Path of the Maniac Berserker|Barbarian||Maniac Berserker|TDManiacBerserker|3|TDManiacBerserker",
+				"Simple Mind|Barbarian||Maniac Berserker|TDManiacBerserker|6|TDManiacBerserker",
+				"Negligent Attack|Barbarian||Maniac Berserker|TDManiacBerserker|10|TDManiacBerserker",
+				"Violent Retaliation|Barbarian||Maniac Berserker|TDManiacBerserker|14|TDManiacBerserker"
 			],
 			"source": "TDManiacBerserker",
-			"shortName": "Berserker",
+			"shortName": "Maniac Berserker",
 			"className": "Barbarian",
 			"classSource": "PHB",
 			"foundryImg": "icons/weapons/swords/sword-broad-serrated-blue.webp"
@@ -40,18 +40,18 @@
 			"source": "TDManiacBerserker",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Berserker",
+			"subclassShortName": "MAniac Berserker",
 			"subclassSource": "TDManiacBerserker",
 			"level": 3,
 			"entries": [
 				"For some Barbarians, fury is only the means to achieve an objective, the objective being violence. The path of the Berserker is a path of limitless violence soaked in blood. When you enter the berserker rage, you enjoy the chaos of battle, without worries such as your health or safety.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Frenzy|Barbarian||Berserker|TDManiacBerserker|3|TDManiacBerserker"
+					"subclassFeature": "Frenzy|Barbarian||Maniac Berserker|TDManiacBerserker|3|TDManiacBerserker"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Intimidating Presence|Barbarian||Berserker|TDManiacBerserker|3|TDManiacBerserker"
+					"subclassFeature": "Intimidating Presence|Barbarian||Maniac Berserker|TDManiacBerserker|3|TDManiacBerserker"
 				}
 			],
 			"foundryImg": "icons/weapons/swords/sword-broad-serrated-blue.webp"
@@ -61,7 +61,7 @@
 			"source": "TDManiacBerserker",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Berserker",
+			"subclassShortName": "Maniac Berserker",
 			"subclassSource": "TDManiacBerserker",
 			"level": 3,
 			"header": 2,
@@ -75,7 +75,7 @@
 			"source": "TDManiacBerserker",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Berserker",
+			"subclassShortName": "Maniac Berserker",
 			"subclassSource": "TDManiacBerserker",
 			"level": 3,
 			"header": 2,
@@ -89,7 +89,7 @@
 			"source": "TDManiacBerserker",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Berserker",
+			"subclassShortName": "Maniac Berserker",
 			"subclassSource": "TDManiacBerserker",
 			"level": 6,
 			"header": 2,
@@ -104,7 +104,7 @@
 			"source": "TDManiacBerserker",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Berserker",
+			"subclassShortName": "Maniac Berserker",
 			"subclassSource": "TDManiacBerserker",
 			"level": 10,
 			"header": 2,
@@ -128,7 +128,7 @@
 			"source": "TDManiacBerserker",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Berserker",
+			"subclassShortName": "Maniac Berserker",
 			"subclassSource": "TDManiacBerserker",
 			"level": 14,
 			"header": 2,
@@ -144,7 +144,7 @@
 			"source": "TDManiacBerserker",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Berserker",
+			"subclassShortName": "Maniac Berserker",
 			"subclassSource": "TDManiacBerserker",
 			"level": 3,
 			"entries": [
