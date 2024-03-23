@@ -32,7 +32,8 @@
 				"Stealthy and Untouchable|Rogue|PHB|Thief|TDImproviserThief|9|TDImproviserThief",
 				"Finder Keepers|Rogue|PHB|Thief|TDImproviserThief|13|TDImproviserThief",
 				"Thief's Reflexes|Rogue|PHB|Thief|TDImproviserThief|17|TDImproviserThief"				
-			]			
+			],
+			"foundryImg": "icons/magic/death/undead-ghosts-trio-blue.webp"			
 		}
 	],
 	"subclassFeature":[
