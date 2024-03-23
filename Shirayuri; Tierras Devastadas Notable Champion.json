@@ -327,7 +327,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"When using Indomitable you can keep any of the results. Additionally, your second wind feature increases his healing by 1d10."
+				"When using {@classFeature Indomitable|Fighter||9} you can keep any of the results. Additionally, your {@classFeature Second Wind|Fighter||1} feature increases his healing by 1d10."
 			],
 			"foundryImg": "icons/skills/wounds/anatomy-organ-heart-red.webp"
 		},
