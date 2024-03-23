@@ -357,7 +357,8 @@
 						"healing"
 					]
 				]
-			}
+			},
+			"foundryImg": "icons/magic/life/heart-shadow-red.webp"
 		}
 	],
 	"foundrySubclassFeature": [
