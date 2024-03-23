@@ -60,7 +60,8 @@
 					"type":"refSubclassFeature",
 					"subclassFeature":"Unmatched Dexterity|Rogue|PHB|Thief|TDImproviserThief|3|TDImproviserThief"
 				}				
-			]
+			],
+			"foundryImg": "icons/magic/death/undead-ghosts-trio-blue.webp"
 		},
 		{
 			"name": "Fast Hands",
@@ -82,7 +83,8 @@
 						"dex"
 					]
 				}
-			]			
+			],
+			"foundryImg": "icons/skills/social/theft-pickpocket-bribery-brown.webp"			
 		},
 		{
 			"name": "Second-Story Work",
@@ -97,7 +99,8 @@
 			"entries": [
 				"Also at 3rd level, you gain climbing and swimming speed equal to your walking speed. Furthermore, your running jump now adds your dexterity modifier to the distance and falling from 15 ft or less won't make you fall {@condition Prone} or recieve fall damage.",
 				"Lastly, trying to Roll across a hostile creature will only cost you 5 ft, and passing through your allies won't cost you any extra movement."
-			]
+			],
+			"foundryImg": "icons/environment/settlement/city-night.webp"
 		},
 		{
 			"name": "Unmatched Dexterity",
@@ -162,7 +165,8 @@
 			"entries": [
 				"Your cunning and greed have led you to be extremely skilled at using, understanding and improvising the operation of any type of equipment that you have managed to get your hands on. From this level onwards, ignore all race, level, class requirements, strength and proficiency over the use of magical and mundane items (Excluding tools).",
 				"Additionally, you can activate magic items with your Fast Hands trait, but you cannot replace the magic item DC."
-			]
+			],
+			"foundryImg": "icons/sundries/scrolls/scroll-bound-green.webp"
 		},
 		{
 			"name": "Thief's Reflexes",
@@ -176,7 +180,8 @@
 			"header": 2,
 			"entries": [
 				"From this level onwards you have two reactions."				
-			]
+			],
+			"foundryImg": "icons/creatures/abilities/cougar-pounce-stalk-black.webp"
 		}
 	],
 	"foundrySubclassFeature": [		
