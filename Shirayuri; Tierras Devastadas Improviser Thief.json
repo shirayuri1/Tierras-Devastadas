@@ -121,7 +121,7 @@
 				},
 				"target.type": "self",
 				"uses": {
-					"max": "@prof",
+					"max": "@abilities.dex.mod",
 					"per": "lr",
 					"value": 2
 				}
