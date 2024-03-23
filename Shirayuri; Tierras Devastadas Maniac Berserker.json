@@ -53,7 +53,8 @@
 					"type": "refSubclassFeature",
 					"subclassFeature": "Intimidating Presence|Barbarian||Berserker|TDManiacBerserker|3|TDManiacBerserker"
 				}
-			]
+			],
+			"foundryImg": "icons/weapons/swords/sword-broad-serrated-blue.webp"
 		},
 		{
 			"name": "Frenzy",
@@ -80,7 +81,8 @@
 			"header": 2,
 			"entries": [
 				"Your imposture and build passively help to impose your will on others, allowing you to use your strength modifier instead of charisma on your charisma ({@skill intimidation}) rolls"
-			]
+			],
+			"foundryImg": "icons/creatures/magical/construct-iron-stomping-yellow.webp"
 		},
 		{
 			"name": "Simple Mind",
