@@ -194,5 +194,33 @@
 			},
 			"foundryImg": "icons/skills/melee/strike-axe-red.webp"
 		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"name": "Ready to Kill",
+			"source": "TDGreatAssassin",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Assassin",
+			"subclassSource": "TDGreatAssassin",
+			"level": 3,
+			"entries": [
+				"You have advantage against creatures that have not yet taken their turn, and you also have advantage on initiative rolls"
+			],
+			"effects":[
+				{
+					"name": "Ready to Kill",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "flags.dnd5e.initiativeAdv",
+							"mode": 0,
+							"value": "true",
+							"priority": 20
+						}
+					]
+				}
+			]			
+		}
 	]
 }
