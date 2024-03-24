@@ -12,7 +12,7 @@
 					"Shirayuri"
 				],
 				"version": "1.0",
-				"url": "https://docs.google.com/document/d/1YvvrajMf3rjyVm6mlCbZaMEGIu_2e3Keda971zkXVmo/edit"
+				"url": "https://drive.google.com/file/d/1WuvoD0WB_gDJN8nVkTlDuzw6ZRRlAKae/view?usp=drive_link"
 			}
 		],
 		"dateAdded": 1709248403,
@@ -367,7 +367,7 @@
 		{
 			"name": "Bonded Eldritch Knight",
 			"source": "TDBondedEldritchKnight",
-			"page": 70,
+			"page": 5,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Bonded Eldritch Knight",
@@ -410,7 +410,7 @@
 				}
 			],
 			"source": "TDBondedEldritchKnight",
-			"page": 70,
+			"page": 5,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Bonded Eldritch Knight",
@@ -453,7 +453,7 @@
 				"You can have up to two bonded weapons, if you attempt to bond with a third weapon, you must break the bond with one of the other two."
 			],
 			"source": "TDBondedEldritchKnight",
-			"page": 70,
+			"page": 5,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Bonded Eldritch Knight",
@@ -465,7 +465,7 @@
 		{
 			"name": "Eldritch Recovery",
 			"source": "TDBondedEldritchKnight",
-			"page": 70,
+			"page": 5,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Bonded Eldritch Knight",
@@ -495,7 +495,7 @@
 		{
 			"name": "War Magic",
 			"source": "TDBondedEldritchKnight",
-			"page": 70,
+			"page": 6,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Bonded Eldritch Knight",
@@ -522,7 +522,7 @@
 		{
 			"name": "Indomitable Bond",
 			"source": "TDBondedEldritchKnight",
-			"page": 70,
+			"page": 6,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Bonded Eldritch Knight",
@@ -537,7 +537,7 @@
 		{
 			"name": "Eldritch Surge",
 			"source": "TDBondedEldritchKnight",
-			"page": 70,
+			"page": 6,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Bonded Eldritch Knight",
@@ -551,7 +551,7 @@
 		{
 			"name": "Improved War Magic",
 			"source": "TDBondedEldritchKnight",
-			"page": 70,
+			"page": 6,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Bonded Eldritch Knight",
